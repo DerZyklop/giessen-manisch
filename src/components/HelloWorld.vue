@@ -14,7 +14,6 @@ defineProps<{
 h1 {
   font-weight: 500;
   font-size: 2.6rem;
-  top: -10px;
 }
 
 h3 {
@@ -27,6 +26,10 @@ h3 {
 }
 
 @media (min-width: 1024px) {
+  h1 {
+    font-size: 1.6rem;
+  }
+
   .greetings h1,
   .greetings h3 {
     text-align: left;

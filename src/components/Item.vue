@@ -1,21 +1,31 @@
 <script setup lang="ts">
+import { useModal } from 'vue-final-modal'
+import Modal from './Modal.vue'
+import App from '@/App.vue';
+import router from '@/router';
+import { getModalFns } from './modal-fns';
 
-import bootstrap from 'bootstrap/dist/css/bootstrap.min.css'
-
-defineProps<{
+const props = defineProps<{
   item: {
     id: number,
     german: string,
     manisch: string,
   }
 }>()
+const translation = props.item;
+
+const { open, close } = getModalFns(translation);
+
 </script>
 
 <template>
-  <a href="#" class="item d-flex justify-content-between">
+  <!-- link to path 'foo' ending with id -->
+
+
+  <router-link :to="`translation/${item.id}`" @click="open()" class="item d-flex justify-content-between">
     <dt>{{ item.german }}</dt>
     <dd>{{ item.manisch }}</dd>
-  </a>
+  </router-link>
 </template>
 
 <style scoped>
@@ -57,7 +67,7 @@ h3 {
 @media (min-width: 1024px) {
   .item {
     margin-top: 0;
-    padding: 0.4rem 0 1rem calc(var(--section-gap) / 2);
+    padding: 0.4rem 0 1rem 0;
   }
 
   i {

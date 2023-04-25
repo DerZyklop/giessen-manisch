@@ -2,6 +2,7 @@
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 import Sidebar from './components/Sidebar.vue'
+import { ModalsContainer } from 'vue-final-modal'
 </script>
 
 <template>
@@ -15,13 +16,20 @@ import Sidebar from './components/Sidebar.vue'
     </div>
   </header>
 
-  <RouterView />
+  <main>
+    <RouterView />
+    <ModalsContainer />
+  </main>
 </template>
 
 <style scoped>
 header {
   line-height: 1.5;
   max-height: 100vh;
+}
+
+main {
+  padding: 1rem;
 }
 
 .logo {
@@ -33,8 +41,8 @@ header {
 @media (min-width: 1024px) {
   header {
     display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
+    align-items:start;
+    padding: 1rem calc(var(--section-gap) / 2) 0 0;
   }
 
   .logo {

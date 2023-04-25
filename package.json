@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "vite",
+    "start": "npm run dev",
     "build": "run-p type-check build-only",
     "preview": "vite preview",
     "build-only": "vite build",
@@ -13,6 +14,7 @@
   },
   "dependencies": {
     "vue": "^3.2.47",
+    "vue-final-modal": "4.4.2",
     "vue-router": "^4.1.6"
   },
   "devDependencies": {
