@@ -1,4 +1,3 @@
-import bootstrap from 'bootstrap/dist/css/bootstrap.min.css'
 import 'vue-final-modal/style.css'
 import { createApp } from 'vue'
 import App from './App.vue'

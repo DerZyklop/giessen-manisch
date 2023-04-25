@@ -30,3 +30,8 @@ const emit = defineEmits<{
     <slot />
   </VueFinalModal>
 </template>
+
+<style>
+
+
+</style>

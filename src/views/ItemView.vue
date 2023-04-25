@@ -13,7 +13,7 @@ if (!translation) throw new Error('Translation not found');
 </script>
 
 <template>
-  <div class="d-flex justify-content-between">
+  <div class="flex justify-between">
     <strong>{{translation.german}}</strong>
     <span>{{translation.manisch}}</span>
   </div>

@@ -22,7 +22,7 @@ const { open, close } = getModalFns(translation);
   <!-- link to path 'foo' ending with id -->
 
 
-  <router-link :to="`translation/${item.id}`" @click="open()" class="item d-flex justify-content-between">
+  <router-link :to="`translation/${item.id}`" @click="open()" class="item flex justify-between">
     <dt>{{ item.german }}</dt>
     <dd>{{ item.manisch }}</dd>
   </router-link>
