@@ -22,7 +22,7 @@ export const getModalFns = (translation : {
 			}
 		},
 		slots: {
-			default: `<p>The ${translation.id} of the modal</p>`,
+			default: `<p>Translation-Id <code>${translation.id}</code></p>`,
 		},
 	})	
 	

@@ -6,7 +6,7 @@ const props = defineProps<{
   item: {
     id: number,
     german: string,
-    manisch: string,
+    manisch: string[],
   }
 }>()
 
@@ -45,7 +45,7 @@ const copyToClipboard = (e: Event) => {
     @update:model-value="val => emit('update:modelValue', val)"
   >
     <div class="flex items-center h-10 mb-3">
-      <h3 class="text-2xl">{{ item.german }}</h3>
+      <h3 class="text-2xl grow">{{ item.german }}</h3>
       <button class="py-3 pl-3 text-2xl" style="margin-right: -1rem; padding-right: 1rem;" @click="emit('update:modelValue', false)">
         <font-awesome-icon icon="fa-solid fa-remove" />
       </button>
