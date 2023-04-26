@@ -3,26 +3,17 @@
 
 <template>
   <nav>
-    <RouterLink to="/" class="bg-dark">Home</RouterLink>
-    <RouterLink to="/about">About</RouterLink>
+    <RouterLink to="/" active-class="bg-dark text-white">Home</RouterLink>
+    <RouterLink to="/about" active-class="bg-dark text-white">About</RouterLink>
   </nav>
 </template>
 
 <style>
 nav {
   width: 100%;
-  font-size: 12px;
   text-align: center;
   margin-top: 2rem;
   margin-bottom: 2rem;
-}
-
-nav a.router-link-exact-active {
-  color: var(--color-text);
-}
-
-nav a.router-link-exact-active:hover {
-  background-color: transparent;
 }
 
 nav a {
