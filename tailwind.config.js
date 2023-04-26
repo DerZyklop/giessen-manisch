@@ -7,6 +7,7 @@ module.exports = {
     colors: {
       'dark': '#1a202c',
       'light': '#f7fafc',
+      'light-cold': '#edf2f7',
       transparent: 'transparent',
       current: 'currentColor',
       'white': '#ffffff',

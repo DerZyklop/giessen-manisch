@@ -12,6 +12,17 @@ const props = defineProps<{
 const emit = defineEmits<{
   (e: 'update:modelValue', modelValue: boolean): void
 }>()
+
+// when user clicks on input field, select all text
+const selectAll = (e: Event) => {
+  const target = e.target as HTMLInputElement;
+  target.select();
+}
+const copyToClipboard = (e: Event) => {
+  const target = e.target as HTMLInputElement;
+  target.select();
+  document.execCommand('copy');
+}
 </script>
 
 <template>
@@ -22,10 +33,13 @@ const emit = defineEmits<{
   >
     <div class="flex items-center h-10 mb-3">
       <h3 class="text-2xl">{{ item.german }}</h3>
-      <button class="py-3 pl-3 text-2xl" style="margin-right: -1rem; padding-right: 1rem;" @click="emit('update:modelValue', false)">×</button>
+      <button class="py-3 pl-3 text-2xl" style="margin-right: -1rem; padding-right: 1rem;" @click="emit('update:modelValue', false)">
+        <font-awesome-icon icon="fa-solid fa-remove" />
+      </button>
     </div>
-    <div class="border border-gray-500 mb-3 rounded bg-light p-3">
-      {{ item.manisch }}
+    <div class="border border-gray-500 mb-3 rounded flex overflow-hidden">
+      <input class="bg-light-cold p-3" readonly :value="item.manisch" @focus="selectAll" />
+      <button class="border border-r-0 border-y-0 flex items-center p-3 btn btn-light" @click="copyToClipboard"><font-awesome-icon icon="fa-solid fa-clipboard" /></button>
     </div>
     <slot />
   </VueFinalModal>
