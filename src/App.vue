@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
-import Sidebar from './components/Sidebar.vue'
-import { ModalsContainer } from 'vue-final-modal'
+import { ModalsContainer } from 'vue-final-modal';
+import { RouterView } from 'vue-router';
+import HelloWorld from './components/HelloWorld.vue';
+import Sidebar from './components/Sidebar.vue';
 </script>
 
 <template>
@@ -41,7 +41,7 @@ main {
 @media (min-width: 1024px) {
   header {
     display: flex;
-    align-items:start;
+    align-items:flex-start;
     padding: 1rem calc(var(--section-gap) / 2) 0 0;
   }
 

@@ -1,8 +1,4 @@
 <script setup lang="ts">
-import { useModal } from 'vue-final-modal'
-import Modal from './Modal.vue'
-import App from '@/App.vue';
-import router from '@/router';
 import { getModalFns } from './modal-fns';
 
 const props = defineProps<{
@@ -15,14 +11,13 @@ const props = defineProps<{
 const translation = props.item;
 
 const { open, close } = getModalFns(translation);
-
 </script>
 
 <template>
   <!-- link to path 'foo' ending with id -->
 
 
-  <router-link :to="`translation/${item.id}`" @click="open()" class="item flex justify-between">
+  <router-link :to="`translation/${item.id}`" @click="open()" class="flex justify-between p-3">
     <dt>{{ item.german }}</dt>
     <dd>{{ item.manisch }}</dd>
   </router-link>
@@ -35,11 +30,6 @@ dt {
 
 dd {
   margin: 0%;
-}
-
-.item {
-  padding: 1rem;
-  display: flex;
 }
 
 .details {
@@ -65,11 +55,6 @@ h3 {
 }
 
 @media (min-width: 1024px) {
-  .item {
-    margin-top: 0;
-    padding: 0.4rem 0 1rem 0;
-  }
-
   i {
     top: calc(50% - 25px);
     left: -26px;
@@ -79,32 +64,6 @@ h3 {
     border-radius: 8px;
     width: 50px;
     height: 50px;
-  }
-
-  .item:before {
-    content: ' ';
-    border-left: 1px solid var(--color-border);
-    position: absolute;
-    left: 0;
-    bottom: calc(50% + 25px);
-    height: calc(50% - 25px);
-  }
-
-  .item:after {
-    content: ' ';
-    border-left: 1px solid var(--color-border);
-    position: absolute;
-    left: 0;
-    top: calc(50% + 25px);
-    height: calc(50% - 25px);
-  }
-
-  .item:first-of-type:before {
-    display: none;
-  }
-
-  .item:last-of-type:after {
-    display: none;
   }
 }
 </style>

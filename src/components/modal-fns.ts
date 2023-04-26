@@ -1,6 +1,6 @@
-import { useModal } from "vue-final-modal";
-import Modal from './Modal.vue'
 import router from "@/router";
+import { useModal } from "vue-final-modal";
+import Modal from './Modal.vue';
 
 export const getModalFns = (translation : {
 	id: number,

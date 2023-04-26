@@ -1,13 +1,13 @@
 <script setup lang="ts">
+import { getTranslation } from '@/components/utils';
 import { useRouter } from 'vue-router';
-import translations from './../assets/translations.json'
 
 const props = defineProps<{
   id?: number
 }>()
 const translationId = props.id ?? +useRouter().currentRoute.value.params.id;
 
-const translation = translations.find(item => item.id === translationId);
+const translation = getTranslation(translationId);
 if (!translation) throw new Error('Translation not found');
 
 </script>
