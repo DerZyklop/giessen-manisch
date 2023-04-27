@@ -1,18 +1,21 @@
 import router from "@/router";
 import { useModal } from "vue-final-modal";
 import Modal from './Modal.vue';
+import { getTranslation } from "./utils";
 
-export const getModalFns = (translation : {
-	id: number,
-	german: string,
-	manisch: string,
-}) => {
-	return useModal({
+export const getModalFns = (translationId : number) => {
+	const translation = getTranslation(translationId);
+
+	const result = useModal({
 		component: Modal,
 		attrs: {
 			item: translation,
-			onConfirm() {
-				close()
+			onRandom(id : number) {
+				console.log('random')
+				result.close().then(() => {
+					router.push(`/translation/${id}`);
+					getModalFns(id).open();
+				});
 			},
 			onOpened() {
 				console.log('opened')
@@ -22,8 +25,9 @@ export const getModalFns = (translation : {
 			}
 		},
 		slots: {
-			default: `<p>Translation-Id <code>${translation.id}</code></p>`,
+			// default: `<p>Translation <code>${JSON.stringify(translation)}</code></p>`,
 		},
 	})	
+	return result;
 	
 }

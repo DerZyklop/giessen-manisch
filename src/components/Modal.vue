@@ -1,13 +1,11 @@
 <script setup lang="ts">
 import { VueFinalModal } from 'vue-final-modal';
 import { useToast } from "vue-toastification";
+import { translations, type Translation } from './utils';
 
 const props = defineProps<{
-  item: {
-    id: number,
-    german: string,
-    manisch: string[],
-  }
+  item: Translation,
+  onRandom: (id: number) => void
 }>()
 
 const emit = defineEmits<{
@@ -33,9 +31,10 @@ const copyToClipboard = (e: Event) => {
   toast.success(`»${valueOfInput}« wurde in die Zwischenablage kopiert`, {
     timeout: 2000
   });
-
-
 }
+
+// random id for router-link
+const randomId = Math.floor(Math.random() * translations.length);
 </script>
 
 <template>
@@ -50,10 +49,23 @@ const copyToClipboard = (e: Event) => {
         <font-awesome-icon icon="fa-solid fa-remove" />
       </button>
     </div>
-    <div class="border border-gray-500 mb-3 rounded flex overflow-hidden">
-      <input class="bg-light-cold p-3" readonly :value="item.manisch" @focus="selectAll($event.target!)" />
-      <button class="border border-r-0 border-y-0 flex items-center p-3 btn btn-light" @click="copyToClipboard"><font-awesome-icon icon="fa-solid fa-clipboard" /></button>
+    <p v-if="item.manisch.length > 1">Mögliche übersetzungen:</p>
+    <p v-else>Übersetzung:</p>
+    <div
+      v-for="word in item.manisch"
+      :key="word"
+      class="flex-grow flex items-center justify-center"
+    >
+      <div class="border border-gray-500 mb-3 rounded flex overflow-hidden">
+        <input class="bg-light-cold p-3" readonly :value="word" @focus="selectAll($event.target!)" />
+        <button class="border border-r-0 border-y-0 flex items-center p-3 btn btn-light" @click="copyToClipboard"><font-awesome-icon icon="fa-solid fa-clipboard" /></button>
+      </div>
     </div>
+
+    <button @click="onRandom(randomId)" class="flex justify-between p-3">
+      <font-awesome-icon icon="fa-solid fa-clipboard" />
+    </button>
+
     <slot />
   </VueFinalModal>
 </template>

@@ -1,17 +1,16 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue'
 import { useRouter } from 'vue-router'
-import translations from './../assets/translations.json'
 import Item from './Item.vue'
 import { getModalFns } from './modal-fns'
-import { getTranslation } from './utils'
+import { translations } from './utils'
 
-const translationId = +useRouter().currentRoute.value.params.id;
+const idParam = useRouter().currentRoute.value.params.id ?? null;
+const translationId = idParam?.length ? +idParam : null;
 
-const translation = getTranslation(translationId);
-if (translation) {
+if (translationId) {
 	// open modal with translation
-	const { open, close } = getModalFns(translation);
+	const { open, close } = getModalFns(translationId);
 	open();
 }
 

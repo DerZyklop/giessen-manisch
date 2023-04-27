@@ -1,25 +1,21 @@
 <script setup lang="ts">
 import { getModalFns } from './modal-fns';
+import type { Translation } from './utils';
 
 const props = defineProps<{
-  item: {
-    id: number,
-    german: string,
-    manisch: string,
-  }
+  item: Translation
 }>()
-const translation = props.item;
 
-const { open, close } = getModalFns(translation);
+const { open, close } = getModalFns(props.item);
 </script>
 
 <template>
   <!-- link to path 'foo' ending with id -->
 
 
-  <router-link :to="`translation/${item.id}`" @click="open()" class="flex justify-between p-3">
+  <router-link :to="`/translation/${item.id}`" @click="open()" class="flex justify-between p-3">
     <dt>{{ item.german }}</dt>
-    <dd>{{ item.manisch }}</dd>
+    <dd>{{ item.manisch.join(' | ') }}</dd>
   </router-link>
 </template>
 
