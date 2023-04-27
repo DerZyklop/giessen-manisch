@@ -54,13 +54,13 @@ const copyToClipboard = (e: Event) => {
 			:key="word"
 			class="flex-grow flex items-center justify-center"
 		>
-			<div class="border border-gray-500 mb-3 rounded flex overflow-hidden">
-				<input class="bg-light-cold p-3" readonly :value="word" @focus="selectAll($event.target!)" />
-				<button class="border border-r-0 border-y-0 flex items-center p-3 btn btn-light" @click="copyToClipboard"><font-awesome-icon icon="fa-solid fa-clipboard" /></button>
+			<div class="border border-gray-500 mb-3 rounded flex overflow-hidden bg-light-cold">
+				<input class="bg-transparent p-3" readonly :value="word" @focus="selectAll($event.target!)" />
+				<button class="border border-r-0 border-y-0 p-3 btn btn-white" @click="copyToClipboard"><font-awesome-icon icon="fa-solid fa-clipboard" /></button>
 			</div>
 		</div>
 
-		<button @click="onRandom(getRandomId())" class="p-3 btn btn-light ml-auto">
+		<button @click="onRandom(getRandomId())" class="p-3 btn btn-light border ml-auto">
 			<font-awesome-icon icon="fa-solid fa-random" class="mr-2" /> Random
 		</button>
 
