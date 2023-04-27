@@ -11,7 +11,6 @@ export const getModalFns = (translationId : number) => {
 		attrs: {
 			item: translation,
 			onRandom(id : number) {
-				console.log('random')
 				result.close().then(() => {
 					router.push(`/translation/${id}`);
 					getModalFns(id).open();

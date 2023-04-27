@@ -6,7 +6,7 @@ const props = defineProps<{
   item: Translation
 }>()
 
-const { open, close } = getModalFns(props.item);
+const { open, close } = getModalFns(props.item.id);
 </script>
 
 <template>
@@ -14,7 +14,7 @@ const { open, close } = getModalFns(props.item);
 
 
   <router-link :to="`/translation/${item.id}`" @click="open()" class="flex justify-between p-3">
-    <dt>{{ item.german }}</dt>
+    <dt>{{ item.german.join(', ') }}</dt>
     <dd>{{ item.manisch.join(' | ') }}</dd>
   </router-link>
 </template>

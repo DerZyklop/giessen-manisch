@@ -19,8 +19,10 @@ const filterText = ref('')
 const visibleTranslations = computed(() => {
 	let filter = filterText.value
 	if (!filter.length) return translations;
-	return translations.filter( item => 
-		item.german.toLowerCase().includes(filter.toLowerCase())
+	return translations.filter(item => 
+		item.german.some(item =>
+			item.toLowerCase() === filter.toLowerCase()
+		)
 	)
 })
 </script>

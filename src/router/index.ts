@@ -25,9 +25,7 @@ const router = createRouter({
       // component: () => import('../views/ItemView.vue')
       component: HomeView
     },
-    
     { path: '/:pathMatch(.*)*', name: 'NotFound', component: NotFoundView },
-
   ]
 })
 
