@@ -1,12 +1,16 @@
 <script setup lang="ts">
 import { getModalFns } from './modal-fns';
-import type { Translation } from './utils';
+import { GermanToManisch, getTranslationWords } from './utils';
 
 const props = defineProps<{
-  item: Translation
+  item: GermanToManisch;
 }>()
 
 const { open, close } = getModalFns(props.item.id);
+
+console.log(props.item);
+
+const manischWords = getTranslationWords({german: props.item.german});
 </script>
 
 <template>
@@ -14,8 +18,8 @@ const { open, close } = getModalFns(props.item.id);
 
 
   <router-link :to="`/translation/${item.id}`" @click="open()" class="flex justify-between p-3">
-    <dt>{{ item.german.join(', ') }}</dt>
-    <dd>{{ item.manisch.join(' | ') }}</dd>
+    <dt>{{ item.german }}</dt>
+    <dd>{{ manischWords.join(', ') }}</dd>
   </router-link>
 </template>
 

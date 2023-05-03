@@ -1,0 +1,7419 @@
+[
+	{
+		"id": 0,
+		"german": "Aal",
+		"manischIds": [
+			0
+		]
+	},
+	{
+		"id": 1,
+		"german": "Abend",
+		"manischIds": [
+			1
+		]
+	},
+	{
+		"id": 2,
+		"german": "aber sicher!",
+		"manischIds": [
+			2
+		]
+	},
+	{
+		"id": 3,
+		"german": "Toilette",
+		"manischIds": [
+			3,
+			4,
+			1267
+		]
+	},
+	{
+		"id": 5,
+		"german": "Abort",
+		"manischIds": [
+			3,
+			4
+		]
+	},
+	{
+		"id": 7,
+		"german": "Achselhöhle",
+		"manischIds": [
+			7
+		]
+	},
+	{
+		"id": 8,
+		"german": "Advokat",
+		"manischIds": [
+			8
+		]
+	},
+	{
+		"id": 9,
+		"german": "Alkohol",
+		"manischIds": [
+			9
+		]
+	},
+	{
+		"id": 10,
+		"german": "alt",
+		"manischIds": [
+			10
+		]
+	},
+	{
+		"id": 11,
+		"german": "anbieten",
+		"manischIds": [
+			11
+		]
+	},
+	{
+		"id": 12,
+		"german": "anbinden",
+		"manischIds": [
+			12
+		]
+	},
+	{
+		"id": 13,
+		"german": "anderer",
+		"manischIds": [
+			13
+		]
+	},
+	{
+		"id": 14,
+		"german": "Anderer",
+		"manischIds": [
+			13
+		]
+	},
+	{
+		"id": 15,
+		"german": "Angst",
+		"manischIds": [
+			15,
+			16
+		]
+	},
+	{
+		"id": 17,
+		"german": "Angst haben",
+		"manischIds": [
+			17
+		]
+	},
+	{
+		"id": 18,
+		"german": "ansehen",
+		"manischIds": [
+			18
+		]
+	},
+	{
+		"id": 19,
+		"german": "Guck mal!",
+		"manischIds": [
+			19
+		]
+	},
+	{
+		"id": 20,
+		"german": "etwas anschauen",
+		"manischIds": [
+			20
+		]
+	},
+	{
+		"id": 21,
+		"german": "anziehen",
+		"manischIds": [
+			21
+		]
+	},
+	{
+		"id": 22,
+		"german": "ankleiden",
+		"manischIds": [
+			21
+		]
+	},
+	{
+		"id": 23,
+		"german": "Apfel",
+		"manischIds": [
+			23
+		]
+	},
+	{
+		"id": 24,
+		"german": "Apotheke",
+		"manischIds": [
+			24
+		]
+	},
+	{
+		"id": 25,
+		"german": "Arbeit",
+		"manischIds": [
+			25,
+			26,
+			27
+		]
+	},
+	{
+		"id": 28,
+		"german": "arbeiten",
+		"manischIds": [
+			28,
+			29,
+			30,
+			31
+		]
+	},
+	{
+		"id": 32,
+		"german": "arbeiten, schwer",
+		"manischIds": [
+			32
+		]
+	},
+	{
+		"id": 33,
+		"german": "arbeiten, hart",
+		"manischIds": [
+			32
+		]
+	},
+	{
+		"id": 34,
+		"german": "arbeiten, das",
+		"manischIds": [
+			34
+		]
+	},
+	{
+		"id": 35,
+		"german": "Arbeiter",
+		"manischIds": [
+			35,
+			36
+		]
+	},
+	{
+		"id": 37,
+		"german": "Arbeitsstätte",
+		"manischIds": [
+			27
+		]
+	},
+	{
+		"id": 38,
+		"german": "Ärger",
+		"manischIds": [
+			38,
+			39
+		]
+	},
+	{
+		"id": 40,
+		"german": "Ärger haben",
+		"manischIds": [
+			40
+		]
+	},
+	{
+		"id": 41,
+		"german": "Ärgern, sich",
+		"manischIds": [
+			40
+		]
+	},
+	{
+		"id": 42,
+		"german": "Arm",
+		"manischIds": [
+			42
+		]
+	},
+	{
+		"id": 43,
+		"german": "arm",
+		"manischIds": [
+			43
+		]
+	},
+	{
+		"id": 44,
+		"german": "Arsch",
+		"manischIds": [
+			44,
+			45
+		]
+	},
+	{
+		"id": 46,
+		"german": "Po",
+		"manischIds": [
+			44,
+			45
+		]
+	},
+	{
+		"id": 48,
+		"german": "Arschkriecher",
+		"manischIds": [
+			48
+		]
+	},
+	{
+		"id": 49,
+		"german": "Arzt",
+		"manischIds": [
+			49,
+			50
+		]
+	},
+	{
+		"id": 51,
+		"german": "Ärztin",
+		"manischIds": [
+			51
+		]
+	},
+	{
+		"id": 52,
+		"german": "Arzthelferin",
+		"manischIds": [
+			52
+		]
+	},
+	{
+		"id": 53,
+		"german": "atmen",
+		"manischIds": [
+			53
+		]
+	},
+	{
+		"id": 54,
+		"german": "auf",
+		"manischIds": [
+			54,
+			55
+		]
+	},
+	{
+		"id": 56,
+		"german": "aufheben",
+		"manischIds": [
+			56
+		]
+	},
+	{
+		"id": 57,
+		"german": "aufpassen",
+		"manischIds": [
+			57
+		]
+	},
+	{
+		"id": 58,
+		"german": "aufwachen",
+		"manischIds": [
+			58
+		]
+	},
+	{
+		"id": 59,
+		"german": "Auge",
+		"manischIds": [
+			59,
+			60,
+			61
+		]
+	},
+	{
+		"id": 62,
+		"german": "Augenblick, im",
+		"manischIds": [
+			62
+		]
+	},
+	{
+		"id": 63,
+		"german": "aus",
+		"manischIds": [
+			63
+		]
+	},
+	{
+		"id": 64,
+		"german": "Ausländer",
+		"manischIds": [
+			64
+		]
+	},
+	{
+		"id": 65,
+		"german": "Ausrede",
+		"manischIds": [
+			65
+		]
+	},
+	{
+		"id": 66,
+		"german": "Ausschau halten",
+		"manischIds": [
+			57,
+			66,
+			68
+		]
+	},
+	{
+		"id": 69,
+		"german": "aussehen",
+		"manischIds": [
+			69
+		]
+	},
+	{
+		"id": 70,
+		"german": "ausziehen, sich",
+		"manischIds": [
+			70
+		]
+	},
+	{
+		"id": 71,
+		"german": "Auto",
+		"manischIds": [
+			71
+		]
+	},
+	{
+		"id": 72,
+		"german": "Axt",
+		"manischIds": [
+			72
+		]
+	},
+	{
+		"id": 73,
+		"german": "Backe",
+		"manischIds": [
+			73
+		]
+	},
+	{
+		"id": 74,
+		"german": "backen",
+		"manischIds": [
+			74
+		]
+	},
+	{
+		"id": 75,
+		"german": "Bäcker",
+		"manischIds": [
+			75
+		]
+	},
+	{
+		"id": 76,
+		"german": "barsch",
+		"manischIds": [
+			76
+		]
+	},
+	{
+		"id": 77,
+		"german": "Bart",
+		"manischIds": [
+			77
+		]
+	},
+	{
+		"id": 78,
+		"german": "Bauch",
+		"manischIds": [
+			78,
+			79
+		]
+	},
+	{
+		"id": 80,
+		"german": "Bauer",
+		"manischIds": [
+			80,
+			81,
+			82,
+			83,
+			84,
+			85,
+			86
+		]
+	},
+	{
+		"id": 87,
+		"german": "Baum",
+		"manischIds": [
+			87
+		]
+	},
+	{
+		"id": 88,
+		"german": "befehlen",
+		"manischIds": [
+			88
+		]
+	},
+	{
+		"id": 89,
+		"german": "begreifen",
+		"manischIds": [
+			20,
+			89
+		]
+	},
+	{
+		"id": 91,
+		"german": "behalten",
+		"manischIds": [
+			91
+		]
+	},
+	{
+		"id": 92,
+		"german": "behexen",
+		"manischIds": [
+			92
+		]
+	},
+	{
+		"id": 93,
+		"german": "Beichte",
+		"manischIds": [
+			93
+		]
+	},
+	{
+		"id": 94,
+		"german": "Beil",
+		"manischIds": [
+			72
+		]
+	},
+	{
+		"id": 95,
+		"german": "Bein(e)",
+		"manischIds": [
+			95
+		]
+	},
+	{
+		"id": 96,
+		"german": "Beischlaf",
+		"manischIds": [
+			96,
+			97
+		]
+	},
+	{
+		"id": 98,
+		"german": "beischlafen",
+		"manischIds": [
+			98,
+			99
+		]
+	},
+	{
+		"id": 100,
+		"german": "beißen",
+		"manischIds": [
+			100
+		]
+	},
+	{
+		"id": 101,
+		"german": "bekloppt (völlig)",
+		"manischIds": [
+			101
+		]
+	},
+	{
+		"id": 102,
+		"german": "bekommen",
+		"manischIds": [
+			102,
+			103
+		]
+	},
+	{
+		"id": 104,
+		"german": "beobachten",
+		"manischIds": [
+			57,
+			66,
+			106,
+			107
+		]
+	},
+	{
+		"id": 108,
+		"german": "betrügen",
+		"manischIds": [
+			108,
+			109,
+			110,
+			115,
+			128
+		]
+	},
+	{
+		"id": 111,
+		"german": "beschimpfen",
+		"manischIds": [
+			111
+		]
+	},
+	{
+		"id": 112,
+		"german": "Beschimpfung",
+		"manischIds": [
+			112
+		]
+	},
+	{
+		"id": 113,
+		"german": "beschmieren, sich",
+		"manischIds": [
+			113
+		]
+	},
+	{
+		"id": 114,
+		"german": "beschmutzen",
+		"manischIds": [
+			108,
+			113,
+			115
+		]
+	},
+	{
+		"id": 117,
+		"german": "besiegen",
+		"manischIds": [
+			117
+		]
+	},
+	{
+		"id": 118,
+		"german": "bestimmt!",
+		"manischIds": [
+			2,
+			118,
+			119
+		]
+	},
+	{
+		"id": 121,
+		"german": "betrachten",
+		"manischIds": [
+			69,
+			107
+		]
+	},
+	{
+		"id": 123,
+		"german": "Betrachter",
+		"manischIds": [
+			123
+		]
+	},
+	{
+		"id": 124,
+		"german": "betrinken, sich",
+		"manischIds": [
+			124
+		]
+	},
+	{
+		"id": 125,
+		"german": "betrogen",
+		"manischIds": [
+			125
+		]
+	},
+	{
+		"id": 130,
+		"german": "Betrüger",
+		"manischIds": [
+			130
+		]
+	},
+	{
+		"id": 131,
+		"german": "betrunken",
+		"manischIds": [
+			131,
+			132,
+			133,
+			134
+		]
+	},
+	{
+		"id": 135,
+		"german": "Bett",
+		"manischIds": [
+			135,
+			136,
+			137
+		]
+	},
+	{
+		"id": 138,
+		"german": "zu Bett gehen",
+		"manischIds": [
+			138
+		]
+	},
+	{
+		"id": 139,
+		"german": "Bettelei",
+		"manischIds": [
+			139
+		]
+	},
+	{
+		"id": 140,
+		"german": "betteln",
+		"manischIds": [
+			140,
+			141
+		]
+	},
+	{
+		"id": 142,
+		"german": "Bettler",
+		"manischIds": [
+			142,
+			143
+		]
+	},
+	{
+		"id": 144,
+		"german": "bezahlen",
+		"manischIds": [
+			11,
+			144,
+			145,
+			146
+		]
+	},
+	{
+		"id": 148,
+		"german": "Bezahlung",
+		"manischIds": [
+			148
+		]
+	},
+	{
+		"id": 149,
+		"german": "beziehen, bekommen",
+		"manischIds": [
+			149
+		]
+	},
+	{
+		"id": 150,
+		"german": "Bier",
+		"manischIds": [
+			150,
+			151
+		]
+	},
+	{
+		"id": 152,
+		"german": "billig",
+		"manischIds": [
+			152
+		]
+	},
+	{
+		"id": 153,
+		"german": "binden",
+		"manischIds": [
+			12
+		]
+	},
+	{
+		"id": 154,
+		"german": "Blähung",
+		"manischIds": [
+			154
+		]
+	},
+	{
+		"id": 155,
+		"german": "bleiben",
+		"manischIds": [
+			155
+		]
+	},
+	{
+		"id": 156,
+		"german": "blöde",
+		"manischIds": [
+			156,
+			157
+		]
+	},
+	{
+		"id": 158,
+		"german": "Blöder",
+		"manischIds": [
+			158,
+			159,
+			160,
+			161
+		]
+	},
+	{
+		"id": 162,
+		"german": "Blödmann",
+		"manischIds": [
+			162,
+			163
+		]
+	},
+	{
+		"id": 164,
+		"german": "Blödsinn",
+		"manischIds": [
+			164,
+			165
+		]
+	},
+	{
+		"id": 166,
+		"german": "bloß",
+		"manischIds": [
+			166
+		]
+	},
+	{
+		"id": 167,
+		"german": "Blut",
+		"manischIds": [
+			1,
+			167,
+			169
+		]
+	},
+	{
+		"id": 170,
+		"german": "bluten",
+		"manischIds": [
+			170
+		]
+	},
+	{
+		"id": 171,
+		"german": "Blutwurst",
+		"manischIds": [
+			171
+		]
+	},
+	{
+		"id": 172,
+		"german": "Branntwein",
+		"manischIds": [
+			9
+		]
+	},
+	{
+		"id": 173,
+		"german": "braten",
+		"manischIds": [
+			173
+		]
+	},
+	{
+		"id": 174,
+		"german": "brennen",
+		"manischIds": [
+			174,
+			175
+		]
+	},
+	{
+		"id": 176,
+		"german": "Brett",
+		"manischIds": [
+			176
+		]
+	},
+	{
+		"id": 177,
+		"german": "Brille",
+		"manischIds": [
+			61,
+			177,
+			179
+		]
+	},
+	{
+		"id": 180,
+		"german": "bringen",
+		"manischIds": [
+			11
+		]
+	},
+	{
+		"id": 181,
+		"german": "Brocken",
+		"manischIds": [
+			181
+		]
+	},
+	{
+		"id": 182,
+		"german": "Brot",
+		"manischIds": [
+			182
+		]
+	},
+	{
+		"id": 183,
+		"german": "Brötchen",
+		"manischIds": [
+			183
+		]
+	},
+	{
+		"id": 184,
+		"german": "Brotkorb",
+		"manischIds": [
+			184
+		]
+	},
+	{
+		"id": 185,
+		"german": "Bruder",
+		"manischIds": [
+			185,
+			186
+		]
+	},
+	{
+		"id": 187,
+		"german": "Brunnen",
+		"manischIds": [
+			187
+		]
+	},
+	{
+		"id": 188,
+		"german": "Brust",
+		"manischIds": [
+			188,
+			189,
+			190
+		]
+	},
+	{
+		"id": 191,
+		"german": "Buckliger",
+		"manischIds": [
+			191,
+			192
+		]
+	},
+	{
+		"id": 193,
+		"german": "bummeln",
+		"manischIds": [
+			193
+		]
+	},
+	{
+		"id": 194,
+		"german": "bumsen",
+		"manischIds": [
+			194,
+			195,
+			196,
+			197,
+			198,
+			199
+		]
+	},
+	{
+		"id": 200,
+		"german": "Bürgermeister",
+		"manischIds": [
+			200,
+			201,
+			202
+		]
+	},
+	{
+		"id": 203,
+		"german": "Bursche",
+		"manischIds": [
+			203
+		]
+	},
+	{
+		"id": 204,
+		"german": "Bursche, junger",
+		"manischIds": [
+			204
+		]
+	},
+	{
+		"id": 205,
+		"german": "Butter",
+		"manischIds": [
+			205,
+			206
+		]
+	},
+	{
+		"id": 207,
+		"german": "Casanova",
+		"manischIds": [
+			207
+		]
+	},
+	{
+		"id": 208,
+		"german": "Cunnilingus praktizieren",
+		"manischIds": [
+			208
+		]
+	},
+	{
+		"id": 209,
+		"german": "da",
+		"manischIds": [
+			209,
+			210
+		]
+	},
+	{
+		"id": 211,
+		"german": "Dame",
+		"manischIds": [
+			211
+		]
+	},
+	{
+		"id": 212,
+		"german": "Dampf",
+		"manischIds": [
+			212
+		]
+	},
+	{
+		"id": 213,
+		"german": "Darm",
+		"manischIds": [
+			213
+		]
+	},
+	{
+		"id": 214,
+		"german": "dein",
+		"manischIds": [
+			214
+		]
+	},
+	{
+		"id": 215,
+		"german": "Deutscher",
+		"manischIds": [
+			215
+		]
+	},
+	{
+		"id": 216,
+		"german": "dick",
+		"manischIds": [
+			216,
+			217
+		]
+	},
+	{
+		"id": 218,
+		"german": "Dicke",
+		"manischIds": [
+			218
+		]
+	},
+	{
+		"id": 219,
+		"german": "Dickwanst",
+		"manischIds": [
+			219
+		]
+	},
+	{
+		"id": 220,
+		"german": "Dickwurz",
+		"manischIds": [
+			220
+		]
+	},
+	{
+		"id": 221,
+		"german": "Dieb",
+		"manischIds": [
+			221,
+			222,
+			223,
+			224
+		]
+	},
+	{
+		"id": 225,
+		"german": "Diebin",
+		"manischIds": [
+			225
+		]
+	},
+	{
+		"id": 226,
+		"german": "Diebstahl",
+		"manischIds": [
+			226
+		]
+	},
+	{
+		"id": 227,
+		"german": "dieser",
+		"manischIds": [
+			227,
+			228
+		]
+	},
+	{
+		"id": 229,
+		"german": "Dirne",
+		"manischIds": [
+			229,
+			230
+		]
+	},
+	{
+		"id": 231,
+		"german": "Dirnenbesucher",
+		"manischIds": [
+			231
+		]
+	},
+	{
+		"id": 232,
+		"german": "doch",
+		"manischIds": [
+			232,
+			233,
+			234
+		]
+	},
+	{
+		"id": 235,
+		"german": "Dorf",
+		"manischIds": [
+			235,
+			236,
+			237,
+			238
+		]
+	},
+	{
+		"id": 239,
+		"german": "dort",
+		"manischIds": [
+			239
+		]
+	},
+	{
+		"id": 240,
+		"german": "Dreck",
+		"manischIds": [
+			165,
+			240,
+			242,
+			243
+		]
+	},
+	{
+		"id": 244,
+		"german": "dreckig",
+		"manischIds": [
+			244,
+			245
+		]
+	},
+	{
+		"id": 246,
+		"german": "dreckig machen",
+		"manischIds": [
+			108
+		]
+	},
+	{
+		"id": 247,
+		"german": "Dreckweib",
+		"manischIds": [
+			247,
+			248
+		]
+	},
+	{
+		"id": 249,
+		"german": "drehen",
+		"manischIds": [
+			249
+		]
+	},
+	{
+		"id": 250,
+		"german": "drücken (fest)",
+		"manischIds": [
+			250
+		]
+	},
+	{
+		"id": 251,
+		"german": "dumm",
+		"manischIds": [
+			156,
+			157
+		]
+	},
+	{
+		"id": 253,
+		"german": "Dummkopf",
+		"manischIds": [
+			158,
+			159,
+			161,
+			162,
+			256
+		]
+	},
+	{
+		"id": 258,
+		"german": "Dummschwätzer",
+		"manischIds": [
+			258
+		]
+	},
+	{
+		"id": 259,
+		"german": "dunkel",
+		"manischIds": [
+			259,
+			260,
+			261
+		]
+	},
+	{
+		"id": 262,
+		"german": "Dunkelheit",
+		"manischIds": [
+			169,
+			263
+		]
+	},
+	{
+		"id": 264,
+		"german": "Durchfall",
+		"manischIds": [
+			264
+		]
+	},
+	{
+		"id": 265,
+		"german": "durchtrieben",
+		"manischIds": [
+			265
+		]
+	},
+	{
+		"id": 266,
+		"german": "Durst",
+		"manischIds": [
+			266,
+			267
+		]
+	},
+	{
+		"id": 268,
+		"german": "Durst haben",
+		"manischIds": [
+			268
+		]
+	},
+	{
+		"id": 269,
+		"german": "dürsten",
+		"manischIds": [
+			268
+		]
+	},
+	{
+		"id": 270,
+		"german": "durstig",
+		"manischIds": [
+			270
+		]
+	},
+	{
+		"id": 271,
+		"german": "echt",
+		"manischIds": [
+			271
+		]
+	},
+	{
+		"id": 272,
+		"german": "Ecke",
+		"manischIds": [
+			272
+		]
+	},
+	{
+		"id": 273,
+		"german": "Ehefrau",
+		"manischIds": [
+			211,
+			273
+		]
+	},
+	{
+		"id": 275,
+		"german": "Ehemann",
+		"manischIds": [
+			275
+		]
+	},
+	{
+		"id": 276,
+		"german": "Ehering",
+		"manischIds": [
+			276
+		]
+	},
+	{
+		"id": 277,
+		"german": "Eheschließung",
+		"manischIds": [
+			277
+		]
+	},
+	{
+		"id": 278,
+		"german": "Ei",
+		"manischIds": [
+			278,
+			279
+		]
+	},
+	{
+		"id": 280,
+		"german": "Eid",
+		"manischIds": [
+			277
+		]
+	},
+	{
+		"id": 281,
+		"german": "Eile",
+		"manischIds": [
+			281
+		]
+	},
+	{
+		"id": 282,
+		"german": "eilen",
+		"manischIds": [
+			282,
+			283,
+			284
+		]
+	},
+	{
+		"id": 285,
+		"german": "eilen, sich  s",
+		"manischIds": [
+			285
+		]
+	},
+	{
+		"id": 286,
+		"german": "ein",
+		"manischIds": [
+			286
+		]
+	},
+	{
+		"id": 287,
+		"german": "Eis",
+		"manischIds": [
+			287
+		]
+	},
+	{
+		"id": 288,
+		"german": "Eisen",
+		"manischIds": [
+			288
+		]
+	},
+	{
+		"id": 289,
+		"german": "Eisenbahn",
+		"manischIds": [
+			289,
+			290
+		]
+	},
+	{
+		"id": 291,
+		"german": "eisern",
+		"manischIds": [
+			291
+		]
+	},
+	{
+		"id": 292,
+		"german": "Ente",
+		"manischIds": [
+			292
+		]
+	},
+	{
+		"id": 293,
+		"german": "entkleiden",
+		"manischIds": [
+			293
+		]
+	},
+	{
+		"id": 294,
+		"german": "entlohnen",
+		"manischIds": [
+			146
+		]
+	},
+	{
+		"id": 295,
+		"german": "entzwei",
+		"manischIds": [
+			295,
+			296
+		]
+	},
+	{
+		"id": 297,
+		"german": "er",
+		"manischIds": [
+			297
+		]
+	},
+	{
+		"id": 298,
+		"german": "erblicken",
+		"manischIds": [
+			107
+		]
+	},
+	{
+		"id": 299,
+		"german": "erforschen",
+		"manischIds": [
+			68
+		]
+	},
+	{
+		"id": 300,
+		"german": "ergreifen",
+		"manischIds": [
+			300
+		]
+	},
+	{
+		"id": 301,
+		"german": "erhalten",
+		"manischIds": [
+			91,
+			149
+		]
+	},
+	{
+		"id": 303,
+		"german": "Erinnerung",
+		"manischIds": [
+			303
+		]
+	},
+	{
+		"id": 304,
+		"german": "erkundigen, sich",
+		"manischIds": [
+			304
+		]
+	},
+	{
+		"id": 305,
+		"german": "essen",
+		"manischIds": [
+			305,
+			306,
+			307,
+			308,
+			309,
+			310
+		]
+	},
+	{
+		"id": 311,
+		"german": "Essen",
+		"manischIds": [
+			305,
+			306,
+			311,
+			312
+		]
+	},
+	{
+		"id": 315,
+		"german": "Essig",
+		"manischIds": [
+			315
+		]
+	},
+	{
+		"id": 316,
+		"german": "Euter",
+		"manischIds": [
+			190
+		]
+	},
+	{
+		"id": 317,
+		"german": "Exkrement",
+		"manischIds": [
+			240
+		]
+	},
+	{
+		"id": 318,
+		"german": "fahren",
+		"manischIds": [
+			318,
+			319,
+			320
+		]
+	},
+	{
+		"id": 321,
+		"german": "Fahrad",
+		"manischIds": [
+			321,
+			322,
+			323
+		]
+	},
+	{
+		"id": 324,
+		"german": "fallen",
+		"manischIds": [
+			324,
+			325
+		]
+	},
+	{
+		"id": 326,
+		"german": "Familie",
+		"manischIds": [
+			326,
+			327
+		]
+	},
+	{
+		"id": 328,
+		"german": "Familienvater",
+		"manischIds": [
+			275
+		]
+	},
+	{
+		"id": 329,
+		"german": "Fastnacht",
+		"manischIds": [
+			329
+		]
+	},
+	{
+		"id": 330,
+		"german": "Feiertage",
+		"manischIds": [
+			330
+		]
+	},
+	{
+		"id": 331,
+		"german": "feige",
+		"manischIds": [
+			331
+		]
+	},
+	{
+		"id": 332,
+		"german": "feige, sehr",
+		"manischIds": [
+			332
+		]
+	},
+	{
+		"id": 333,
+		"german": "Feigheit",
+		"manischIds": [
+			15
+		]
+	},
+	{
+		"id": 334,
+		"german": "Fell",
+		"manischIds": [
+			334
+		]
+	},
+	{
+		"id": 335,
+		"german": "Fellatio praktizieren",
+		"manischIds": [
+			335
+		]
+	},
+	{
+		"id": 336,
+		"german": "Fenster",
+		"manischIds": [
+			336
+		]
+	},
+	{
+		"id": 337,
+		"german": "festnehmen",
+		"manischIds": [
+			250
+		]
+	},
+	{
+		"id": 338,
+		"german": "fett",
+		"manischIds": [
+			338
+		]
+	},
+	{
+		"id": 339,
+		"german": "Fett",
+		"manischIds": [
+			339,
+			340
+		]
+	},
+	{
+		"id": 341,
+		"german": "feucht",
+		"manischIds": [
+			341,
+			342
+		]
+	},
+	{
+		"id": 343,
+		"german": "Feuer",
+		"manischIds": [
+			343
+		]
+	},
+	{
+		"id": 344,
+		"german": "feuern",
+		"manischIds": [
+			174
+		]
+	},
+	{
+		"id": 345,
+		"german": "ficken",
+		"manischIds": [
+			32,
+			99,
+			194,
+			195,
+			196,
+			197,
+			198,
+			199,
+			350,
+			351,
+			352,
+			353
+		]
+	},
+	{
+		"id": 357,
+		"german": "finden",
+		"manischIds": [
+			56
+		]
+	},
+	{
+		"id": 358,
+		"german": "Finger",
+		"manischIds": [
+			358
+		]
+	},
+	{
+		"id": 359,
+		"german": "finster",
+		"manischIds": [
+			261
+		]
+	},
+	{
+		"id": 360,
+		"german": "Finsternis",
+		"manischIds": [
+			169,
+			263
+		]
+	},
+	{
+		"id": 362,
+		"german": "Fisch",
+		"manischIds": [
+			362
+		]
+	},
+	{
+		"id": 363,
+		"german": "fischen",
+		"manischIds": [
+			363
+		]
+	},
+	{
+		"id": 364,
+		"german": "Fischer",
+		"manischIds": [
+			364
+		]
+	},
+	{
+		"id": 365,
+		"german": "Flaschel",
+		"manischIds": [
+			365,
+			366
+		]
+	},
+	{
+		"id": 367,
+		"german": "Fleisch",
+		"manischIds": [
+			367
+		]
+	},
+	{
+		"id": 368,
+		"german": "fleischig",
+		"manischIds": [
+			367
+		]
+	},
+	{
+		"id": 369,
+		"german": "flicken",
+		"manischIds": [
+			369
+		]
+	},
+	{
+		"id": 370,
+		"german": "Floh",
+		"manischIds": [
+			370
+		]
+	},
+	{
+		"id": 371,
+		"german": "Fluch",
+		"manischIds": [
+			371
+		]
+	},
+	{
+		"id": 372,
+		"german": "fluchen",
+		"manischIds": [
+			372
+		]
+	},
+	{
+		"id": 373,
+		"german": "Flucht",
+		"manischIds": [
+			373
+		]
+	},
+	{
+		"id": 374,
+		"german": "Flüchtling",
+		"manischIds": [
+			374
+		]
+	},
+	{
+		"id": 375,
+		"german": "Forelle",
+		"manischIds": [
+			375
+		]
+	},
+	{
+		"id": 376,
+		"german": "Förster",
+		"manischIds": [
+			376,
+			377
+		]
+	},
+	{
+		"id": 378,
+		"german": "fort",
+		"manischIds": [
+			55,
+			378,
+			379
+		]
+	},
+	{
+		"id": 381,
+		"german": "fortbewegen, sich",
+		"manischIds": [
+			381
+		]
+	},
+	{
+		"id": 382,
+		"german": "fortjagen",
+		"manischIds": [
+			284
+		]
+	},
+	{
+		"id": 383,
+		"german": "fortlaufen",
+		"manischIds": [
+			383
+		]
+	},
+	{
+		"id": 384,
+		"german": "Frage",
+		"manischIds": [
+			384
+		]
+	},
+	{
+		"id": 385,
+		"german": "fragen",
+		"manischIds": [
+			304
+		]
+	},
+	{
+		"id": 386,
+		"german": "Franzose",
+		"manischIds": [
+			64
+		]
+	},
+	{
+		"id": 387,
+		"german": "französisch",
+		"manischIds": [
+			387
+		]
+	},
+	{
+		"id": 388,
+		"german": "Fratze",
+		"manischIds": [
+			388
+		]
+	},
+	{
+		"id": 389,
+		"german": "Frau",
+		"manischIds": [
+			10,
+			211,
+			273,
+			389,
+			390,
+			391,
+			394
+		]
+	},
+	{
+		"id": 396,
+		"german": "Frau, sehr attraktiv",
+		"manischIds": [
+			396
+		]
+	},
+	{
+		"id": 397,
+		"german": "Frau, verkommen",
+		"manischIds": [
+			229
+		]
+	},
+	{
+		"id": 398,
+		"german": "Fräulein",
+		"manischIds": [
+			391,
+			394,
+			398
+		]
+	},
+	{
+		"id": 401,
+		"german": "freudig",
+		"manischIds": [
+			401
+		]
+	},
+	{
+		"id": 402,
+		"german": "freuen, sich",
+		"manischIds": [
+			402
+		]
+	},
+	{
+		"id": 403,
+		"german": "Freund",
+		"manischIds": [
+			403
+		]
+	},
+	{
+		"id": 404,
+		"german": "freundlich",
+		"manischIds": [
+			404
+		]
+	},
+	{
+		"id": 405,
+		"german": "frieren",
+		"manischIds": [
+			405
+		]
+	},
+	{
+		"id": 406,
+		"german": "frisch",
+		"manischIds": [
+			406
+		]
+	},
+	{
+		"id": 407,
+		"german": "Friseur",
+		"manischIds": [
+			407,
+			408,
+			409
+		]
+	},
+	{
+		"id": 410,
+		"german": "Friseuse",
+		"manischIds": [
+			410
+		]
+	},
+	{
+		"id": 411,
+		"german": "froh",
+		"manischIds": [
+			401,
+			411
+		]
+	},
+	{
+		"id": 413,
+		"german": "fromm",
+		"manischIds": [
+			413
+		]
+	},
+	{
+		"id": 414,
+		"german": "Frost",
+		"manischIds": [
+			287
+		]
+	},
+	{
+		"id": 415,
+		"german": "frostig",
+		"manischIds": [
+			415
+		]
+	},
+	{
+		"id": 416,
+		"german": "Frucht",
+		"manischIds": [
+			416
+		]
+	},
+	{
+		"id": 417,
+		"german": "Früchtchen, durchtrieben",
+		"manischIds": [
+			417
+		]
+	},
+	{
+		"id": 418,
+		"german": "Frühling",
+		"manischIds": [
+			418,
+			419
+		]
+	},
+	{
+		"id": 420,
+		"german": "Fünfmarkstück (DM)",
+		"manischIds": [
+			420
+		]
+	},
+	{
+		"id": 421,
+		"german": "Furcht",
+		"manischIds": [
+			15,
+			16
+		]
+	},
+	{
+		"id": 423,
+		"german": "fürchten, sich",
+		"manischIds": [
+			17
+		]
+	},
+	{
+		"id": 424,
+		"german": "Furz",
+		"manischIds": [
+			154,
+			424,
+			425
+		]
+	},
+	{
+		"id": 427,
+		"german": "furzen",
+		"manischIds": [
+			427,
+			428,
+			429,
+			430
+		]
+	},
+	{
+		"id": 431,
+		"german": "Füße",
+		"manischIds": [
+			95
+		]
+	},
+	{
+		"id": 432,
+		"german": "Fußgänger",
+		"manischIds": [
+			432,
+			433
+		]
+	},
+	{
+		"id": 434,
+		"german": "Gans",
+		"manischIds": [
+			434
+		]
+	},
+	{
+		"id": 435,
+		"german": "Gänsehirt",
+		"manischIds": [
+			435
+		]
+	},
+	{
+		"id": 436,
+		"german": "ganz bestimmt!",
+		"manischIds": [
+			2
+		]
+	},
+	{
+		"id": 437,
+		"german": "ganz sicher!",
+		"manischIds": [
+			2
+		]
+	},
+	{
+		"id": 438,
+		"german": "Gartenzaun",
+		"manischIds": [
+			438
+		]
+	},
+	{
+		"id": 439,
+		"german": "Gaststätte",
+		"manischIds": [
+			439,
+			440,
+			441
+		]
+	},
+	{
+		"id": 442,
+		"german": "Gastwirt",
+		"manischIds": [
+			442
+		]
+	},
+	{
+		"id": 443,
+		"german": "Gaul, störrischer",
+		"manischIds": [
+			443
+		]
+	},
+	{
+		"id": 444,
+		"german": "gebärden",
+		"manischIds": [
+			444
+		]
+	},
+	{
+		"id": 445,
+		"german": "geben",
+		"manischIds": [
+			11,
+			446,
+			447
+		]
+	},
+	{
+		"id": 448,
+		"german": "Gefangener",
+		"manischIds": [
+			448
+		]
+	},
+	{
+		"id": 449,
+		"german": "Gefängnis",
+		"manischIds": [
+			449,
+			450,
+			451
+		]
+	},
+	{
+		"id": 452,
+		"german": "gefräßig",
+		"manischIds": [
+			452
+		]
+	},
+	{
+		"id": 453,
+		"german": "gegenüber",
+		"manischIds": [
+			453
+		]
+	},
+	{
+		"id": 454,
+		"german": "gehen",
+		"manischIds": [
+			282,
+			320,
+			381,
+			455,
+			458,
+			459
+		]
+	},
+	{
+		"id": 460,
+		"german": "Geheul",
+		"manischIds": [
+			460
+		]
+	},
+	{
+		"id": 461,
+		"german": "Geige",
+		"manischIds": [
+			461
+		]
+	},
+	{
+		"id": 462,
+		"german": "Geilheit",
+		"manischIds": [
+			462
+		]
+	},
+	{
+		"id": 463,
+		"german": "Geist",
+		"manischIds": [
+			296
+		]
+	},
+	{
+		"id": 464,
+		"german": "geizig",
+		"manischIds": [
+			464,
+			465
+		]
+	},
+	{
+		"id": 466,
+		"german": "Gelächter",
+		"manischIds": [
+			466
+		]
+	},
+	{
+		"id": 467,
+		"german": "gelb",
+		"manischIds": [
+			467
+		]
+	},
+	{
+		"id": 468,
+		"german": "Geld",
+		"manischIds": [
+			468,
+			469,
+			470,
+			471,
+			472
+		]
+	},
+	{
+		"id": 473,
+		"german": "Geldbeutel",
+		"manischIds": [
+			473,
+			474,
+			475
+		]
+	},
+	{
+		"id": 476,
+		"german": "Geldschuld",
+		"manischIds": [
+			476,
+			477
+		]
+	},
+	{
+		"id": 478,
+		"german": "gerecht",
+		"manischIds": [
+			271,
+			478
+		]
+	},
+	{
+		"id": 480,
+		"german": "Gericht",
+		"manischIds": [
+			480
+		]
+	},
+	{
+		"id": 481,
+		"german": "Gerichtsgebäude",
+		"manischIds": [
+			481
+		]
+	},
+	{
+		"id": 482,
+		"german": "Gesang",
+		"manischIds": [
+			482
+		]
+	},
+	{
+		"id": 483,
+		"german": "Gesäß",
+		"manischIds": [
+			44,
+			45,
+			240,
+			483
+		]
+	},
+	{
+		"id": 487,
+		"german": "Geschäfte machen",
+		"manischIds": [
+			487
+		]
+	},
+	{
+		"id": 488,
+		"german": "gescheit",
+		"manischIds": [
+			488
+		]
+	},
+	{
+		"id": 489,
+		"german": "geschlossen",
+		"manischIds": [
+			489
+		]
+	},
+	{
+		"id": 490,
+		"german": "geschnitten",
+		"manischIds": [
+			490
+		]
+	},
+	{
+		"id": 491,
+		"german": "Geschrei",
+		"manischIds": [
+			491
+		]
+	},
+	{
+		"id": 492,
+		"german": "geschrieben",
+		"manischIds": [
+			490
+		]
+	},
+	{
+		"id": 493,
+		"german": "Geschwätz, dummes",
+		"manischIds": [
+			164
+		]
+	},
+	{
+		"id": 494,
+		"german": "geschwätzig",
+		"manischIds": [
+			494
+		]
+	},
+	{
+		"id": 495,
+		"german": "Geschindigkeit",
+		"manischIds": [
+			281
+		]
+	},
+	{
+		"id": 496,
+		"german": "geschwollen",
+		"manischIds": [
+			496
+		]
+	},
+	{
+		"id": 497,
+		"german": "Gesicht",
+		"manischIds": [
+			497,
+			498
+		]
+	},
+	{
+		"id": 499,
+		"german": "Gesindel",
+		"manischIds": [
+			499
+		]
+	},
+	{
+		"id": 500,
+		"german": "Geständniss",
+		"manischIds": [
+			93
+		]
+	},
+	{
+		"id": 501,
+		"german": "Gestank",
+		"manischIds": [
+			501,
+			502
+		]
+	},
+	{
+		"id": 503,
+		"german": "gestern",
+		"manischIds": [
+			503,
+			504
+		]
+	},
+	{
+		"id": 505,
+		"german": "gestorben",
+		"manischIds": [
+			505,
+			506
+		]
+	},
+	{
+		"id": 507,
+		"german": "gesund",
+		"manischIds": [
+			507
+		]
+	},
+	{
+		"id": 508,
+		"german": "gesund werden",
+		"manischIds": [
+			508
+		]
+	},
+	{
+		"id": 509,
+		"german": "Gesundheit",
+		"manischIds": [
+			509
+		]
+	},
+	{
+		"id": 510,
+		"german": "Getränk",
+		"manischIds": [
+			510
+		]
+	},
+	{
+		"id": 511,
+		"german": "Getreide",
+		"manischIds": [
+			416
+		]
+	},
+	{
+		"id": 512,
+		"german": "Gewalt",
+		"manischIds": [
+			512
+		]
+	},
+	{
+		"id": 513,
+		"german": "Gwerbeschein",
+		"manischIds": [
+			513,
+			514
+		]
+	},
+	{
+		"id": 515,
+		"german": "Gewehr",
+		"manischIds": [
+			515
+		]
+	},
+	{
+		"id": 516,
+		"german": "gewiß!",
+		"manischIds": [
+			2,
+			232,
+			233
+		]
+	},
+	{
+		"id": 519,
+		"german": "Glas",
+		"manischIds": [
+			519,
+			520,
+			521
+		]
+	},
+	{
+		"id": 522,
+		"german": "Glaser",
+		"manischIds": [
+			521
+		]
+	},
+	{
+		"id": 523,
+		"german": "Glaube",
+		"manischIds": [
+			523
+		]
+	},
+	{
+		"id": 524,
+		"german": "glauben",
+		"manischIds": [
+			524
+		]
+	},
+	{
+		"id": 525,
+		"german": "gläubig",
+		"manischIds": [
+			413
+		]
+	},
+	{
+		"id": 526,
+		"german": "Glück",
+		"manischIds": [
+			526,
+			527
+		]
+	},
+	{
+		"id": 528,
+		"german": "Gockel",
+		"manischIds": [
+			528
+		]
+	},
+	{
+		"id": 529,
+		"german": "Gold",
+		"manischIds": [
+			529
+		]
+	},
+	{
+		"id": 530,
+		"german": "Gott",
+		"manischIds": [
+			530
+		]
+	},
+	{
+		"id": 531,
+		"german": "gottgläubig",
+		"manischIds": [
+			531
+		]
+	},
+	{
+		"id": 532,
+		"german": "grau",
+		"manischIds": [
+			532
+		]
+	},
+	{
+		"id": 533,
+		"german": "greifen",
+		"manischIds": [
+			533
+		]
+	},
+	{
+		"id": 534,
+		"german": "grob",
+		"manischIds": [
+			76
+		]
+	},
+	{
+		"id": 535,
+		"german": "Groschen",
+		"manischIds": [
+			535
+		]
+	},
+	{
+		"id": 536,
+		"german": "groß",
+		"manischIds": [
+			216,
+			404,
+			536,
+			537
+		]
+	},
+	{
+		"id": 540,
+		"german": "Großmutter",
+		"manischIds": [
+			10
+		]
+	},
+	{
+		"id": 541,
+		"german": "Großvater",
+		"manischIds": [
+			541,
+			542
+		]
+	},
+	{
+		"id": 543,
+		"german": "grün",
+		"manischIds": [
+			543
+		]
+	},
+	{
+		"id": 544,
+		"german": "gucken",
+		"manischIds": [
+			66,
+			107,
+			545
+		]
+	},
+	{
+		"id": 547,
+		"german": "Gurke, saure",
+		"manischIds": [
+			547
+		]
+	},
+	{
+		"id": 548,
+		"german": "gut",
+		"manischIds": [
+			404,
+			548,
+			549,
+			551
+		]
+	},
+	{
+		"id": 552,
+		"german": "Gute Nacht!",
+		"manischIds": [
+			552
+		]
+	},
+	{
+		"id": 553,
+		"german": "Guten Tag!",
+		"manischIds": [
+			553
+		]
+	},
+	{
+		"id": 554,
+		"german": "gutgelaunt",
+		"manischIds": [
+			401
+		]
+	},
+	{
+		"id": 555,
+		"german": "Haar",
+		"manischIds": [
+			555
+		]
+	},
+	{
+		"id": 556,
+		"german": "haben",
+		"manischIds": [
+			103
+		]
+	},
+	{
+		"id": 557,
+		"german": "Hafer",
+		"manischIds": [
+			557
+		]
+	},
+	{
+		"id": 558,
+		"german": "Häftling",
+		"manischIds": [
+			448
+		]
+	},
+	{
+		"id": 559,
+		"german": "Hahn",
+		"manischIds": [
+			559
+		]
+	},
+	{
+		"id": 560,
+		"german": "halb",
+		"manischIds": [
+			295
+		]
+	},
+	{
+		"id": 561,
+		"german": "Hälfte",
+		"manischIds": [
+			561
+		]
+	},
+	{
+		"id": 562,
+		"german": "Hals",
+		"manischIds": [
+			562
+		]
+	},
+	{
+		"id": 563,
+		"german": "Halskette",
+		"manischIds": [
+			563
+		]
+	},
+	{
+		"id": 564,
+		"german": "Halt",
+		"manischIds": [
+			303
+		]
+	},
+	{
+		"id": 565,
+		"german": "halten",
+		"manischIds": [
+			91
+		]
+	},
+	{
+		"id": 566,
+		"german": "Hammer",
+		"manischIds": [
+			566
+		]
+	},
+	{
+		"id": 567,
+		"german": "Hand",
+		"manischIds": [
+			567
+		]
+	},
+	{
+		"id": 568,
+		"german": "Handel",
+		"manischIds": [
+			568
+		]
+	},
+	{
+		"id": 569,
+		"german": "handeln",
+		"manischIds": [
+			569
+		]
+	},
+	{
+		"id": 570,
+		"german": "Händler",
+		"manischIds": [
+			570
+		]
+	},
+	{
+		"id": 571,
+		"german": "Handschuh",
+		"manischIds": [
+			571
+		]
+	},
+	{
+		"id": 572,
+		"german": "Handwerksbursche",
+		"manischIds": [
+			572
+		]
+	},
+	{
+		"id": 573,
+		"german": "hart arbeiten",
+		"manischIds": [
+			32
+		]
+	},
+	{
+		"id": 574,
+		"german": "Hase",
+		"manischIds": [
+			574
+		]
+	},
+	{
+		"id": 575,
+		"german": "Hasenscharte",
+		"manischIds": [
+			388
+		]
+	},
+	{
+		"id": 576,
+		"german": "häßlich",
+		"manischIds": [
+			245,
+			576,
+			577
+		]
+	},
+	{
+		"id": 579,
+		"german": "Hast",
+		"manischIds": [
+			281
+		]
+	},
+	{
+		"id": 580,
+		"german": "hauen",
+		"manischIds": [
+			580,
+			581
+		]
+	},
+	{
+		"id": 582,
+		"german": "Hauen",
+		"manischIds": [
+			580,
+			581
+		]
+	},
+	{
+		"id": 584,
+		"german": "Haupt",
+		"manischIds": [
+			584
+		]
+	},
+	{
+		"id": 585,
+		"german": "Hauptstadt",
+		"manischIds": [
+			585
+		]
+	},
+	{
+		"id": 586,
+		"german": "Haus",
+		"manischIds": [
+			237
+		]
+	},
+	{
+		"id": 587,
+		"german": "Haustür",
+		"manischIds": [
+			587
+		]
+	},
+	{
+		"id": 588,
+		"german": "Haut",
+		"manischIds": [
+			334
+		]
+	},
+	{
+		"id": 589,
+		"german": "Hebamme",
+		"manischIds": [
+			589,
+			590
+		]
+	},
+	{
+		"id": 591,
+		"german": "heil",
+		"manischIds": [
+			507
+		]
+	},
+	{
+		"id": 592,
+		"german": "heilen",
+		"manischIds": [
+			592
+		]
+	},
+	{
+		"id": 593,
+		"german": "heilig",
+		"manischIds": [
+			593
+		]
+	},
+	{
+		"id": 594,
+		"german": "heiraten",
+		"manischIds": [
+			594
+		]
+	},
+	{
+		"id": 595,
+		"german": "tato",
+		"manischIds": [
+			595
+		]
+	},
+	{
+		"id": 596,
+		"german": "heizen",
+		"manischIds": [
+			174,
+			597
+		]
+	},
+	{
+		"id": 598,
+		"german": "Hemd",
+		"manischIds": [
+			598,
+			599
+		]
+	},
+	{
+		"id": 600,
+		"german": "herausreden",
+		"manischIds": [
+			600
+		]
+	},
+	{
+		"id": 601,
+		"german": "Herbst",
+		"manischIds": [
+			287
+		]
+	},
+	{
+		"id": 602,
+		"german": "Herd",
+		"manischIds": [
+			602
+		]
+	},
+	{
+		"id": 603,
+		"german": "Hering",
+		"manischIds": [
+			603
+		]
+	},
+	{
+		"id": 604,
+		"german": "Herr",
+		"manischIds": [
+			604
+		]
+	},
+	{
+		"id": 605,
+		"german": "Hexerei",
+		"manischIds": [
+			605
+		]
+	},
+	{
+		"id": 606,
+		"german": "Hieb",
+		"manischIds": [
+			606,
+			607
+		]
+	},
+	{
+		"id": 608,
+		"german": "Hiebe",
+		"manischIds": [
+			608,
+			609,
+			610
+		]
+	},
+	{
+		"id": 611,
+		"german": "hier",
+		"manischIds": [
+			62,
+			210
+		]
+	},
+	{
+		"id": 613,
+		"german": "hieher",
+		"manischIds": [
+			62
+		]
+	},
+	{
+		"id": 614,
+		"german": "Himmel",
+		"manischIds": [
+			614
+		]
+	},
+	{
+		"id": 615,
+		"german": "hinten",
+		"manischIds": [
+			615
+		]
+	},
+	{
+		"id": 616,
+		"german": "hintenherum",
+		"manischIds": [
+			615
+		]
+	},
+	{
+		"id": 617,
+		"german": "hintenhinaus",
+		"manischIds": [
+			615
+		]
+	},
+	{
+		"id": 618,
+		"german": "hinterhältig",
+		"manischIds": [
+			331
+		]
+	},
+	{
+		"id": 619,
+		"german": "Hintern",
+		"manischIds": [
+			44,
+			45,
+			240,
+			483
+		]
+	},
+	{
+		"id": 623,
+		"german": "Hitze",
+		"manischIds": [
+			623
+		]
+	},
+	{
+		"id": 624,
+		"german": "Hoden",
+		"manischIds": [
+			279,
+			625
+		]
+	},
+	{
+		"id": 626,
+		"german": "Hodensack",
+		"manischIds": [
+			625
+		]
+	},
+	{
+		"id": 627,
+		"german": "Holz",
+		"manischIds": [
+			627
+		]
+	},
+	{
+		"id": 628,
+		"german": "Homosexueller",
+		"manischIds": [
+			628,
+			629
+		]
+	},
+	{
+		"id": 630,
+		"german": "Honig",
+		"manischIds": [
+			630
+		]
+	},
+	{
+		"id": 631,
+		"german": "hören",
+		"manischIds": [
+			631
+		]
+	},
+	{
+		"id": 632,
+		"german": "hübsch",
+		"manischIds": [
+			632,
+			633
+		]
+	},
+	{
+		"id": 634,
+		"german": "Hufeisen",
+		"manischIds": [
+			634
+		]
+	},
+	{
+		"id": 635,
+		"german": "Hufschmied",
+		"manischIds": [
+			635
+		]
+	},
+	{
+		"id": 636,
+		"german": "Huhn",
+		"manischIds": [
+			636
+		]
+	},
+	{
+		"id": 637,
+		"german": "Hund",
+		"manischIds": [
+			637
+		]
+	},
+	{
+		"id": 638,
+		"german": "Hunger",
+		"manischIds": [
+			464,
+			638,
+			639,
+			640,
+			641
+		]
+	},
+	{
+		"id": 643,
+		"german": "husten",
+		"manischIds": [
+			643
+		]
+	},
+	{
+		"id": 644,
+		"german": "Husten",
+		"manischIds": [
+			644
+		]
+	},
+	{
+		"id": 645,
+		"german": "Hut",
+		"manischIds": [
+			645
+		]
+	},
+	{
+		"id": 646,
+		"german": "Irr",
+		"manischIds": [
+			156
+		]
+	},
+	{
+		"id": 647,
+		"german": "interesse haben",
+		"manischIds": [
+			647
+		]
+	},
+	{
+		"id": 648,
+		"german": "ist",
+		"manischIds": [
+			648
+		]
+	},
+	{
+		"id": 649,
+		"german": "ja",
+		"manischIds": [
+			232,
+			233,
+			234
+		]
+	},
+	{
+		"id": 652,
+		"german": "ja doch!",
+		"manischIds": [
+			2
+		]
+	},
+	{
+		"id": 653,
+		"german": "Jacke",
+		"manischIds": [
+			653
+		]
+	},
+	{
+		"id": 654,
+		"german": "Jäger",
+		"manischIds": [
+			377
+		]
+	},
+	{
+		"id": 655,
+		"german": "Jahr",
+		"manischIds": [
+			655
+		]
+	},
+	{
+		"id": 656,
+		"german": "Jahrmarkt",
+		"manischIds": [
+			656
+		]
+	},
+	{
+		"id": 657,
+		"german": "jeder",
+		"manischIds": [
+			82
+		]
+	},
+	{
+		"id": 658,
+		"german": "jetzt",
+		"manischIds": [
+			62
+		]
+	},
+	{
+		"id": 659,
+		"german": "Jude",
+		"manischIds": [
+			659
+		]
+	},
+	{
+		"id": 660,
+		"german": "Jugend",
+		"manischIds": [
+			660
+		]
+	},
+	{
+		"id": 661,
+		"german": "jung",
+		"manischIds": [
+			661
+		]
+	},
+	{
+		"id": 662,
+		"german": "Junge",
+		"manischIds": [
+			186
+		]
+	},
+	{
+		"id": 663,
+		"german": "Jüngling",
+		"manischIds": [
+			186,
+			604
+		]
+	},
+	{
+		"id": 665,
+		"german": "Kaffee",
+		"manischIds": [
+			665,
+			666,
+			667
+		]
+	},
+	{
+		"id": 668,
+		"german": "kahl",
+		"manischIds": [
+			166
+		]
+	},
+	{
+		"id": 669,
+		"german": "Kalb",
+		"manischIds": [
+			669
+		]
+	},
+	{
+		"id": 670,
+		"german": "kalt",
+		"manischIds": [
+			415,
+			671
+		]
+	},
+	{
+		"id": 672,
+		"german": "Kälte",
+		"manischIds": [
+			287
+		]
+	},
+	{
+		"id": 673,
+		"german": "Kamm",
+		"manischIds": [
+			673
+		]
+	},
+	{
+		"id": 674,
+		"german": "kämmen",
+		"manischIds": [
+			674
+		]
+	},
+	{
+		"id": 675,
+		"german": "kaputt",
+		"manischIds": [
+			295,
+			296
+		]
+	},
+	{
+		"id": 677,
+		"german": "Karneval",
+		"manischIds": [
+			329
+		]
+	},
+	{
+		"id": 678,
+		"german": "Kartenspiel",
+		"manischIds": [
+			678
+		]
+	},
+	{
+		"id": 679,
+		"german": "Kartoffel(n)",
+		"manischIds": [
+			679
+		]
+	},
+	{
+		"id": 680,
+		"german": "Karussell",
+		"manischIds": [
+			680
+		]
+	},
+	{
+		"id": 681,
+		"german": "Käse",
+		"manischIds": [
+			681
+		]
+	},
+	{
+		"id": 682,
+		"german": "katholisch",
+		"manischIds": [
+			682
+		]
+	},
+	{
+		"id": 683,
+		"german": "Katze",
+		"manischIds": [
+			683
+		]
+	},
+	{
+		"id": 684,
+		"german": "kauen",
+		"manischIds": [
+			310
+		]
+	},
+	{
+		"id": 685,
+		"german": "Kauf",
+		"manischIds": [
+			685
+		]
+	},
+	{
+		"id": 686,
+		"german": "kaufen",
+		"manischIds": [
+			686,
+			687
+		]
+	},
+	{
+		"id": 688,
+		"german": "Käufer",
+		"manischIds": [
+			688
+		]
+	},
+	{
+		"id": 689,
+		"german": "kein",
+		"manischIds": [
+			689,
+			690
+		]
+	},
+	{
+		"id": 691,
+		"german": "kennen",
+		"manischIds": [
+			691
+		]
+	},
+	{
+		"id": 692,
+		"german": "Kerl",
+		"manischIds": [
+			13,
+			84,
+			85,
+			203,
+			204,
+			403,
+			542,
+			604,
+			693,
+			699,
+			701
+		]
+	},
+	{
+		"id": 703,
+		"german": "Kerl, liederlich",
+		"manischIds": [
+			703
+		]
+	},
+	{
+		"id": 704,
+		"german": "Kerl, pfiffiger",
+		"manischIds": [
+			417
+		]
+	},
+	{
+		"id": 705,
+		"german": "Kerl, schlechter, ",
+		"manischIds": [
+			417
+		]
+	},
+	{
+		"id": 706,
+		"german": "verkommener",
+		"manischIds": [
+			706
+		]
+	},
+	{
+		"id": 707,
+		"german": "Kerze",
+		"manischIds": [
+			707
+		]
+	},
+	{
+		"id": 708,
+		"german": "Kessel",
+		"manischIds": [
+			708,
+			709
+		]
+	},
+	{
+		"id": 710,
+		"german": "Kesselflicker",
+		"manischIds": [
+			710
+		]
+	},
+	{
+		"id": 712,
+		"german": "Kiefer, der",
+		"manischIds": [
+			712
+		]
+	},
+	{
+		"id": 713,
+		"german": "Kind",
+		"manischIds": [
+			186,
+			660,
+			714,
+			715,
+			716,
+			718
+		]
+	},
+	{
+		"id": 719,
+		"german": "Kind (farbiges Mischlingskind)",
+		"manischIds": [
+			719
+		]
+	},
+	{
+		"id": 720,
+		"german": "Kinder",
+		"manischIds": [
+			715,
+			716,
+			722
+		]
+	},
+	{
+		"id": 723,
+		"german": "Kinn, das",
+		"manischIds": [
+			712
+		]
+	},
+	{
+		"id": 724,
+		"german": "Kirche",
+		"manischIds": [
+			724,
+			725
+		]
+	},
+	{
+		"id": 726,
+		"german": "klauen",
+		"manischIds": [
+			726,
+			727
+		]
+	},
+	{
+		"id": 728,
+		"german": "Klee, der",
+		"manischIds": [
+			728
+		]
+	},
+	{
+		"id": 729,
+		"german": "Kleid",
+		"manischIds": [
+			729,
+			730,
+			731
+		]
+	},
+	{
+		"id": 732,
+		"german": "kleiden",
+		"manischIds": [
+			21,
+			293
+		]
+	},
+	{
+		"id": 734,
+		"german": "Kleiderstoff",
+		"manischIds": [
+			734
+		]
+	},
+	{
+		"id": 735,
+		"german": "Kleidung",
+		"manischIds": [
+			730,
+			731
+		]
+	},
+	{
+		"id": 737,
+		"german": "klein",
+		"manischIds": [
+			737
+		]
+	},
+	{
+		"id": 738,
+		"german": "Klitoris",
+		"manischIds": [
+			738,
+			739
+		]
+	},
+	{
+		"id": 740,
+		"german": "klug",
+		"manischIds": [
+			488
+		]
+	},
+	{
+		"id": 741,
+		"german": "Knabe",
+		"manischIds": [
+			403
+		]
+	},
+	{
+		"id": 742,
+		"german": "Kneipe",
+		"manischIds": [
+			439,
+			440
+		]
+	},
+	{
+		"id": 744,
+		"german": "Rotlichtkneipe",
+		"manischIds": [
+			744
+		]
+	},
+	{
+		"id": 745,
+		"german": "Knie",
+		"manischIds": [
+			95
+		]
+	},
+	{
+		"id": 746,
+		"german": "Knoblauch",
+		"manischIds": [
+			746
+		]
+	},
+	{
+		"id": 747,
+		"german": "Koch",
+		"manischIds": [
+			747
+		]
+	},
+	{
+		"id": 748,
+		"german": "kochen",
+		"manischIds": [
+			748
+		]
+	},
+	{
+		"id": 749,
+		"german": "Kochtopf",
+		"manischIds": [
+			709,
+			750
+		]
+	},
+	{
+		"id": 751,
+		"german": "Kognak",
+		"manischIds": [
+			9
+		]
+	},
+	{
+		"id": 752,
+		"german": "koitieren",
+		"manischIds": [
+			32,
+			99,
+			194,
+			195,
+			196,
+			197,
+			198,
+			199,
+			350,
+			351,
+			759
+		]
+	},
+	{
+		"id": 763,
+		"german": "Komiker",
+		"manischIds": [
+			763
+		]
+	},
+	{
+		"id": 764,
+		"german": "kommen",
+		"manischIds": [
+			282,
+			284,
+			381
+		]
+	},
+	{
+		"id": 767,
+		"german": "Kopf",
+		"manischIds": [
+			584,
+			767,
+			768
+		]
+	},
+	{
+		"id": 770,
+		"german": "Wasserkopf",
+		"manischIds": [
+			770
+		]
+	},
+	{
+		"id": 771,
+		"german": "kosten",
+		"manischIds": [
+			771
+		]
+	},
+	{
+		"id": 772,
+		"german": "Kot",
+		"manischIds": [
+			240,
+			243,
+			264
+		]
+	},
+	{
+		"id": 775,
+		"german": "Krach",
+		"manischIds": [
+			775
+		]
+	},
+	{
+		"id": 776,
+		"german": "krank",
+		"manischIds": [
+			776
+		]
+	},
+	{
+		"id": 777,
+		"german": "Krankenhaus",
+		"manischIds": [
+			777
+		]
+	},
+	{
+		"id": 778,
+		"german": "Krankenschwester",
+		"manischIds": [
+			778
+		]
+	},
+	{
+		"id": 779,
+		"german": "Krankheit",
+		"manischIds": [
+			779
+		]
+	},
+	{
+		"id": 780,
+		"german": "kratzen",
+		"manischIds": [
+			780
+		]
+	},
+	{
+		"id": 781,
+		"german": "Kraut",
+		"manischIds": [
+			781,
+			782
+		]
+	},
+	{
+		"id": 783,
+		"german": "Kredit",
+		"manischIds": [
+			783
+		]
+	},
+	{
+		"id": 784,
+		"german": "krumm",
+		"manischIds": [
+			784
+		]
+	},
+	{
+		"id": 785,
+		"german": "Kuchen",
+		"manischIds": [
+			785
+		]
+	},
+	{
+		"id": 786,
+		"german": "Kuh",
+		"manischIds": [
+			786
+		]
+	},
+	{
+		"id": 787,
+		"german": "kühl",
+		"manischIds": [
+			415,
+			671
+		]
+	},
+	{
+		"id": 789,
+		"german": "Kuss",
+		"manischIds": [
+			789
+		]
+	},
+	{
+		"id": 790,
+		"german": "küssen",
+		"manischIds": [
+			790
+		]
+	},
+	{
+		"id": 791,
+		"german": "lachen",
+		"manischIds": [
+			791
+		]
+	},
+	{
+		"id": 792,
+		"german": "Lachen",
+		"manischIds": [
+			466
+		]
+	},
+	{
+		"id": 793,
+		"german": "lahm",
+		"manischIds": [
+			784
+		]
+	},
+	{
+		"id": 794,
+		"german": "Lampe",
+		"manischIds": [
+			707
+		]
+	},
+	{
+		"id": 795,
+		"german": "Landstreicher",
+		"manischIds": [
+			572,
+			795,
+			797
+		]
+	},
+	{
+		"id": 798,
+		"german": "Lärm",
+		"manischIds": [
+			775
+		]
+	},
+	{
+		"id": 799,
+		"german": "Last",
+		"manischIds": [
+			799
+		]
+	},
+	{
+		"id": 800,
+		"german": "Laus",
+		"manischIds": [
+			800
+		]
+	},
+	{
+		"id": 801,
+		"german": "Lausbube",
+		"manischIds": [
+			417
+		]
+	},
+	{
+		"id": 802,
+		"german": "laut",
+		"manischIds": [
+			295
+		]
+	},
+	{
+		"id": 803,
+		"german": "lecken",
+		"manischIds": [
+			803
+		]
+	},
+	{
+		"id": 804,
+		"german": "Leder",
+		"manischIds": [
+			334,
+			804
+		]
+	},
+	{
+		"id": 806,
+		"german": "legen",
+		"manischIds": [
+			806
+		]
+	},
+	{
+		"id": 807,
+		"german": "lehren",
+		"manischIds": [
+			807
+		]
+	},
+	{
+		"id": 808,
+		"german": "Lehrer",
+		"manischIds": [
+			808,
+			809
+		]
+	},
+	{
+		"id": 810,
+		"german": "Leiche",
+		"manischIds": [
+			296
+		]
+	},
+	{
+		"id": 811,
+		"german": "leihen",
+		"manischIds": [
+			524
+		]
+	},
+	{
+		"id": 812,
+		"german": "Leine",
+		"manischIds": [
+			812
+		]
+	},
+	{
+		"id": 813,
+		"german": "Leute",
+		"manischIds": [
+			813
+		]
+	},
+	{
+		"id": 814,
+		"german": "Licht",
+		"manischIds": [
+			707
+		]
+	},
+	{
+		"id": 815,
+		"german": "lieb",
+		"manischIds": [
+			404
+		]
+	},
+	{
+		"id": 816,
+		"german": "Liebe",
+		"manischIds": [
+			816
+		]
+	},
+	{
+		"id": 817,
+		"german": "Lippe",
+		"manischIds": [
+			817
+		]
+	},
+	{
+		"id": 818,
+		"german": "loben",
+		"manischIds": [
+			818
+		]
+	},
+	{
+		"id": 819,
+		"german": "Löffel",
+		"manischIds": [
+			819
+		]
+	},
+	{
+		"id": 820,
+		"german": "Lohn",
+		"manischIds": [
+			148
+		]
+	},
+	{
+		"id": 821,
+		"german": "Lokal",
+		"manischIds": [
+			440
+		]
+	},
+	{
+		"id": 822,
+		"german": "Lüge",
+		"manischIds": [
+			822
+		]
+	},
+	{
+		"id": 823,
+		"german": "lügen",
+		"manischIds": [
+			128
+		]
+	},
+	{
+		"id": 824,
+		"german": "Lügner",
+		"manischIds": [
+			824
+		]
+	},
+	{
+		"id": 825,
+		"german": "machen",
+		"manischIds": [
+			825
+		]
+	},
+	{
+		"id": 826,
+		"german": "machen, gutes Geschäft",
+		"manischIds": [
+			487
+		]
+	},
+	{
+		"id": 827,
+		"german": "Mädchen",
+		"manischIds": [
+			273,
+			391,
+			394,
+			398,
+			714
+		]
+	},
+	{
+		"id": 832,
+		"german": "Mahlzeit",
+		"manischIds": [
+			311
+		]
+	},
+	{
+		"id": 833,
+		"german": "Mann",
+		"manischIds": [
+			84,
+			85,
+			203,
+			204,
+			403,
+			542,
+			604,
+			699,
+			701,
+			834
+		]
+	},
+	{
+		"id": 843,
+		"german": "Mann (nur innerhalb der Sippe)",
+		"manischIds": [
+			275
+		]
+	},
+	{
+		"id": 844,
+		"german": "Mann, dicker",
+		"manischIds": [
+			219
+		]
+	},
+	{
+		"id": 845,
+		"german": "Mann, reicher",
+		"manischIds": [
+			845,
+			846
+		]
+	},
+	{
+		"id": 847,
+		"german": "männlich",
+		"manischIds": [
+			847
+		]
+	},
+	{
+		"id": 848,
+		"german": "Mantel",
+		"manischIds": [
+			734,
+			848,
+			850
+		]
+	},
+	{
+		"id": 851,
+		"german": "Mark, Euro (Geldmünze)",
+		"manischIds": [
+			851,
+			852
+		]
+	},
+	{
+		"id": 853,
+		"german": "Mark / Euro, ein/e",
+		"manischIds": [
+			853
+		]
+	},
+	{
+		"id": 854,
+		"german": "Mark, fünf",
+		"manischIds": [
+			420
+		]
+	},
+	{
+		"id": 855,
+		"german": "Mark,zehn",
+		"manischIds": [
+			855
+		]
+	},
+	{
+		"id": 856,
+		"german": "Markt",
+		"manischIds": [
+			685
+		]
+	},
+	{
+		"id": 857,
+		"german": "Meer",
+		"manischIds": [
+			167
+		]
+	},
+	{
+		"id": 858,
+		"german": "Mehl",
+		"manischIds": [
+			858
+		]
+	},
+	{
+		"id": 859,
+		"german": "mein",
+		"manischIds": [
+			859
+		]
+	},
+	{
+		"id": 860,
+		"german": "Mensch, beschränkter",
+		"manischIds": [
+			161
+		]
+	},
+	{
+		"id": 861,
+		"german": "Mensch, blöder",
+		"manischIds": [
+			256,
+			258
+		]
+	},
+	{
+		"id": 863,
+		"german": "Mensch, nervender",
+		"manischIds": [
+			863
+		]
+	},
+	{
+		"id": 864,
+		"german": "Mensch, vorlaut er",
+		"manischIds": [
+			163
+		]
+	},
+	{
+		"id": 865,
+		"german": "Messe (Volksfest)",
+		"manischIds": [
+			656
+		]
+	},
+	{
+		"id": 866,
+		"german": "Messer",
+		"manischIds": [
+			866
+		]
+	},
+	{
+		"id": 867,
+		"german": "Mettwurst",
+		"manischIds": [
+			867
+		]
+	},
+	{
+		"id": 868,
+		"german": "Metzger",
+		"manischIds": [
+			868,
+			869
+		]
+	},
+	{
+		"id": 870,
+		"german": "Milch",
+		"manischIds": [
+			870
+		]
+	},
+	{
+		"id": 871,
+		"german": "Milchfrau",
+		"manischIds": [
+			871
+		]
+	},
+	{
+		"id": 872,
+		"german": "mitnehmen",
+		"manischIds": [
+			872
+		]
+	},
+	{
+		"id": 873,
+		"german": "Mittag",
+		"manischIds": [
+			873
+		]
+	},
+	{
+		"id": 874,
+		"german": "Mönch",
+		"manischIds": [
+			874
+		]
+	},
+	{
+		"id": 875,
+		"german": "Mord",
+		"manischIds": [
+			875
+		]
+	},
+	{
+		"id": 876,
+		"german": "morden",
+		"manischIds": [
+			876
+		]
+	},
+	{
+		"id": 877,
+		"german": "morgen",
+		"manischIds": [
+			503
+		]
+	},
+	{
+		"id": 878,
+		"german": "müde",
+		"manischIds": [
+			96,
+			878
+		]
+	},
+	{
+		"id": 880,
+		"german": "Mund",
+		"manischIds": [
+			497,
+			498
+		]
+	},
+	{
+		"id": 882,
+		"german": "munter",
+		"manischIds": [
+			406
+		]
+	},
+	{
+		"id": 883,
+		"german": "Musik",
+		"manischIds": [
+			561
+		]
+	},
+	{
+		"id": 884,
+		"german": "Musiker",
+		"manischIds": [
+			884
+		]
+	},
+	{
+		"id": 885,
+		"german": "musizieren",
+		"manischIds": [
+			885
+		]
+	},
+	{
+		"id": 886,
+		"german": "Mutter",
+		"manischIds": [
+			886,
+			887
+		]
+	},
+	{
+		"id": 888,
+		"german": "Nabel",
+		"manischIds": [
+			888
+		]
+	},
+	{
+		"id": 889,
+		"german": "nach (Hause)",
+		"manischIds": [
+			378
+		]
+	},
+	{
+		"id": 890,
+		"german": "nach (hinten)",
+		"manischIds": [
+			615
+		]
+	},
+	{
+		"id": 891,
+		"german": "Nacht",
+		"manischIds": [
+			1,
+			169
+		]
+	},
+	{
+		"id": 893,
+		"german": "Nachtwächter",
+		"manischIds": [
+			893
+		]
+	},
+	{
+		"id": 894,
+		"german": "Nacken",
+		"manischIds": [
+			562
+		]
+	},
+	{
+		"id": 895,
+		"german": "nackt",
+		"manischIds": [
+			166
+		]
+	},
+	{
+		"id": 896,
+		"german": "Nadel",
+		"manischIds": [
+			896
+		]
+	},
+	{
+		"id": 897,
+		"german": "Nagel",
+		"manischIds": [
+			897
+		]
+	},
+	{
+		"id": 898,
+		"german": "nähen",
+		"manischIds": [
+			369
+		]
+	},
+	{
+		"id": 899,
+		"german": "Nähen, das",
+		"manischIds": [
+			899
+		]
+	},
+	{
+		"id": 900,
+		"german": "Naht",
+		"manischIds": [
+			900
+		]
+	},
+	{
+		"id": 901,
+		"german": "Namen",
+		"manischIds": [
+			901
+		]
+	},
+	{
+		"id": 902,
+		"german": "Narr",
+		"manischIds": [
+			158,
+			159,
+			863
+		]
+	},
+	{
+		"id": 905,
+		"german": "närrisch",
+		"manischIds": [
+			157
+		]
+	},
+	{
+		"id": 906,
+		"german": "Nase",
+		"manischIds": [
+			906,
+			907
+		]
+	},
+	{
+		"id": 908,
+		"german": "Nasenfahrrad (Brille)",
+		"manischIds": [
+			177
+		]
+	},
+	{
+		"id": 909,
+		"german": "nass",
+		"manischIds": [
+			342
+		]
+	},
+	{
+		"id": 910,
+		"german": "Nebel",
+		"manischIds": [
+			212
+		]
+	},
+	{
+		"id": 911,
+		"german": "neben",
+		"manischIds": [
+			911
+		]
+	},
+	{
+		"id": 912,
+		"german": "nebenan",
+		"manischIds": [
+			911
+		]
+	},
+	{
+		"id": 913,
+		"german": "nebendran",
+		"manischIds": [
+			911
+		]
+	},
+	{
+		"id": 914,
+		"german": "Neger",
+		"manischIds": [
+			259,
+			719,
+			916
+		]
+	},
+	{
+		"id": 917,
+		"german": "nehmen",
+		"manischIds": [
+			103,
+			446
+		]
+	},
+	{
+		"id": 919,
+		"german": "nein",
+		"manischIds": [
+			690
+		]
+	},
+	{
+		"id": 920,
+		"german": "Neugieriger",
+		"manischIds": [
+			920
+		]
+	},
+	{
+		"id": 921,
+		"german": "neun",
+		"manischIds": [
+			921
+		]
+	},
+	{
+		"id": 922,
+		"german": "Neustadt",
+		"manischIds": [
+			922
+		]
+	},
+	{
+		"id": 923,
+		"german": "nicht",
+		"manischIds": [
+			690
+		]
+	},
+	{
+		"id": 924,
+		"german": "Nichtzigeuner",
+		"manischIds": [
+			924,
+			925
+		]
+	},
+	{
+		"id": 926,
+		"german": "Nichtzigeuner (abfällige Bezeichnung für die nach Zigeunerart lebenden Nichtzigeuner)",
+		"manischIds": [
+			926
+		]
+	},
+	{
+		"id": 927,
+		"german": "niemand",
+		"manischIds": [
+			927
+		]
+	},
+	{
+		"id": 928,
+		"german": "nirgends",
+		"manischIds": [
+			928
+		]
+	},
+	{
+		"id": 929,
+		"german": "nirgendwo",
+		"manischIds": [
+			928
+		]
+	},
+	{
+		"id": 930,
+		"german": "Nr.1 Frau",
+		"manischIds": [
+			396
+		]
+	},
+	{
+		"id": 931,
+		"german": "nüchtern",
+		"manischIds": [
+			931,
+			932
+		]
+	},
+	{
+		"id": 933,
+		"german": "Nutte",
+		"manischIds": [
+			230,
+			933
+		]
+	},
+	{
+		"id": 935,
+		"german": "oben",
+		"manischIds": [
+			935
+		]
+	},
+	{
+		"id": 936,
+		"german": "Ofen",
+		"manischIds": [
+			602
+		]
+	},
+	{
+		"id": 937,
+		"german": "ohnmächtig",
+		"manischIds": [
+			937
+		]
+	},
+	{
+		"id": 938,
+		"german": "Ohr",
+		"manischIds": [
+			938
+		]
+	},
+	{
+		"id": 939,
+		"german": "Ohren",
+		"manischIds": [
+			939
+		]
+	},
+	{
+		"id": 940,
+		"german": "Öl",
+		"manischIds": [
+			940
+		]
+	},
+	{
+		"id": 941,
+		"german": "Pass auf!",
+		"manischIds": [
+			941
+		]
+	},
+	{
+		"id": 942,
+		"german": "Peitsche",
+		"manischIds": [
+			942
+		]
+	},
+	{
+		"id": 943,
+		"german": "Penis",
+		"manischIds": [
+			44,
+			944
+		]
+	},
+	{
+		"id": 945,
+		"german": "Pfanne",
+		"manischIds": [
+			289
+		]
+	},
+	{
+		"id": 946,
+		"german": "Pfarrer (e.v.)",
+		"manischIds": [
+			629
+		]
+	},
+	{
+		"id": 947,
+		"german": "Pfarrer (kath.)",
+		"manischIds": [
+			947
+		]
+	},
+	{
+		"id": 948,
+		"german": "pfeifen",
+		"manischIds": [
+			948
+		]
+	},
+	{
+		"id": 949,
+		"german": "Pfeifen, das",
+		"manischIds": [
+			949
+		]
+	},
+	{
+		"id": 950,
+		"german": "Pfiff",
+		"manischIds": [
+			949
+		]
+	},
+	{
+		"id": 951,
+		"german": "Pferd",
+		"manischIds": [
+			951
+		]
+	},
+	{
+		"id": 952,
+		"german": "Pferdefleisch",
+		"manischIds": [
+			952
+		]
+	},
+	{
+		"id": 953,
+		"german": "Pferdehändler",
+		"manischIds": [
+			953,
+			954
+		]
+	},
+	{
+		"id": 955,
+		"german": "Pferdemetzger",
+		"manischIds": [
+			955
+		]
+	},
+	{
+		"id": 956,
+		"german": "Pissoir",
+		"manischIds": [
+			956
+		]
+	},
+	{
+		"id": 957,
+		"german": "Pistole",
+		"manischIds": [
+			515
+		]
+	},
+	{
+		"id": 958,
+		"german": "plärren",
+		"manischIds": [
+			958
+		]
+	},
+	{
+		"id": 959,
+		"german": "Platz",
+		"manischIds": [
+			237
+		]
+	},
+	{
+		"id": 960,
+		"german": "Polizei",
+		"manischIds": [
+			960,
+			961,
+			962,
+			963,
+			964
+		]
+	},
+	{
+		"id": 965,
+		"german": "Polizeiwache",
+		"manischIds": [
+			962,
+			964
+		]
+	},
+	{
+		"id": 967,
+		"german": "Polizist",
+		"manischIds": [
+			960,
+			961,
+			963,
+			967,
+			970,
+			971,
+			972,
+			973,
+			975
+		]
+	},
+	{
+		"id": 976,
+		"german": "Pritschenwagen",
+		"manischIds": [
+			71
+		]
+	},
+	{
+		"id": 977,
+		"german": "Prostituierte",
+		"manischIds": [
+			230,
+			933
+		]
+	},
+	{
+		"id": 979,
+		"german": "Prügel",
+		"manischIds": [
+			610,
+			979
+		]
+	},
+	{
+		"id": 981,
+		"german": "prügeln",
+		"manischIds": [
+			580
+		]
+	},
+	{
+		"id": 982,
+		"german": "Qualm",
+		"manischIds": [
+			982
+		]
+	},
+	{
+		"id": 983,
+		"german": "qualmen",
+		"manischIds": [
+			983
+		]
+	},
+	{
+		"id": 984,
+		"german": "Quelle, die",
+		"manischIds": [
+			187
+		]
+	},
+	{
+		"id": 985,
+		"german": "Rahm",
+		"manischIds": [
+			985
+		]
+	},
+	{
+		"id": 986,
+		"german": "Raub",
+		"manischIds": [
+			226,
+			986,
+			988
+		]
+	},
+	{
+		"id": 989,
+		"german": "Räuber",
+		"manischIds": [
+			224
+		]
+	},
+	{
+		"id": 990,
+		"german": "Rauch",
+		"manischIds": [
+			982
+		]
+	},
+	{
+		"id": 991,
+		"german": "rauchen",
+		"manischIds": [
+			983,
+			991,
+			993
+		]
+	},
+	{
+		"id": 994,
+		"german": "Raufbold",
+		"manischIds": [
+			994,
+			995
+		]
+	},
+	{
+		"id": 996,
+		"german": "Rausch",
+		"manischIds": [
+			996
+		]
+	},
+	{
+		"id": 997,
+		"german": "rechen",
+		"manischIds": [
+			687
+		]
+	},
+	{
+		"id": 998,
+		"german": "recht",
+		"manischIds": [
+			271
+		]
+	},
+	{
+		"id": 999,
+		"german": "Rechtsanwalt",
+		"manischIds": [
+			494
+		]
+	},
+	{
+		"id": 1000,
+		"german": "Rede",
+		"manischIds": [
+			1000
+		]
+	},
+	{
+		"id": 1001,
+		"german": "reden",
+		"manischIds": [
+			1001,
+			1002,
+			1003,
+			1004
+		]
+	},
+	{
+		"id": 1005,
+		"german": "Redner",
+		"manischIds": [
+			1005
+		]
+	},
+	{
+		"id": 1006,
+		"german": "Regen",
+		"manischIds": [
+			1006
+		]
+	},
+	{
+		"id": 1007,
+		"german": "Regenschirm",
+		"manischIds": [
+			920
+		]
+	},
+	{
+		"id": 1008,
+		"german": "reich",
+		"manischIds": [
+			1008
+		]
+	},
+	{
+		"id": 1009,
+		"german": "reichen",
+		"manischIds": [
+			1009
+		]
+	},
+	{
+		"id": 1010,
+		"german": "Reif, der",
+		"manischIds": [
+			287
+		]
+	},
+	{
+		"id": 1011,
+		"german": "reif",
+		"manischIds": [
+			404
+		]
+	},
+	{
+		"id": 1012,
+		"german": "rein",
+		"manischIds": [
+			1012
+		]
+	},
+	{
+		"id": 1013,
+		"german": "Reise",
+		"manischIds": [
+			373
+		]
+	},
+	{
+		"id": 1014,
+		"german": "reißen",
+		"manischIds": [
+			1014
+		]
+	},
+	{
+		"id": 1015,
+		"german": "rennen",
+		"manischIds": [
+			282,
+			283,
+			284,
+			320
+		]
+	},
+	{
+		"id": 1019,
+		"german": "Restaurant",
+		"manischIds": [
+			439
+		]
+	},
+	{
+		"id": 1020,
+		"german": "Revolver",
+		"manischIds": [
+			515,
+			1021
+		]
+	},
+	{
+		"id": 1022,
+		"german": "Richter",
+		"manischIds": [
+			494,
+			1023
+		]
+	},
+	{
+		"id": 1024,
+		"german": "richtig",
+		"manischIds": [
+			271
+		]
+	},
+	{
+		"id": 1025,
+		"german": "riechen",
+		"manischIds": [
+			1025
+		]
+	},
+	{
+		"id": 1026,
+		"german": "richen, übel",
+		"manischIds": [
+			1026
+		]
+	},
+	{
+		"id": 1027,
+		"german": "Ring",
+		"manischIds": [
+			1027
+		]
+	},
+	{
+		"id": 1028,
+		"german": "Rock",
+		"manischIds": [
+			653,
+			1029
+		]
+	},
+	{
+		"id": 1030,
+		"german": "rot",
+		"manischIds": [
+			1030
+		]
+	},
+	{
+		"id": 1031,
+		"german": "rothaarig",
+		"manischIds": [
+			1031
+		]
+	},
+	{
+		"id": 1032,
+		"german": "Rotkraut",
+		"manischIds": [
+			1032,
+			1033
+		]
+	},
+	{
+		"id": 1034,
+		"german": "Rotwein",
+		"manischIds": [
+			1034
+		]
+	},
+	{
+		"id": 1035,
+		"german": "Rowdy",
+		"manischIds": [
+			1035
+		]
+	},
+	{
+		"id": 1036,
+		"german": "rufen",
+		"manischIds": [
+			1036
+		]
+	},
+	{
+		"id": 1037,
+		"german": "ruhig",
+		"manischIds": [
+			1037,
+			1038,
+			1039
+		]
+	},
+	{
+		"id": 1040,
+		"german": "ruhig, sein",
+		"manischIds": [
+			1040
+		]
+	},
+	{
+		"id": 1041,
+		"german": "Ruhrgebiet",
+		"manischIds": [
+			1041
+		]
+	},
+	{
+		"id": 1042,
+		"german": "rund",
+		"manischIds": [
+			1042
+		]
+	},
+	{
+		"id": 1043,
+		"german": "Sack",
+		"manischIds": [
+			625
+		]
+	},
+	{
+		"id": 1044,
+		"german": "sagen",
+		"manischIds": [
+			1001,
+			1002,
+			1046
+		]
+	},
+	{
+		"id": 1047,
+		"german": "Sahne",
+		"manischIds": [
+			985
+		]
+	},
+	{
+		"id": 1048,
+		"german": "Salat",
+		"manischIds": [
+			1048
+		]
+	},
+	{
+		"id": 1049,
+		"german": "Salz",
+		"manischIds": [
+			1049,
+			1050
+		]
+	},
+	{
+		"id": 1051,
+		"german": "Sand",
+		"manischIds": [
+			1051
+		]
+	},
+	{
+		"id": 1052,
+		"german": "Sänger",
+		"manischIds": [
+			1052
+		]
+	},
+	{
+		"id": 1053,
+		"german": "satt",
+		"manischIds": [
+			1053
+		]
+	},
+	{
+		"id": 1054,
+		"german": "Sau",
+		"manischIds": [
+			1054
+		]
+	},
+	{
+		"id": 1055,
+		"german": "sauber",
+		"manischIds": [
+			1012
+		]
+	},
+	{
+		"id": 1056,
+		"german": "sauer",
+		"manischIds": [
+			1056
+		]
+	},
+	{
+		"id": 1057,
+		"german": "Sauerkraut",
+		"manischIds": [
+			782
+		]
+	},
+	{
+		"id": 1058,
+		"german": "saufen",
+		"manischIds": [
+			266,
+			1059
+		]
+	},
+	{
+		"id": 1060,
+		"german": "Saufen, das",
+		"manischIds": [
+			266
+		]
+	},
+	{
+		"id": 1061,
+		"german": "Sauferei",
+		"manischIds": [
+			266,
+			1062
+		]
+	},
+	{
+		"id": 1063,
+		"german": "saugen",
+		"manischIds": [
+			1063
+		]
+	},
+	{
+		"id": 1064,
+		"german": "Säugling",
+		"manischIds": [
+			186,
+			714
+		]
+	},
+	{
+		"id": 1066,
+		"german": "schaben",
+		"manischIds": [
+			780
+		]
+	},
+	{
+		"id": 1067,
+		"german": "Schaf",
+		"manischIds": [
+			1067
+		]
+	},
+	{
+		"id": 1068,
+		"german": "Scham",
+		"manischIds": [
+			1068,
+			1071,
+			1072
+		]
+	},
+	{
+		"id": 1069,
+		"german": "schämen, sich",
+		"manischIds": [
+			1069,
+			1070
+		]
+	},
+	{
+		"id": 1073,
+		"german": "Schande",
+		"manischIds": [
+			1072,
+			1073
+		]
+	},
+	{
+		"id": 1075,
+		"german": "schauen",
+		"manischIds": [
+			69,
+			107
+		]
+	},
+	{
+		"id": 1077,
+		"german": "Scheibe",
+		"manischIds": [
+			366
+		]
+	},
+	{
+		"id": 1078,
+		"german": "Scheibe (Brot)",
+		"manischIds": [
+			1078
+		]
+	},
+	{
+		"id": 1079,
+		"german": "schenken",
+		"manischIds": [
+			11
+		]
+	},
+	{
+		"id": 1080,
+		"german": "Schere",
+		"manischIds": [
+			235,
+			1081
+		]
+	},
+	{
+		"id": 1082,
+		"german": "Scheune",
+		"manischIds": [
+			1082
+		]
+	},
+	{
+		"id": 1083,
+		"german": "schieben",
+		"manischIds": [
+			1083
+		]
+	},
+	{
+		"id": 1084,
+		"german": "schimpfen",
+		"manischIds": [
+			1084
+		]
+	},
+	{
+		"id": 1085,
+		"german": "Schlaf",
+		"manischIds": [
+			96,
+			1085
+		]
+	},
+	{
+		"id": 1087,
+		"german": "schlafen",
+		"manischIds": [
+			32,
+			1001,
+			1085,
+			1087,
+			1089
+		]
+	},
+	{
+		"id": 1092,
+		"german": "Schlag",
+		"manischIds": [
+			606,
+			979
+		]
+	},
+	{
+		"id": 1094,
+		"german": "Schläge",
+		"manischIds": [
+			608,
+			609,
+			610,
+			1096
+		]
+	},
+	{
+		"id": 1098,
+		"german": "schlagen",
+		"manischIds": [
+			250,
+			533,
+			580,
+			581
+		]
+	},
+	{
+		"id": 1102,
+		"german": "Schläger",
+		"manischIds": [
+			994,
+			1103
+		]
+	},
+	{
+		"id": 1104,
+		"german": "Schlägerei",
+		"manischIds": [
+			1104
+		]
+	},
+	{
+		"id": 1105,
+		"german": "Schlange",
+		"manischIds": [
+			1105
+		]
+	},
+	{
+		"id": 1106,
+		"german": "schlau",
+		"manischIds": [
+			488
+		]
+	},
+	{
+		"id": 1107,
+		"german": "schlecht",
+		"manischIds": [
+			156,
+			331,
+			706,
+			1110,
+			1111
+		]
+	},
+	{
+		"id": 1112,
+		"german": "schleifen",
+		"manischIds": [
+			1014
+		]
+	},
+	{
+		"id": 1113,
+		"german": "Schluck",
+		"manischIds": [
+			519
+		]
+	},
+	{
+		"id": 1114,
+		"german": "Schlüssel",
+		"manischIds": [
+			1114,
+			1115,
+			1116
+		]
+	},
+	{
+		"id": 1117,
+		"german": "Schmand",
+		"manischIds": [
+			985
+		]
+	},
+	{
+		"id": 1118,
+		"german": "schmeißen",
+		"manischIds": [
+			1118
+		]
+	},
+	{
+		"id": 1119,
+		"german": "Schmied",
+		"manischIds": [
+			1119
+		]
+	},
+	{
+		"id": 1120,
+		"german": "Schmutz",
+		"manischIds": [
+			242
+		]
+	},
+	{
+		"id": 1121,
+		"german": "schmutzig",
+		"manischIds": [
+			1121
+		]
+	},
+	{
+		"id": 1122,
+		"german": "schnappen",
+		"manischIds": [
+			533
+		]
+	},
+	{
+		"id": 1123,
+		"german": "Schnecke",
+		"manischIds": [
+			1123
+		]
+	},
+	{
+		"id": 1124,
+		"german": "schneiden",
+		"manischIds": [
+			1124
+		]
+	},
+	{
+		"id": 1125,
+		"german": "Schneider",
+		"manischIds": [
+			1125
+		]
+	},
+	{
+		"id": 1126,
+		"german": "Schneiderin",
+		"manischIds": [
+			1126
+		]
+	},
+	{
+		"id": 1127,
+		"german": "schnell",
+		"manischIds": [
+			281
+		]
+	},
+	{
+		"id": 1128,
+		"german": "schnell, sehr",
+		"manischIds": [
+			1128
+		]
+	},
+	{
+		"id": 1129,
+		"german": "schnell sein",
+		"manischIds": [
+			285
+		]
+	},
+	{
+		"id": 1130,
+		"german": "Schnelligkeit",
+		"manischIds": [
+			281
+		]
+	},
+	{
+		"id": 1131,
+		"german": "Schnitt",
+		"manischIds": [
+			1131
+		]
+	},
+	{
+		"id": 1132,
+		"german": "schön",
+		"manischIds": [
+			271,
+			404,
+			548,
+			549,
+			632,
+			633,
+			661,
+			763
+		]
+	},
+	{
+		"id": 1140,
+		"german": "Schornstein",
+		"manischIds": [
+			1140
+		]
+	},
+	{
+		"id": 1141,
+		"german": "Schreiben",
+		"manischIds": [
+			140,
+			1142
+		]
+	},
+	{
+		"id": 1143,
+		"german": "Schreiber",
+		"manischIds": [
+			8
+		]
+	},
+	{
+		"id": 1144,
+		"german": "Schrift",
+		"manischIds": [
+			1131
+		]
+	},
+	{
+		"id": 1145,
+		"german": "Schrott",
+		"manischIds": [
+			240
+		]
+	},
+	{
+		"id": 1146,
+		"german": "Schuh",
+		"manischIds": [
+			1146,
+			1147,
+			1148,
+			1149
+		]
+	},
+	{
+		"id": 1150,
+		"german": "Schuld",
+		"manischIds": [
+			476,
+			477
+		]
+	},
+	{
+		"id": 1152,
+		"german": "Schulden",
+		"manischIds": [
+			476,
+			477
+		]
+	},
+	{
+		"id": 1154,
+		"german": "Schule",
+		"manischIds": [
+			1154,
+			1155
+		]
+	},
+	{
+		"id": 1156,
+		"german": "Schürze",
+		"manischIds": [
+			1156
+		]
+	},
+	{
+		"id": 1157,
+		"german": "Schüssel",
+		"manischIds": [
+			1157
+		]
+	},
+	{
+		"id": 1158,
+		"german": "Schuster",
+		"manischIds": [
+			1158,
+			1159
+		]
+	},
+	{
+		"id": 1160,
+		"german": "Schütze",
+		"manischIds": [
+			1160
+		]
+	},
+	{
+		"id": 1161,
+		"german": "Schwager",
+		"manischIds": [
+			1161
+		]
+	},
+	{
+		"id": 1162,
+		"german": "Schwägerin",
+		"manischIds": [
+			1162
+		]
+	},
+	{
+		"id": 1163,
+		"german": "schwanger",
+		"manischIds": [
+			216,
+			1164
+		]
+	},
+	{
+		"id": 1165,
+		"german": "Schwanz",
+		"manischIds": [
+			1165
+		]
+	},
+	{
+		"id": 1166,
+		"german": "schwarz",
+		"manischIds": [
+			259,
+			260
+		]
+	},
+	{
+		"id": 1168,
+		"german": "Schwarzbrot",
+		"manischIds": [
+			1168
+		]
+	},
+	{
+		"id": 1169,
+		"german": "schweigen",
+		"manischIds": [
+			1040
+		]
+	},
+	{
+		"id": 1170,
+		"german": "Schwein",
+		"manischIds": [
+			1170
+		]
+	},
+	{
+		"id": 1171,
+		"german": "Schweinefleisch",
+		"manischIds": [
+			1171
+		]
+	},
+	{
+		"id": 1172,
+		"german": "Schweinerei",
+		"manischIds": [
+			1172
+		]
+	},
+	{
+		"id": 1173,
+		"german": "Schwer",
+		"manischIds": [
+			1164
+		]
+	},
+	{
+		"id": 1174,
+		"german": "Schwester",
+		"manischIds": [
+			778
+		]
+	},
+	{
+		"id": 1175,
+		"german": "Schwimmbad",
+		"manischIds": [
+			167
+		]
+	},
+	{
+		"id": 1176,
+		"german": "schwimmen",
+		"manischIds": [
+			1176
+		]
+	},
+	{
+		"id": 1177,
+		"german": "sechs",
+		"manischIds": [
+			1177
+		]
+	},
+	{
+		"id": 1178,
+		"german": "See, der",
+		"manischIds": [
+			167
+		]
+	},
+	{
+		"id": 1179,
+		"german": "See, die",
+		"manischIds": [
+			167
+		]
+	},
+	{
+		"id": 1180,
+		"german": "sehen",
+		"manischIds": [
+			57,
+			68,
+			69,
+			107,
+			691,
+			1040
+		]
+	},
+	{
+		"id": 1186,
+		"german": "Sprache",
+		"manischIds": [
+			1000
+		]
+	},
+	{
+		"id": 1187,
+		"german": "sprechen",
+		"manischIds": [
+			1001,
+			1002,
+			1003
+		]
+	},
+	{
+		"id": 1190,
+		"german": "Spucke",
+		"manischIds": [
+			1190
+		]
+	},
+	{
+		"id": 1191,
+		"german": "spucken",
+		"manischIds": [
+			1191
+		]
+	},
+	{
+		"id": 1192,
+		"german": "Staatsanwalt",
+		"manischIds": [
+			1192
+		]
+	},
+	{
+		"id": 1193,
+		"german": "Stadt",
+		"manischIds": [
+			1193
+		]
+	},
+	{
+		"id": 1194,
+		"german": "Stall",
+		"manischIds": [
+			1194,
+			1195
+		]
+	},
+	{
+		"id": 1196,
+		"german": "Stecken (Stock)",
+		"manischIds": [
+			627,
+			1196,
+			1198
+		]
+	},
+	{
+		"id": 1199,
+		"german": "stehen",
+		"manischIds": [
+			1199
+		]
+	},
+	{
+		"id": 1200,
+		"german": "stehlen",
+		"manischIds": [
+			446,
+			726,
+			1201
+		]
+	},
+	{
+		"id": 1203,
+		"german": "Stein",
+		"manischIds": [
+			1203
+		]
+	},
+	{
+		"id": 1204,
+		"german": "stellen",
+		"manischIds": [
+			806
+		]
+	},
+	{
+		"id": 1205,
+		"german": "sterben",
+		"manischIds": [
+			1205
+		]
+	},
+	{
+		"id": 1206,
+		"german": "Stern",
+		"manischIds": [
+			1206
+		]
+	},
+	{
+		"id": 1207,
+		"german": "Stiefel",
+		"manischIds": [
+			1148
+		]
+	},
+	{
+		"id": 1208,
+		"german": "still",
+		"manischIds": [
+			1208
+		]
+	},
+	{
+		"id": 1209,
+		"german": "stinken",
+		"manischIds": [
+			1026,
+			1209,
+			1210
+		]
+	},
+	{
+		"id": 1212,
+		"german": "Stock",
+		"manischIds": [
+			627,
+			1196,
+			1198
+		]
+	},
+	{
+		"id": 1215,
+		"german": "Stoff",
+		"manischIds": [
+			734
+		]
+	},
+	{
+		"id": 1216,
+		"german": "stolz",
+		"manischIds": [
+			763
+		]
+	},
+	{
+		"id": 1217,
+		"german": "Storch",
+		"manischIds": [
+			1217
+		]
+	},
+	{
+		"id": 1218,
+		"german": "stoßen",
+		"manischIds": [
+			1083,
+			1199
+		]
+	},
+	{
+		"id": 1220,
+		"german": "Strafe",
+		"manischIds": [
+			1164
+		]
+	},
+	{
+		"id": 1221,
+		"german": "Straße",
+		"manischIds": [
+			1221,
+			1222,
+			1223
+		]
+	},
+	{
+		"id": 1224,
+		"german": "Streichholz",
+		"manischIds": [
+			1224
+		]
+	},
+	{
+		"id": 1225,
+		"german": "Streit",
+		"manischIds": [
+			1225
+		]
+	},
+	{
+		"id": 1226,
+		"german": "streiten",
+		"manischIds": [
+			1084,
+			1227
+		]
+	},
+	{
+		"id": 1228,
+		"german": "streitsüchtig",
+		"manischIds": [
+			1228
+		]
+	},
+	{
+		"id": 1229,
+		"german": "Strick",
+		"manischIds": [
+			812
+		]
+	},
+	{
+		"id": 1230,
+		"german": "Stroh",
+		"manischIds": [
+			1230
+		]
+	},
+	{
+		"id": 1231,
+		"german": "Strumpf",
+		"manischIds": [
+			1231,
+			1232
+		]
+	},
+	{
+		"id": 1233,
+		"german": "Stück",
+		"manischIds": [
+			181,
+			1078
+		]
+	},
+	{
+		"id": 1235,
+		"german": "Stuhl",
+		"manischIds": [
+			1235
+		]
+	},
+	{
+		"id": 1236,
+		"german": "stürzen",
+		"manischIds": [
+			427,
+			428
+		]
+	},
+	{
+		"id": 1238,
+		"german": "Stute",
+		"manischIds": [
+			1238
+		]
+	},
+	{
+		"id": 1239,
+		"german": "suchen",
+		"manischIds": [
+			1239
+		]
+	},
+	{
+		"id": 1240,
+		"german": "Suppe",
+		"manischIds": [
+			1240
+		]
+	},
+	{
+		"id": 1241,
+		"german": "Syphilis",
+		"manischIds": [
+			1241
+		]
+	},
+	{
+		"id": 1242,
+		"german": "Tabak",
+		"manischIds": [
+			1242,
+			1243
+		]
+	},
+	{
+		"id": 1244,
+		"german": "tabu",
+		"manischIds": [
+			1172
+		]
+	},
+	{
+		"id": 1245,
+		"german": "Tag",
+		"manischIds": [
+			1245
+		]
+	},
+	{
+		"id": 1246,
+		"german": "Tag, guten (Gruß)",
+		"manischIds": [
+			1246
+		]
+	},
+	{
+		"id": 1247,
+		"german": "tanzen",
+		"manischIds": [
+			1247
+		]
+	},
+	{
+		"id": 1248,
+		"german": "Tasche",
+		"manischIds": [
+			473
+		]
+	},
+	{
+		"id": 1249,
+		"german": "Tasse",
+		"manischIds": [
+			709,
+			1249
+		]
+	},
+	{
+		"id": 1251,
+		"german": "Tau (Niederschlag)",
+		"manischIds": [
+			287
+		]
+	},
+	{
+		"id": 1252,
+		"german": "Tausch",
+		"manischIds": [
+			568
+		]
+	},
+	{
+		"id": 1253,
+		"german": "tauschen",
+		"manischIds": [
+			1253
+		]
+	},
+	{
+		"id": 1254,
+		"german": "Tauschhandel",
+		"manischIds": [
+			568
+		]
+	},
+	{
+		"id": 1255,
+		"german": "tausend",
+		"manischIds": [
+			1255
+		]
+	},
+	{
+		"id": 1256,
+		"german": "Teich",
+		"manischIds": [
+			167
+		]
+	},
+	{
+		"id": 1257,
+		"german": "teuer",
+		"manischIds": [
+			1257,
+			1258,
+			1259
+		]
+	},
+	{
+		"id": 1260,
+		"german": "Teufel",
+		"manischIds": [
+			1260
+		]
+	},
+	{
+		"id": 1261,
+		"german": "Tinte",
+		"manischIds": [
+			1261
+		]
+	},
+	{
+		"id": 1262,
+		"german": "Tisch",
+		"manischIds": [
+			1235
+		]
+	},
+	{
+		"id": 1263,
+		"german": "Tischtuch",
+		"manischIds": [
+			1263
+		]
+	},
+	{
+		"id": 1264,
+		"german": "Tochter",
+		"manischIds": [
+			394
+		]
+	},
+	{
+		"id": 1265,
+		"german": "Tod",
+		"manischIds": [
+			1265,
+			1266
+		]
+	},
+	{
+		"id": 1269,
+		"german": "Ton",
+		"manischIds": [
+			295
+		]
+	},
+	{
+		"id": 1270,
+		"german": "Topf",
+		"manischIds": [
+			709
+		]
+	},
+	{
+		"id": 1271,
+		"german": "tot",
+		"manischIds": [
+			296,
+			505
+		]
+	},
+	{
+		"id": 1273,
+		"german": "töten",
+		"manischIds": [
+			876
+		]
+	},
+	{
+		"id": 1274,
+		"german": "Toten, die",
+		"manischIds": [
+			1274
+		]
+	},
+	{
+		"id": 1275,
+		"german": "Toter",
+		"manischIds": [
+			296
+		]
+	},
+	{
+		"id": 1276,
+		"german": "Totschlag",
+		"manischIds": [
+			875,
+			1265,
+			1278
+		]
+	},
+	{
+		"id": 1279,
+		"german": "tragen",
+		"manischIds": [
+			1279
+		]
+	},
+	{
+		"id": 1280,
+		"german": "Tragen",
+		"manischIds": [
+			1280
+		]
+	},
+	{
+		"id": 1281,
+		"german": "Träger",
+		"manischIds": [
+			1281
+		]
+	},
+	{
+		"id": 1282,
+		"german": "Trainingspartner",
+		"manischIds": [
+			1282
+		]
+	},
+	{
+		"id": 1283,
+		"german": "trainieren",
+		"manischIds": [
+			1283
+		]
+	},
+	{
+		"id": 1284,
+		"german": "Transport",
+		"manischIds": [
+			1284
+		]
+	},
+	{
+		"id": 1285,
+		"german": "traurig",
+		"manischIds": [
+			43
+		]
+	},
+	{
+		"id": 1286,
+		"german": "treffen",
+		"manischIds": [
+			1286
+		]
+	},
+	{
+		"id": 1287,
+		"german": "treten",
+		"manischIds": [
+			1199
+		]
+	},
+	{
+		"id": 1288,
+		"german": "trinken",
+		"manischIds": [
+			103,
+			266,
+			1289
+		]
+	},
+	{
+		"id": 1291,
+		"german": "Trinken",
+		"manischIds": [
+			266
+		]
+	},
+	{
+		"id": 1292,
+		"german": "Trinker",
+		"manischIds": [
+			1292,
+			1293
+		]
+	},
+	{
+		"id": 1294,
+		"german": "Tritt",
+		"manischIds": [
+			1294
+		]
+	},
+	{
+		"id": 1295,
+		"german": "trocken",
+		"manischIds": [
+			1295
+		]
+	},
+	{
+		"id": 1296,
+		"german": "Trottel",
+		"manischIds": [
+			162,
+			256
+		]
+	},
+	{
+		"id": 1298,
+		"german": "trotzdem",
+		"manischIds": [
+			1298
+		]
+	},
+	{
+		"id": 1299,
+		"german": "Trunkenheit",
+		"manischIds": [
+			996
+		]
+	},
+	{
+		"id": 1300,
+		"german": "Tuch",
+		"manischIds": [
+			1263
+		]
+	},
+	{
+		"id": 1301,
+		"german": "tun",
+		"manischIds": [
+			825
+		]
+	},
+	{
+		"id": 1302,
+		"german": "Tür",
+		"manischIds": [
+			587,
+			1303,
+			1304
+		]
+	},
+	{
+		"id": 1305,
+		"german": "Uhr",
+		"manischIds": [
+			1305,
+			1306,
+			1307,
+			1308,
+			1309
+		]
+	},
+	{
+		"id": 1310,
+		"german": "unangenehm",
+		"manischIds": [
+			331
+		]
+	},
+	{
+		"id": 1311,
+		"german": "unangenehm, sehr",
+		"manischIds": [
+			332
+		]
+	},
+	{
+		"id": 1312,
+		"german": "Unfug",
+		"manischIds": [
+			444
+		]
+	},
+	{
+		"id": 1313,
+		"german": "Unglück",
+		"manischIds": [
+			1313
+		]
+	},
+	{
+		"id": 1314,
+		"german": "Unrat",
+		"manischIds": [
+			240
+		]
+	},
+	{
+		"id": 1315,
+		"german": "unschuldig",
+		"manischIds": [
+			1315
+		]
+	},
+	{
+		"id": 1316,
+		"german": "Unsinn",
+		"manischIds": [
+			165,
+			444,
+			1317
+		]
+	},
+	{
+		"id": 1319,
+		"german": "unten",
+		"manischIds": [
+			1319
+		]
+	},
+	{
+		"id": 1320,
+		"german": "unten herum",
+		"manischIds": [
+			1319
+		]
+	},
+	{
+		"id": 1321,
+		"german": "Unterhose(n)",
+		"manischIds": [
+			1321
+		]
+	},
+	{
+		"id": 1322,
+		"german": "Unterrock",
+		"manischIds": [
+			1322
+		]
+	},
+	{
+		"id": 1323,
+		"german": "unterrichten",
+		"manischIds": [
+			807
+		]
+	},
+	{
+		"id": 1324,
+		"german": "Unterricht",
+		"manischIds": [
+			1324
+		]
+	},
+	{
+		"id": 1325,
+		"german": "untersuchen",
+		"manischIds": [
+			1239
+		]
+	},
+	{
+		"id": 1326,
+		"german": "unwohl",
+		"manischIds": [
+			776
+		]
+	},
+	{
+		"id": 1327,
+		"german": "Urin",
+		"manischIds": [
+			1327
+		]
+	},
+	{
+		"id": 1328,
+		"german": "urinieren",
+		"manischIds": [
+			429,
+			1328,
+			1329,
+			1330,
+			1332,
+			1333
+		]
+	},
+	{
+		"id": 1334,
+		"german": "Vagina",
+		"manischIds": [
+			424,
+			738,
+			739,
+			1334,
+			1335,
+			1338
+		]
+	},
+	{
+		"id": 1340,
+		"german": "Vater",
+		"manischIds": [
+			275,
+			1341
+		]
+	},
+	{
+		"id": 1342,
+		"german": "vergewaltigen",
+		"manischIds": [
+			117
+		]
+	},
+	{
+		"id": 1343,
+		"german": "verhaften",
+		"manischIds": [
+			250,
+			300
+		]
+	},
+	{
+		"id": 1345,
+		"german": "verhauen",
+		"manischIds": [
+			1345
+		]
+	},
+	{
+		"id": 1346,
+		"german": "verheiratet",
+		"manischIds": [
+			847
+		]
+	},
+	{
+		"id": 1347,
+		"german": "Verhör",
+		"manischIds": [
+			1347
+		]
+	},
+	{
+		"id": 1348,
+		"german": "verkommen",
+		"manischIds": [
+			706
+		]
+	},
+	{
+		"id": 1349,
+		"german": "vermögend",
+		"manischIds": [
+			1349
+		]
+	},
+	{
+		"id": 1350,
+		"german": "verprügeln",
+		"manischIds": [
+			1350,
+			1351
+		]
+	},
+	{
+		"id": 1352,
+		"german": "Verrat",
+		"manischIds": [
+			93
+		]
+	},
+	{
+		"id": 1353,
+		"german": "verrückt",
+		"manischIds": [
+			156,
+			157,
+			1354,
+			1355
+		]
+	},
+	{
+		"id": 1357,
+		"german": "Verrückter",
+		"manischIds": [
+			158,
+			863
+		]
+	},
+	{
+		"id": 1359,
+		"german": "verrufen",
+		"manischIds": [
+			1172
+		]
+	},
+	{
+		"id": 1360,
+		"german": "verstecken",
+		"manischIds": [
+			1360
+		]
+	},
+	{
+		"id": 1361,
+		"german": "verstehen",
+		"manischIds": [
+			20,
+			89,
+			1003,
+			1364
+		]
+	},
+	{
+		"id": 1365,
+		"german": "viel",
+		"manischIds": [
+			1257
+		]
+	},
+	{
+		"id": 1366,
+		"german": "vier",
+		"manischIds": [
+			1366
+		]
+	},
+	{
+		"id": 1367,
+		"german": "Vogel",
+		"manischIds": [
+			1367,
+			1368
+		]
+	},
+	{
+		"id": 1369,
+		"german": "Volksfest",
+		"manischIds": [
+			656
+		]
+	},
+	{
+		"id": 1370,
+		"german": "Voyeur",
+		"manischIds": [
+			123,
+			920
+		]
+	},
+	{
+		"id": 1372,
+		"german": "wach werden",
+		"manischIds": [
+			58
+		]
+	},
+	{
+		"id": 1373,
+		"german": "Wachs",
+		"manischIds": [
+			707
+		]
+	},
+	{
+		"id": 1374,
+		"german": "Wagen",
+		"manischIds": [
+			71
+		]
+	},
+	{
+		"id": 1375,
+		"german": "wahr",
+		"manischIds": [
+			271
+		]
+	},
+	{
+		"id": 1376,
+		"german": "Wahrheit",
+		"manischIds": [
+			478
+		]
+	},
+	{
+		"id": 1377,
+		"german": "wahrsagen",
+		"manischIds": [
+			1377
+		]
+	},
+	{
+		"id": 1378,
+		"german": "Wahrsagerin",
+		"manischIds": [
+			1378
+		]
+	},
+	{
+		"id": 1379,
+		"german": "Wald",
+		"manischIds": [
+			1379,
+			1380
+		]
+	},
+	{
+		"id": 1381,
+		"german": "Waldhüter (Förster)",
+		"manischIds": [
+			377
+		]
+	},
+	{
+		"id": 1382,
+		"german": "Wand",
+		"manischIds": [
+			1382,
+			1383
+		]
+	},
+	{
+		"id": 1384,
+		"german": "Wanderer",
+		"manischIds": [
+			432
+		]
+	},
+	{
+		"id": 1385,
+		"german": "Wange",
+		"manischIds": [
+			73
+		]
+	},
+	{
+		"id": 1386,
+		"german": "Wanne",
+		"manischIds": [
+			1386
+		]
+	},
+	{
+		"id": 1387,
+		"german": "Wanzen",
+		"manischIds": [
+			1387
+		]
+	},
+	{
+		"id": 1388,
+		"german": "Ware",
+		"manischIds": [
+			1388
+		]
+	},
+	{
+		"id": 1389,
+		"german": "warm",
+		"manischIds": [
+			1389
+		]
+	},
+	{
+		"id": 1390,
+		"german": "Wärme",
+		"manischIds": [
+			623
+		]
+	},
+	{
+		"id": 1391,
+		"german": "wärmen",
+		"manischIds": [
+			597
+		]
+	},
+	{
+		"id": 1392,
+		"german": "warten",
+		"manischIds": [
+			1392
+		]
+	},
+	{
+		"id": 1393,
+		"german": "Wäsche",
+		"manischIds": [
+			1393
+		]
+	},
+	{
+		"id": 1394,
+		"german": "waschen",
+		"manischIds": [
+			1394
+		]
+	},
+	{
+		"id": 1395,
+		"german": "Wasser",
+		"manischIds": [
+			1395
+		]
+	},
+	{
+		"id": 1396,
+		"german": "Wasserkessel",
+		"manischIds": [
+			708
+		]
+	},
+	{
+		"id": 1397,
+		"german": "Wasserwaage",
+		"manischIds": [
+			1397,
+			1398
+		]
+	},
+	{
+		"id": 1399,
+		"german": "Weg",
+		"manischIds": [
+			1221
+		]
+	},
+	{
+		"id": 1400,
+		"german": "weg",
+		"manischIds": [
+			55,
+			378,
+			1400
+		]
+	},
+	{
+		"id": 1403,
+		"german": "wegnehmen",
+		"manischIds": [
+			726
+		]
+	},
+	{
+		"id": 1404,
+		"german": "Weiberheld",
+		"manischIds": [
+			207
+		]
+	},
+	{
+		"id": 1405,
+		"german": "Weibstück",
+		"manischIds": [
+			1405
+		]
+	},
+	{
+		"id": 1406,
+		"german": "Wein",
+		"manischIds": [
+			1406
+		]
+	},
+	{
+		"id": 1407,
+		"german": "weinen",
+		"manischIds": [
+			1407
+		]
+	},
+	{
+		"id": 1408,
+		"german": "Weinen",
+		"manischIds": [
+			460
+		]
+	},
+	{
+		"id": 1409,
+		"german": "werfen",
+		"manischIds": [
+			1118
+		]
+	},
+	{
+		"id": 1410,
+		"german": "Wetter",
+		"manischIds": [
+			1410
+		]
+	},
+	{
+		"id": 1411,
+		"german": "Wiese",
+		"manischIds": [
+			1411
+		]
+	},
+	{
+		"id": 1412,
+		"german": "Winkel",
+		"manischIds": [
+			272
+		]
+	},
+	{
+		"id": 1413,
+		"german": "wir",
+		"manischIds": [
+			1413
+		]
+	},
+	{
+		"id": 1414,
+		"german": "Wirt",
+		"manischIds": [
+			442,
+			1414
+		]
+	},
+	{
+		"id": 1416,
+		"german": "Wirtin",
+		"manischIds": [
+			1416
+		]
+	},
+	{
+		"id": 1417,
+		"german": "Witzbold",
+		"manischIds": [
+			1417
+		]
+	},
+	{
+		"id": 1418,
+		"german": "Wohnung",
+		"manischIds": [
+			237,
+			1382,
+			1383
+		]
+	},
+	{
+		"id": 1421,
+		"german": "Wohnwagen",
+		"manischIds": [
+			71
+		]
+	},
+	{
+		"id": 1422,
+		"german": "Wollust",
+		"manischIds": [
+			462
+		]
+	},
+	{
+		"id": 1423,
+		"german": "Wurst",
+		"manischIds": [
+			228,
+			1423
+		]
+	},
+	{
+		"id": 1425,
+		"german": "Wut",
+		"manischIds": [
+			38
+		]
+	},
+	{
+		"id": 1426,
+		"german": "zahlen",
+		"manischIds": [
+			11
+		]
+	},
+	{
+		"id": 1427,
+		"german": "zählen",
+		"manischIds": [
+			687
+		]
+	},
+	{
+		"id": 1428,
+		"german": "Zahn",
+		"manischIds": [
+			1428
+		]
+	},
+	{
+		"id": 1429,
+		"german": "Zank",
+		"manischIds": [
+			1225
+		]
+	},
+	{
+		"id": 1430,
+		"german": "zanken",
+		"manischIds": [
+			111
+		]
+	},
+	{
+		"id": 1431,
+		"german": "Zauberei",
+		"manischIds": [
+			605
+		]
+	},
+	{
+		"id": 1432,
+		"german": "Zauberin",
+		"manischIds": [
+			1432
+		]
+	},
+	{
+		"id": 1433,
+		"german": "zaubern",
+		"manischIds": [
+			92
+		]
+	},
+	{
+		"id": 1434,
+		"german": "zehn",
+		"manischIds": [
+			1434
+		]
+	},
+	{
+		"id": 1435,
+		"german": "zeigen",
+		"manischIds": [
+			103,
+			807
+		]
+	},
+	{
+		"id": 1437,
+		"german": "Zeit",
+		"manischIds": [
+			1410
+		]
+	},
+	{
+		"id": 1438,
+		"german": "Zelt",
+		"manischIds": [
+			1438
+		]
+	},
+	{
+		"id": 1439,
+		"german": "zerbrochen",
+		"manischIds": [
+			296
+		]
+	},
+	{
+		"id": 1440,
+		"german": "Ziege",
+		"manischIds": [
+			1440
+		]
+	},
+	{
+		"id": 1441,
+		"german": "ziehen",
+		"manischIds": [
+			1014
+		]
+	},
+	{
+		"id": 1442,
+		"german": "Zigarette",
+		"manischIds": [
+			1442,
+			1443,
+			1444,
+			1445,
+			1446
+		]
+	},
+	{
+		"id": 1447,
+		"german": "Zigarettenkippe",
+		"manischIds": [
+			1447
+		]
+	},
+	{
+		"id": 1448,
+		"german": "Zigarre",
+		"manischIds": [
+			1448
+		]
+	},
+	{
+		"id": 1449,
+		"german": "Zigeuner",
+		"manischIds": [
+			259,
+			374,
+			1450
+		]
+	},
+	{
+		"id": 1452,
+		"german": "zigeunerisch",
+		"manischIds": [
+			1452
+		]
+	},
+	{
+		"id": 1453,
+		"german": "Zimmer",
+		"manischIds": [
+			1303,
+			1382,
+			1383
+		]
+	},
+	{
+		"id": 1456,
+		"german": "Zitze",
+		"manischIds": [
+			190
+		]
+	},
+	{
+		"id": 1457,
+		"german": "Zorn",
+		"manischIds": [
+			1457,
+			1458
+		]
+	},
+	{
+		"id": 1459,
+		"german": "Zorn haben",
+		"manischIds": [
+			40
+		]
+	},
+	{
+		"id": 1460,
+		"german": "zu",
+		"manischIds": [
+			489
+		]
+	},
+	{
+		"id": 1461,
+		"german": "Zuchthaus",
+		"manischIds": [
+			1461
+		]
+	},
+	{
+		"id": 1462,
+		"german": "Zucker",
+		"manischIds": [
+			1462
+		]
+	},
+	{
+		"id": 1463,
+		"german": "zuckern",
+		"manischIds": [
+			1463
+		]
+	},
+	{
+		"id": 1464,
+		"german": "Zugpferd",
+		"manischIds": [
+			1464
+		]
+	},
+	{
+		"id": 1465,
+		"german": "Zuhälter",
+		"manischIds": [
+			231,
+			1465
+		]
+	},
+	{
+		"id": 1467,
+		"german": "Zunge",
+		"manischIds": [
+			1467
+		]
+	},
+	{
+		"id": 1468,
+		"german": "Zwang",
+		"manischIds": [
+			512
+		]
+	},
+	{
+		"id": 1469,
+		"german": "zwanzig",
+		"manischIds": [
+			1469
+		]
+	},
+	{
+		"id": 1470,
+		"german": "zwei",
+		"manischIds": [
+			1470
+		]
+	},
+	{
+		"id": 1471,
+		"german": "zweiter",
+		"manischIds": [
+			13
+		]
+	},
+	{
+		"id": 1472,
+		"german": "Zweiter",
+		"manischIds": [
+			13
+		]
+	},
+	{
+		"id": 1473,
+		"german": "Zwiebel",
+		"manischIds": [
+			1473
+		]
+	},
+	{
+		"id": 1474,
+		"german": "zwingen",
+		"manischIds": [
+			117
+		]
+	}
+]

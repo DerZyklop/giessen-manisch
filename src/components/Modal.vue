@@ -1,11 +1,10 @@
 <script setup lang="ts">
 import { VueFinalModal } from 'vue-final-modal';
 import { useToast } from "vue-toastification";
-import type { Translation } from './utils';
-import { getRandomId } from './utils';
+import { GermanToManisch, getRandomId, getTranslationWords } from './utils';
 
 const props = defineProps<{
-	item: Translation,
+	item: GermanToManisch,
 	onRandom: (id: number) => void
 }>()
 
@@ -33,6 +32,9 @@ const copyToClipboard = (e: Event) => {
 		timeout: 2000
 	});
 }
+
+const multipleTranslations = props.item.manischIds.length > 1;
+const manischWords = getTranslationWords({german: props.item.german});
 </script>
 
 <template>
@@ -42,15 +44,15 @@ const copyToClipboard = (e: Event) => {
 		@update:model-value="val => emit('update:modelValue', val)"
 	>
 		<div class="flex items-center h-10 mb-3">
-			<h3 class="text-2xl grow">{{ item.german.join(', ') }}</h3>
+			<h3 class="text-2xl grow">{{ item.german }}</h3>
 			<button class="py-3 pl-3 text-2xl" style="margin-right: -1rem; padding-right: 1rem;" @click="emit('update:modelValue', false)">
 				<font-awesome-icon icon="fa-solid fa-remove" />
 			</button>
 		</div>
-		<p v-if="item.manisch.length > 1">Mögliche übersetzungen:</p>
+		<p v-if="multipleTranslations">Mögliche übersetzungen:</p>
 		<p v-else>Übersetzung:</p>
 		<div
-			v-for="word in item.manisch"
+			v-for="word in manischWords"
 			:key="word"
 			class="flex-grow flex items-center justify-center"
 		>

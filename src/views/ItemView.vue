@@ -14,7 +14,7 @@ if (!translation) throw new Error('Translation not found');
 
 <template>
   <div class="flex justify-between">
-    <strong>{{translation.german}}</strong>
-    <span>{{translation.manisch}}</span>
+    <strong>{{translation.germanIds}}</strong>
+    <span>{{translation.manischIds}}</span>
   </div>
 </template>

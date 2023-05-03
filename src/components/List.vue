@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { computed, ref } from 'vue'
-import { useRouter } from 'vue-router'
-import Item from './Item.vue'
-import { getModalFns } from './modal-fns'
-import { translations } from './utils'
+import { computed, ref } from 'vue';
+import { useRouter } from 'vue-router';
+import Item from './Item.vue';
+import { getModalFns } from './modal-fns';
+import { germanToManisch } from './utils';
 
 const idParam = useRouter().currentRoute.value.params.id ?? null;
 const translationId = idParam?.length ? +idParam : null;
@@ -18,13 +18,13 @@ const filterText = ref('')
 
 const visibleTranslations = computed(() => {
 	let filter = filterText.value
-	if (!filter.length) return translations;
-	return translations.filter(item => 
-		item.german.some(item =>
-			item.toLowerCase() === filter.toLowerCase()
-		)
-	)
-})
+	if (!filter.length) return germanToManisch;
+	
+	return germanToManisch.filter(
+		item => item.german.toLowerCase().includes(filter.toLowerCase())
+	);
+});
+
 </script>
 
 <template>
