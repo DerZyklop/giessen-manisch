@@ -18,8 +18,9 @@ nav {
 
 nav a {
   display: inline-block;
-  padding: 0 1rem;
+  padding: 0.2rem 1.2rem;
   border-left: 1px solid var(--color-border);
+  border-radius: 0.3em;
 }
 
 nav a:first-of-type {
