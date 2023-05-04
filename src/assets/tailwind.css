@@ -21,3 +21,11 @@
   @apply border-gray-400;
   @apply shadow;
 }
+.btn-dark {
+  @apply bg-dark;
+  @apply hover:bg-gray-700;
+  @apply active:bg-gray-800;
+  @apply text-white;
+  @apply border-gray-900;
+  @apply shadow;
+}

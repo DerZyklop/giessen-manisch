@@ -1,10 +1,10 @@
 import router from "@/router";
 import { useModal } from "vue-final-modal";
 import Modal from './Modal.vue';
-import { getTranslation } from "./utils";
+import { GermanToManisch, getTranslation, ManischToGerman } from "./utils";
 
-export const getModalFns = (translationId : number) => {
-	const translation = getTranslation(translationId);
+export const getModalFns = (translation : GermanToManisch | ManischToGerman | number) => {
+	if (typeof translation === 'number') translation = getTranslation(translation);
 
 	const result = useModal({
 		component: Modal,
