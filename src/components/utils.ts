@@ -66,7 +66,7 @@ export function getTranslationEntry(input: {
 			} else {
 				return item.manisch === input.manisch;
 			}
-		});
+		})!;
 	} else if ('german' in input) {
 		return germanToManisch.find((item) => {
 			if (typeof input.german === 'number') {
@@ -74,7 +74,7 @@ export function getTranslationEntry(input: {
 			} else {
 				return item.german === input.german;
 			}
-		});
+		})!;
 	} else {
 		throw new Error('Translation not found');
 	}
