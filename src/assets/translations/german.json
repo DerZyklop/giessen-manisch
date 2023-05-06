@@ -6312,6 +6312,7 @@
 		"id": 1265,
 		"german": "Tod",
 		"manischIds": [
+			296,
 			1265,
 			1266
 		]
@@ -6364,6 +6365,7 @@
 		"german": "Totschlag",
 		"manischIds": [
 			875,
+			296,
 			1265,
 			1278
 		]
