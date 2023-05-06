@@ -19,8 +19,15 @@ const router = createRouter({
       component: () => import('../views/AboutView.vue')
     },
     {
-      path: '/translation/:id/',
-      name: 'translation',
+      path: '/translation/manisch/:manischId/',
+      name: 'manisch to german',
+      props: true,
+      // component: () => import('../views/ItemView.vue')
+      component: HomeView
+    },
+    {
+      path: '/translation/german/:germanId/',
+      name: 'german to manisch',
       props: true,
       // component: () => import('../views/ItemView.vue')
       component: HomeView

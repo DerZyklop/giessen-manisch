@@ -1,11 +1,18 @@
 <script setup lang="ts">
+import { keysPressed } from '@/key-press-utils';
+import { ref, watch } from 'vue';
 import { VueFinalModal } from 'vue-final-modal';
 import { useToast } from "vue-toastification";
-import { GermanToManisch, getRandomId, getTranslationWords, ManischToGerman } from './utils';
+import { modalContentTransition } from './modal-fns';
+import { GermanToManisch, ManischToGerman, getTranslationEntry, getTranslationWords } from './utils';
 
 const props = defineProps<{
 	item: GermanToManisch | ManischToGerman,
-	onRandom: (id: number) => void
+	onOpenNewModal: (input: number | ManischToGerman | GermanToManisch) => void,
+	_onCloseSlowly: () => Promise<string>,
+	onClose: () => void,
+	onOpenRandomModal : () => void,
+	_onOpenModal: (input: number | ManischToGerman | GermanToManisch) => void,
 }>()
 
 const emit = defineEmits<{
@@ -36,58 +43,103 @@ const copyToClipboard = (e: Event) => {
 const translationWords = getTranslationWords(props.item);
 const multipleTranslations = ('manisch' in props.item ? props.item.germanIds.length : props.item.manischIds.length) > 1;
 const navTo = (word: string, language: 'manisch' | 'german') => {
-	// const translation = language === 'manisch' ? getTranslationEntry({manisch: word}) : getTranslationEntry({german: word});
-	const toast = useToast();
-	toast.success(`»${word}«`, {
-		timeout: 2000
-	});
+  // modal with new word
+  const translation = language === 'manisch' ? getTranslationEntry({manisch: word}) : getTranslationEntry({german: word});
+	props.onOpenNewModal(translation);
 }
+
+let altKeyPressed = ref(false);
+watch(keysPressed, (src) => {
+	if (src['r'] === true && Object.keys(src).length === 1) props.onOpenRandomModal();
+});
+watch(keysPressed, (src) => {
+	if (src['Esc'] === true) props.onClose();
+});
+const contentTransition = modalContentTransition;
 </script>
 
 <template>
 	<VueFinalModal
 		class="flex justify-center items-center"
-		content-class="flex flex-col p-4 bg-white dark:bg-black rounded border border-gray-100 dark:border-gray-800"
+		content-class="vfm-wrapper grow ml-5 mr-5 flex flex-col p-4 bg-white dark:bg-black rounded border border-gray-100 dark:border-gray-800"
+		:content-transition="contentTransition"
+		overlay-transition="vfm-fade"
+
 		@update:model-value="val => emit('update:modelValue', val)"
 	>
-		<div class="flex items-center mb-3">
+		<!-- Modal header -->
+		<div class="flex items-center mb-5">
 			<div class="grow">
-				<small v-if="'manisch' in item">Manisch:</small>
-				<small v-else>Deutsch:</small>
+				<small>{{ 'manisch' in item ? 'Manisch' : 'Deutsch' }}:</small>
 				<br>
-				<h3 class="text-2xl">
+				<h3 
+					class="text-2xl"
+					:class="{
+						'manisch': 'manisch' in item,
+						'german': 'german' in item
+					}"
+				>
 					<span v-if="'manisch' in item">{{ item.manisch }}</span>
 					<span v-else>{{ item.german }}</span>
 				</h3>
 			</div>
-			<button class="py-3 pl-3 text-2xl" style="margin-right: -1rem; padding-right: 1rem;" @click="emit('update:modelValue', false)">
+			<button class="py-3 pl-3 text-2xl" style="margin-right: -1rem; padding-right: 1rem;" @click="onClose()">
 				<font-awesome-icon icon="fa-solid fa-remove" />
 			</button>
 		</div>
-		<p v-if="multipleTranslations">Mögliche übersetzungen:</p>
-		<p v-else>Übersetzung:</p>
+		<!-- Modal Content -->
+		<div class="modal-content mb-5">
+			<small v-if="multipleTranslations">Mögliche {{ 'manisch' in item ? 'Deutsch' : 'Manisch' }}-Übersetzungen:</small>
+			<small v-else>{{ 'manisch' in item ? 'Deutsch' : 'Manisch' }}-Übersetzung:</small>
 
-		<div
-			v-for="word in translationWords"
-			:key="word"
-			class="flex-grow flex items-center justify-center"
-		>
-			<div class="border border-gray-500 mb-3 rounded flex overflow-hidden bg-light-cold">
-				<input class="bg-transparent p-3" readonly :value="word" @focus="selectAll($event.target!)" />
-				<button class="border border-r-0 border-y-0 p-3 btn btn-white" @click="copyToClipboard"><font-awesome-icon icon="fa-solid fa-clipboard" /></button>
-				<button class="border border-r-0 border-y-0 p-3 btn btn-dark" @click="navTo(word, 'manisch' in item ? 'german' : 'manisch')"><font-awesome-icon icon="fa-solid fa-clipboard" /></button>
+			<div
+				v-for="word in translationWords"
+				:key="word"
+				class="grow flex items-stretch justify-center"
+			>
+				<input 
+					class="pl-0 focus:pl-1 p-1 focus:bg-light-cold m-1 ml-0 rounded grow font-bold"
+					:class="{
+						'manisch': 'german' in item,
+						'german': 'manisch' in item
+					}"
+
+					readonly 
+					:value="word" 
+					@focus="selectAll($event.target!)" 
+				/>
+				<button class="border p-3 m-1 btn btn-white" @click="copyToClipboard"><font-awesome-icon icon="fa-solid fa-clipboard" /></button>
+				<button class="border p-3 m-1 mr-0 btn btn-dark" @click="navTo(word, 'manisch' in item ? 'german' : 'manisch')"><font-awesome-icon icon="fa-solid fa-repeat" /></button>
 			</div>
 		</div>
 
-		<button @click="onRandom(getRandomId())" class="p-3 btn btn-light border ml-auto">
-			<font-awesome-icon icon="fa-solid fa-random" class="mr-2" /> Random
-		</button>
+		<!-- Modal footer -->
+		<div class="flex justify-between items-center">
+			<small class="muted">{{ 'manisch' in item ? 'manisch' : 'german' }} id: <code>{{item.id}}</code></small>
+			<button @click="onOpenRandomModal()" class="p-3 btn btn-light border ml-auto">
+				<font-awesome-icon icon="fa-solid fa-random" class="mr-2" /> Random
+				<span v-if="altKeyPressed">(R)</span>
+			</button>
+		</div>
 
 		<slot />
 	</VueFinalModal>
 </template>
 
 <style>
+.vfm-wrapper {
+	max-width: 500px;
+}
 
+input {
+	font-size: 1.5em;
+}
 
+button {
+	font-size: 1.1rem;
+}
+
+.muted {
+	color: #aaa;
+}
 </style>

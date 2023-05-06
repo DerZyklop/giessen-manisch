@@ -4,10 +4,18 @@
 	padding: 2rem;
 }
 
+body {
+	background: #fcfcfa;
+}
+
 a {
 	text-decoration: none;
-	color: hsla(20, 100%, 27%, 1);
+	color: hsla(333, 100%, 37%, 1);
 	transition: 0.4s;
+}
+a:hover {
+	/* color: hsla(333, 100%, 27%, 1); */
+	/* text-decoration: underline; */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -66,12 +74,15 @@ button {
 	font-family: 'Nanum Pen Script', serif;
 	font-family: 'Architects Daughter', serif;
 
-	color: hsla(190, 100%, 27%, 1);
+	color: hsla(199, 100%, 27%, 1);
 }
 h1, h2, h3, h4, h5, h6,
 .german {
 	/* UnifrakturCook */
 	font-family: 'UnifrakturCook', cursive;
+}
+.german {
+	color: #332 !important;
 }
 
 h3.manisch,

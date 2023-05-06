@@ -3,8 +3,8 @@
 
 <template>
   <nav>
-    <RouterLink to="/" active-class="bg-dark text-white">Home</RouterLink>
-    <RouterLink to="/about" active-class="bg-dark text-white">About</RouterLink>
+    <RouterLink to="/" class="btn-light" active-class="btn-dark">Home</RouterLink>
+    <RouterLink to="/about" class="btn-light" active-class="btn-dark">About</RouterLink>
   </nav>
 </template>
 
@@ -14,6 +14,9 @@ nav {
   text-align: center;
   margin-top: 2rem;
   margin-bottom: 2rem;
+  gap: 1rem;
+  display: flex;
+  justify-content: center;
 }
 
 nav a {

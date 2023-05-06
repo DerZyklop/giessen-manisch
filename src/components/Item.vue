@@ -6,30 +6,31 @@ const props = defineProps<{
   item: GermanToManisch;
 }>()
 
-const { open, close } = getModalFns(props.item.id);
-
-console.log(props.item);
+const { open, close } = getModalFns(props.item);
 
 const manischWords = getTranslationWords({german: props.item.german});
 </script>
 
 <template>
-  <!-- link to path 'foo' ending with id -->
-
-
-  <router-link :to="`/translation/${item.id}`" @click="open()" class="flex justify-between p-3">
-    <dt>{{ item.german }}</dt>
-    <dd>{{ manischWords.join(', ') }}</dd>
+  <router-link :to="`/translation/german/${item.id}/`" :data-nav-to-id="item.id" @click="open()" class="flex justify-between p-3 gap-5">
+    <dt class="german">{{ item.german }}</dt>
+    <dd class="manisch">{{ manischWords.join(', ') }}</dd>
   </router-link>
 </template>
 
 <style scoped>
 dt {
   font-weight: bold;
+  color: #222;
 }
 
 dd {
   margin: 0%;
+  text-align: right;
+}
+
+a:hover {
+  font-weight: bold;
 }
 
 .details {
@@ -66,4 +67,5 @@ h3 {
     height: 50px;
   }
 }
+
 </style>
