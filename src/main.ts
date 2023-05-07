@@ -1,5 +1,5 @@
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faClipboard, faRandom, faRepeat, faTimes } from '@fortawesome/free-solid-svg-icons'
+import { faArrowLeft, faArrowRight, faClipboard, faRandom, faRepeat, faTimes } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { createApp } from 'vue'
 import { createVfm } from 'vue-final-modal'
@@ -9,7 +9,7 @@ import "vue-toastification/dist/index.css"
 import App from './App.vue'
 import './assets/index.css'
 import router from './router'
-library.add(faTimes, faClipboard, faRandom, faRepeat)
+library.add(faTimes, faClipboard, faRandom, faRepeat, faArrowRight, faArrowLeft)
 
 const app = createApp(App)
 
