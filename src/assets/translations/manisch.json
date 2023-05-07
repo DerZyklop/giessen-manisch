@@ -615,12 +615,18 @@
 		"manisch": "ruckaue",
 		"germanIds": [
 			80
+		],
+		"relatedManischIds": [
+			87
 		]
 	},
 	{
 		"id": 87,
 		"manisch": "ruck",
 		"germanIds": [
+			87
+		],
+		"relatedManischIds": [
 			87
 		]
 	},
@@ -2273,6 +2279,10 @@
 	{
 		"id": 335,
 		"manisch": "de gari kallen",
+		"relatedManischIds": [
+			944,
+			307
+		],
 		"germanIds": [
 			335
 		]

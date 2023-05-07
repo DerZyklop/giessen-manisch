@@ -1,21 +1,24 @@
 <script setup lang="ts">
-import { getModalFns } from './modal-fns';
-import { GermanToManisch, getTranslationWords } from './utils';
+import { keysPressed } from '@/key-press-utils';
+import { GermanToManisch, getTranslatedEntries } from './utils';
 
 const props = defineProps<{
   item: GermanToManisch;
 }>()
 
-const { open, close } = getModalFns(props.item);
-
-const manischWords = getTranslationWords({german: props.item.german});
+const manischWords = getTranslatedEntries({german: props.item.german}).map((item) => item.manisch);
 </script>
 
 <template>
-  <router-link :to="`/translation/german/${item.id}/`" :data-nav-to-id="item.id" @click="open()" class="flex justify-between p-3 gap-5">
+  <router-link 
+    :to="`/translation/german/${item.id}/`" 
+    :data-nav-to-id="item.id" 
+    class="flex justify-between p-3 gap-5"
+  >
     <dt class="german">{{ item.german }}</dt>
     <dd class="manisch">{{ manischWords.join(', ') }}</dd>
   </router-link>
+  <small v-if="keysPressed['Alt']" class="muted">{{ 'manisch' in item ? 'manisch' : 'german' }} id: <code>{{JSON.stringify(item)}}</code></small>
 </template>
 
 <style scoped>

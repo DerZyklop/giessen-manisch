@@ -4599,14 +4599,16 @@
 		"manischIds": [
 			924,
 			925
-		]
+		],
+		"sideNotes": [0]
 	},
 	{
 		"id": 926,
 		"german": "Nichtzigeuner (abfällige Bezeichnung für die nach Zigeunerart lebenden Nichtzigeuner)",
 		"manischIds": [
 			926
-		]
+		],
+		"sideNotes": [0]
 	},
 	{
 		"id": 927,
@@ -7279,14 +7281,16 @@
 			259,
 			374,
 			1450
-		]
+		],
+		"sideNotes": [0]
 	},
 	{
 		"id": 1452,
 		"german": "zigeunerisch",
 		"manischIds": [
 			1452
-		]
+		],
+		"sideNotes": [0]
 	},
 	{
 		"id": 1453,

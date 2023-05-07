@@ -1,8 +1,7 @@
-import router from "@/router";
 import { Ref, ref } from "vue";
 import { useModal } from "vue-final-modal";
 import Modal from './Modal.vue';
-import { GermanToManisch, ManischToGerman, getRandomId, getTranslation } from "./utils";
+import { GermanToManisch, ManischToGerman, Translation, getNextTranslation, getPrevTranslation, getRandomId, getTranslation } from "./utils";
 
 export const modalContentTransition : Ref<
 	'vfm-slide-right' | 'vfm-slide-left' | 
@@ -10,7 +9,23 @@ export const modalContentTransition : Ref<
 	
 	'vfm-fade'
 > = ref('vfm-slide-up');
-export const getModalFns = (translation : GermanToManisch | ManischToGerman) => {
+export const getModalFns = (
+	// passing type number only works for german to manisch
+	input : number | GermanToManisch | ManischToGerman
+) => {
+	let translation = typeof input === 'number' ? getTranslation(input) : input;
+	if ('manisch' in translation) {
+		// Silent write new url without triggering router
+		window.history.replaceState({}, '', `/translation/manisch/${translation.id}/`);
+
+	} else {
+		window.history.replaceState({}, '', `/translation/german/${translation.id}/`);
+		// router.push({
+		// 	replace: true,
+		// 	path: `/translation/german/${translation.id}`
+		// });
+	}			
+
 	const result = useModal({
 		component: Modal,
 		attrs: {
@@ -19,26 +34,37 @@ export const getModalFns = (translation : GermanToManisch | ManischToGerman) => 
 				modalContentTransition.value = 'vfm-slide-up';
 				this._onCloseSlowly().then(async () => {
 					modalContentTransition.value = 'vfm-slide-up';
-					await this._onOpenModal(getRandomId());
+					await getModalFns(getRandomId()).open();
 					modalContentTransition.value = 'vfm-fade';
 				});
 			},
-			onOpenNewModal(input: number | ManischToGerman | GermanToManisch) {
+			onOpenNewModal(input: number | Translation) {
 				modalContentTransition.value = 'vfm-fade';
 				this._onCloseSlowly().then(() => {
-					this._onOpenModal(input);
+					getModalFns(input).open();
 				});
 			},
-			async _onOpenModal(input: number | ManischToGerman | GermanToManisch) {
-				let newTranslation = typeof input === 'number' ? getTranslation(input) : input;
+			onOpenNextTranslation() {
+				modalContentTransition.value = 'vfm-slide-left';
+				this._onCloseSlowly().then(async () => {
+					modalContentTransition.value = 'vfm-slide-right';
 
-				if ('manisch' in newTranslation) {
-					router.push(`/translation/manisch/${newTranslation.id}`);
-				} else {
-					router.push(`/translation/german/${newTranslation.id}`);
-				}
+					// nav to next translation
+					const nextTranslation = getNextTranslation(this.item);
+					await getModalFns(nextTranslation).open();
+					modalContentTransition.value = 'vfm-slide-up';
+				});
+			},
+			onOpenPrevTranslation() {
+				modalContentTransition.value = 'vfm-slide-right';
+				this._onCloseSlowly().then(async () => {
+					modalContentTransition.value = 'vfm-slide-left';
 
-				await getModalFns(newTranslation).open();	
+					// nav to next translation
+					const nextTranslation = getPrevTranslation(this.item);
+					await getModalFns(nextTranslation).open();
+					modalContentTransition.value = 'vfm-slide-up';
+				});
 			},
 			onClose() {
 				modalContentTransition.value = 'vfm-slide-up';
@@ -54,7 +80,7 @@ export const getModalFns = (translation : GermanToManisch | ManischToGerman) => 
 				console.log('opened')
 			},
 			onClosed() {
-				router.push(`/`);
+				// router.push(`/`);
 			}
 		},
 		slots: {

@@ -5,7 +5,7 @@ defineProps<{
 
 <template>
   <div class="greetings">
-    <h1><span class="german">Gießen</span> <span class="manisch">Manisch</span> <span class="german">Wörterbuch</span></h1>
+    <h1><a href="/"><span class="german">Gießen</span> <span class="manisch">Manisch</span> <span class="german">Wörterbuch</span></a></h1>
   </div>
 </template>
 

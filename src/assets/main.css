@@ -1,7 +1,9 @@
 #app {
 	max-width: 1280px;
 	margin: 0 auto;
-	padding: 2rem;
+}
+#app > * {
+	margin: 2rem;
 }
 
 body {
@@ -20,6 +22,7 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
 	font-weight: bold;
+	margin-bottom: 0.5em;
 }
 
 h1 {
@@ -54,6 +57,33 @@ button {
 	cursor: pointer;
 }
 
+blockquote {
+	font-style: italic;
+	background-color: #eee;
+	padding: 1rem;
+	border-radius: 1rem 0.5rem;
+}
+
+kbd {
+	background-color: #666;
+	color: #fff;
+	font-size: 0.9em;
+	display: inline-block;
+	line-height: inherit;
+	padding: 0rem 0.3rem;
+	border-radius: 0.3rem;
+}
+
+button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+button kbd {
+	min-width: 22px;
+}
+
 @media (min-width: 1024px) {
 	body {
 		display: flex;
@@ -64,8 +94,15 @@ button {
 		display: grid;
 		grid-template-columns: 3fr 9fr;
 		height: 100vh;
-		padding: 0 2rem;
 	}
+	#app > * {
+		margin: 0;
+		padding: 2rem;
+	}
+	#app > main {
+		overflow-y: auto;
+	}
+	
 }
 
 .manisch {
@@ -76,13 +113,13 @@ button {
 
 	color: hsla(199, 100%, 27%, 1);
 }
-h1, h2, h3, h4, h5, h6,
+h1, h2, h3,
 .german {
 	/* UnifrakturCook */
 	font-family: 'UnifrakturCook', cursive;
 }
 .german {
-	color: #332 !important;
+	color: #532 !important;
 }
 
 h3.manisch,

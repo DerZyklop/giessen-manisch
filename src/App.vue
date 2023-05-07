@@ -1,11 +1,35 @@
 <script setup lang="ts">
 import { ModalsContainer } from 'vue-final-modal';
-import { RouterView } from 'vue-router';
+import { RouterView, useRouter } from 'vue-router';
 import HelloWorld from './components/HelloWorld.vue';
 import Sidebar from './components/Sidebar.vue';
+import { getModalFns } from './components/modal-fns';
+import { getTranslation, getTranslationEntry } from './components/utils';
 import { initKeyPressEventListeners } from "./key-press-utils";
 
 initKeyPressEventListeners();
+
+// Watch for route changes
+useRouter().beforeResolve(async (to, from, next) => {
+  let germanIdParam = to.params.germanId ?? null;
+  const manischIdParam = to.params.manischId ?? null;
+
+  const germanId = germanIdParam?.length ? +germanIdParam : null;
+  const manischId = manischIdParam?.length ? +manischIdParam : null;
+
+  if (germanId) {
+    // open modal with translation
+    const { open, close } = getModalFns(getTranslation(germanId));
+    await open();
+  } else if (manischId) {
+    const manischEntry = getTranslationEntry({manisch: manischId});
+    const { open, close } = getModalFns(manischEntry);
+    await open();
+  }
+
+  console.log(to.fullPath, from.fullPath);
+  next();
+})
 </script>
 
 <template>
@@ -31,10 +55,6 @@ header {
   max-height: 100vh;
 }
 
-main {
-  padding: 1rem;
-}
-
 .logo {
   display: block;
   margin: 0 auto 2rem;
@@ -45,7 +65,6 @@ main {
   header {
     display: flex;
     align-items:flex-start;
-    padding: 1rem calc(var(--section-gap) / 2) 0 0;
   }
 
   .logo {
