@@ -4,13 +4,17 @@ export let keysPressed : Ref<{
 	[key: KeyboardEvent['key']]: boolean;
 }> = ref({});
 
-let blocker : boolean = false;
+// Blocks more events. Each key can have its own blocker.
+let blocker : {
+	[key: KeyboardEvent['key']]: boolean;
+} = {};
 export const initKeyPressEventListeners = () => {
 	document.addEventListener('keydown', (event) => {
-		if (blocker === true) return;
-		blocker = true;
+		if ((event.target as HTMLElement)?.tagName.toLowerCase() === 'input') return;
+		if (blocker[event.key] === true) return;
+		blocker[event.key] = true;
 		setTimeout(() => {
-			blocker = false;
+			blocker[event.key] = false;
 		}, 100);
 		if (keysPressed.value[event.key] === true) return;
 		const keysPressedWithNewKey = {
@@ -20,7 +24,11 @@ export const initKeyPressEventListeners = () => {
 		keysPressed.value = keysPressedWithNewKey;
 	});
 	document.addEventListener('keyup', (event) => {
-		const { [event.key]: keyValue, ...keysPressedWithoutKey } = keysPressed.value;
-		keysPressed.value = keysPressedWithoutKey;
+		if (event.key === 'Control' || event.key === 'Meta') {
+			keysPressed.value = {};
+		} else {
+			const { [event.key]: keyValue, ...keysPressedWithoutKey } = keysPressed.value;
+			keysPressed.value = keysPressedWithoutKey;
+		}
 	});	
 };
