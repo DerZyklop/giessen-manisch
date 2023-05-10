@@ -33,6 +33,10 @@
 		"germanIds": [
 			3,
 			5
+		],
+		"relatedManischIds": [
+			246,
+			243
 		]
 	},
 	{
@@ -165,6 +169,13 @@
 		]
 	},
 	{
+		"id": 22,
+		"manisch": "Maloch",
+		"germanIds": [
+			25
+		]
+	},
+	{
 		"id": 23,
 		"manisch": "papi, papnee",
 		"germanIds": [
@@ -197,7 +208,8 @@
 		"manisch": "maloche",
 		"germanIds": [
 			25,
-			37
+			37,
+			28
 		]
 	},
 	{
@@ -219,6 +231,9 @@
 		"manisch": "malochen",
 		"germanIds": [
 			28
+		],
+		"relatedManischIds": [
+			27
 		]
 	},
 	{
@@ -234,10 +249,14 @@
 		"germanIds": [
 			32,
 			33,
+			98,
 			345,
 			573,
 			752,
 			1087
+		],
+		"relatedManischIds": [
+			30
 		]
 	},
 	{
@@ -259,6 +278,9 @@
 		"manisch": "malochegardsch",
 		"germanIds": [
 			35
+		],
+		"relatedManischIds": [
+			27
 		]
 	},
 	{
@@ -326,6 +348,10 @@
 		"manisch": "tschunderpicker",
 		"germanIds": [
 			48
+		],
+		"relatedManischIds": [
+			246,
+			243
 		]
 	},
 	{
@@ -354,6 +380,9 @@
 		"manisch": "traweskomoss",
 		"germanIds": [
 			52
+		],
+		"relatedManischIds": [
+			391
 		]
 	},
 	{
@@ -479,7 +508,7 @@
 	},
 	{
 		"id": 69,
-		"manisch": "räunen",
+		"manisch": "Räunen/Reunern",
 		"germanIds": [
 			69,
 			121,
@@ -496,7 +525,7 @@
 	},
 	{
 		"id": 71,
-		"manisch": "wording",
+		"manisch": "Wodding",
 		"germanIds": [
 			71,
 			976,
@@ -697,13 +726,6 @@
 		]
 	},
 	{
-		"id": 98,
-		"manisch": "stiefmalochen ",
-		"germanIds": [
-			98
-		]
-	},
-	{
 		"id": 99,
 		"manisch": "strachelen",
 		"germanIds": [
@@ -875,6 +897,11 @@
 		"manisch": "tschundebaskero",
 		"germanIds": [
 			130
+		],
+		"relatedManischIds": [
+			246,
+			243,
+			222
 		]
 	},
 	{
@@ -893,7 +920,7 @@
 	},
 	{
 		"id": 133,
-		"manisch": "matdo",
+		"manisch": "matdo/maddo",
 		"germanIds": [
 			131
 		]
@@ -1210,7 +1237,7 @@
 	},
 	{
 		"id": 177,
-		"manisch": "nagewelo",
+		"manisch": "Nagewelo/Nakevelo",
 		"germanIds": [
 			177,
 			908
@@ -1233,7 +1260,7 @@
 	},
 	{
 		"id": 182,
-		"manisch": "maro",
+		"manisch": "Maro",
 		"germanIds": [
 			182
 		]
@@ -1261,7 +1288,7 @@
 	},
 	{
 		"id": 186,
-		"manisch": "rackelo",
+		"manisch": "Rackelo/Raggelo",
 		"germanIds": [
 			185,
 			662,
@@ -1435,6 +1462,9 @@
 		"germanIds": [
 			207,
 			1404
+		],
+		"relatedManischIds": [
+			391
 		]
 	},
 	{
@@ -1711,6 +1741,9 @@
 		"germanIds": [
 			240,
 			772
+		],
+		"relatedManischIds": [
+			246
 		]
 	},
 	{
@@ -1729,6 +1762,15 @@
 		]
 	},
 	{
+		"id": 246,
+		"manisch": "Tschunde",
+		"gender": "f",
+		"germanIds": [
+			240,
+			772
+		]
+	},
+	{
 		"id": 247,
 		"manisch": "klunde",
 		"germanIds": [
@@ -1740,6 +1782,9 @@
 		"manisch": "klundemoss",
 		"germanIds": [
 			247
+		],
+		"relatedManischIds": [
+			391
 		]
 	},
 	{
@@ -2113,7 +2158,7 @@
 	},
 	{
 		"id": 307,
-		"manisch": "kallen",
+		"manisch": "kalle/kallen",
 		"germanIds": [
 			305
 		]
@@ -2240,6 +2285,9 @@
 		"germanIds": [
 			329,
 			677
+		],
+		"relatedManischIds": [
+			1245
 		]
 	},
 	{
@@ -2247,6 +2295,9 @@
 		"manisch": "schwendidiwes",
 		"germanIds": [
 			330
+		],
+		"relatedManischIds": [
+			1245
 		]
 	},
 	{
@@ -2557,6 +2608,7 @@
 	{
 		"id": 391,
 		"manisch": "moss",
+		"gender": "f",
 		"germanIds": [
 			389,
 			398,
@@ -2565,12 +2617,15 @@
 	},
 	{
 		"id": 394,
-		"manisch": "tschaij",
+		"manisch": "Tschaij",
+		"gender": "f",
 		"germanIds": [
 			389,
 			398,
 			827,
-			1264
+			1264,
+			1485,
+			1486
 		]
 	},
 	{
@@ -2579,6 +2634,9 @@
 		"germanIds": [
 			396,
 			930
+		],
+		"relatedManischIds": [
+			391
 		]
 	},
 	{
@@ -2587,6 +2645,17 @@
 		"germanIds": [
 			398,
 			827
+		]
+	},
+	{
+		"id": 400,
+		"manisch": "Tschabo",
+		"gender": "m",
+		"germanIds": [
+			403,
+			692,
+			741,
+			833
 		]
 	},
 	{
@@ -2607,7 +2676,8 @@
 	},
 	{
 		"id": 403,
-		"manisch": "tschabo",
+		"manisch": "Tschabba",
+		"gender": "m",
 		"germanIds": [
 			403,
 			692,
@@ -2645,6 +2715,7 @@
 	{
 		"id": 407,
 		"manisch": "ballefusser",
+		"gender": "m",
 		"germanIds": [
 			407
 		]
@@ -2668,6 +2739,9 @@
 		"manisch": "ballemoss",
 		"germanIds": [
 			410
+		],
+		"relatedManischIds": [
+			391
 		]
 	},
 	{
@@ -2859,10 +2933,13 @@
 	{
 		"id": 444,
 		"manisch": "gowe",
+		"gender": "f",
 		"germanIds": [
 			444,
 			1312,
-			1316
+			1316,
+			1478,
+			1479
 		]
 	},
 	{
@@ -3015,6 +3092,7 @@
 	{
 		"id": 470,
 		"manisch": "lowi",
+		"gender": "f",
 		"germanIds": [
 			468
 		]
@@ -3160,6 +3238,14 @@
 		]
 	},
 	{
+		"id": 495,
+		"manisch": "Mujballe",
+		"germanIds": [
+			1482,
+			1483
+		]
+	},
+	{
 		"id": 496,
 		"manisch": "schwulo ",
 		"germanIds": [
@@ -3224,6 +3310,9 @@
 		"germanIds": [
 			505,
 			1271
+		],
+		"manischIds": [
+			296
 		]
 	},
 	{
@@ -3231,6 +3320,9 @@
 		"manisch": "mulopeng",
 		"germanIds": [
 			505
+		],
+		"manischIds": [
+			296
 		]
 	},
 	{
@@ -3291,6 +3383,13 @@
 			515,
 			957,
 			1020
+		]
+	},
+	{
+		"id": 516,
+		"manisch": "Garmanski",
+		"germanIds": [
+			957
 		]
 	},
 	{
@@ -3465,7 +3564,7 @@
 	},
 	{
 		"id": 551,
-		"manisch": "tschuker",
+		"manisch": "tschuker/tschugge",
 		"germanIds": [
 			548
 		]
@@ -3482,11 +3581,14 @@
 		"manisch": "latsche diwes",
 		"germanIds": [
 			553
+		],
+		"relatedManischIds": [
+			1245
 		]
 	},
 	{
 		"id": 555,
-		"manisch": "balle ",
+		"manisch": "balle",
 		"germanIds": [
 			555
 		]
@@ -3509,8 +3611,7 @@
 		"id": 561,
 		"manisch": "baschepin",
 		"germanIds": [
-			561,
-			883
+			561
 		]
 	},
 	{
@@ -3582,7 +3683,7 @@
 	},
 	{
 		"id": 574,
-		"manisch": "jawero",
+		"manisch": "Jawero / Jewro",
 		"germanIds": [
 			574
 		]
@@ -3622,7 +3723,8 @@
 	},
 	{
 		"id": 584,
-		"manisch": "schäro",
+		"manisch": "Schäro/Tschero",
+		"gender": "m",
 		"germanIds": [
 			584,
 			767
@@ -3655,6 +3757,9 @@
 		"manisch": "schrawinermoss",
 		"germanIds": [
 			589
+		],
+		"relatedManischIds": [
+			391
 		]
 	},
 	{
@@ -3792,6 +3897,9 @@
 		"manisch": "tscheross",
 		"germanIds": [
 			614
+		],
+		"manischIds": [
+			584
 		]
 	},
 	{
@@ -3802,6 +3910,16 @@
 			616,
 			617,
 			890
+		]
+	},
+	{
+		"id": 616,
+		"manisch": "Tscheroblitze",
+		"germanIds": [
+			768
+		],
+		"manischIds": [
+			584
 		]
 	},
 	{
@@ -3898,7 +4016,7 @@
 	},
 	{
 		"id": 637,
-		"manisch": "kailoff",
+		"manisch": "Kailoff",
 		"germanIds": [
 			637
 		]
@@ -4145,7 +4263,7 @@
 	},
 	{
 		"id": 690,
-		"manisch": "tschü",
+		"manisch": "tschü/tschie/tschee",
 		"germanIds": [
 			689,
 			919,
@@ -4437,6 +4555,9 @@
 		"manisch": "tschäro",
 		"germanIds": [
 			767
+		],
+		"manischIds": [
+			584
 		]
 	},
 	{
@@ -4451,6 +4572,9 @@
 		"manisch": "banitschäro",
 		"germanIds": [
 			770
+		],
+		"manischIds": [
+			584
 		]
 	},
 	{
@@ -4663,7 +4787,8 @@
 		"id": 816,
 		"manisch": "latschi",
 		"germanIds": [
-			816
+			816,
+			1132
 		]
 	},
 	{
@@ -4796,7 +4921,7 @@
 	},
 	{
 		"id": 863,
-		"manisch": "nervelo",
+		"manisch": "Nervelo/Nabelo",
 		"germanIds": [
 			863,
 			902,
@@ -4804,8 +4929,24 @@
 		]
 	},
 	{
+		"id": 864,
+		"manisch": "Na",
+		"germanIds": [
+			863,
+			862
+		]
+	},
+	{
+		"id": 865,
+		"manisch": "Naft/Nafti/Naftschak",
+		"germanIds": [
+			863,
+			862
+		]
+	},
+	{
 		"id": 866,
-		"manisch": "tschuri",
+		"manisch": "Tschuri/Tschurie",
 		"germanIds": [
 			866
 		]
@@ -4857,6 +4998,9 @@
 		"manisch": "baschdiwes",
 		"germanIds": [
 			873
+		],
+		"relatedManischIds": [
+			1245
 		]
 	},
 	{
@@ -4872,6 +5016,9 @@
 		"germanIds": [
 			875,
 			1276
+		],
+		"manischIds": [
+			1274
 		]
 	},
 	{
@@ -4880,6 +5027,9 @@
 		"germanIds": [
 			876,
 			1273
+		],
+		"manischIds": [
+			1274
 		]
 	},
 	{
@@ -4968,7 +5118,7 @@
 	},
 	{
 		"id": 906,
-		"manisch": "nag",
+		"manisch": "Nag/Nake",
 		"germanIds": [
 			906
 		]
@@ -5075,6 +5225,9 @@
 		"germanIds": [
 			933,
 			977
+		],
+		"relatedManischIds": [
+			391
 		]
 	},
 	{
@@ -5390,7 +5543,7 @@
 	},
 	{
 		"id": 1002,
-		"manisch": "pucken",
+		"manisch": "Pucke/Pucken",
 		"germanIds": [
 			1001,
 			1044,
@@ -5776,7 +5929,7 @@
 	},
 	{
 		"id": 1087,
-		"manisch": "juschen",
+		"manisch": "juschen/joschen",
 		"germanIds": [
 			1087
 		]
@@ -5999,6 +6152,9 @@
 		"manisch": "trittjesmalocher",
 		"germanIds": [
 			1158
+		],
+		"relatedManischIds": [
+			27
 		]
 	},
 	{
@@ -6151,7 +6307,7 @@
 	},
 	{
 		"id": 1201,
-		"manisch": "tschuern",
+		"manisch": "tschuern/tschuren",
 		"germanIds": [
 			1200
 		]
@@ -6329,8 +6485,15 @@
 		]
 	},
 	{
+		"id": 1244,
+		"manisch": "Dewis",
+		"germanIds": [
+			1245
+		]
+	},
+	{
 		"id": 1245,
-		"manisch": "diwes",
+		"manisch": "Diwes",
 		"germanIds": [
 			1245
 		]
@@ -6340,6 +6503,9 @@
 		"manisch": "latschediwes",
 		"germanIds": [
 			1246
+		],
+		"relatedManischIds": [
+			1245
 		]
 	},
 	{
@@ -6427,6 +6593,9 @@
 		"manisch": "mulopeng, mulipeng",
 		"germanIds": [
 			1265
+		],
+		"manischIds": [
+			296
 		]
 	},
 	{
@@ -6448,6 +6617,9 @@
 		"manisch": "mulipeng",
 		"germanIds": [
 			1276
+		],
+		"manischIds": [
+			1274
 		]
 	},
 	{
@@ -6558,7 +6730,8 @@
 	},
 	{
 		"id": 1305,
-		"manisch": "kampani",
+		"manisch": "Kampani/Kabani",
+		"gender": "f",
 		"germanIds": [
 			1305
 		]
@@ -6586,7 +6759,8 @@
 	},
 	{
 		"id": 1309,
-		"manisch": "osnick",
+		"manisch": "Osnick/Ossnick",
+		"gender": "f",
 		"germanIds": [
 			1305
 		]
@@ -6681,6 +6855,10 @@
 		"manisch": "tschundern",
 		"germanIds": [
 			1328
+		],
+		"relatedManischIds": [
+			246,
+			243
 		]
 	},
 	{
@@ -6978,8 +7156,10 @@
 	{
 		"id": 1417,
 		"manisch": "gowegardsch",
+		"gender":"m",
 		"germanIds": [
-			1417
+			1417,
+			1415
 		]
 	},
 	{
@@ -7162,6 +7342,200 @@
 		"manisch": "burme",
 		"germanIds": [
 			1473
+		]
+	},
+	{
+		"id": 1474,
+		"manisch": "Assele",
+		"germanIds": [
+			555
+		]
+	},
+	{
+		"id": 1475,
+		"manisch": "Achelen",
+		"germanIds": [
+			305
+		]
+	},
+	{
+		"id": 1476,
+		"manisch": "ballefusse",
+		"germanIds": [
+			1475
+		]
+	},
+	{
+		"id": 1477,
+		"manisch": "baru",
+		"germanIds": [
+			670
+		]
+	},
+	{
+		"id": 1478,
+		"manisch": "Budschgai",
+		"germanIds": [
+			1476
+		]
+	},
+	{
+		"id": 1479,
+		"manisch": "Dande",
+		"gender" : "f",
+		"germanIds": [
+			1477
+		]
+	},
+	{
+		"id": 1480,
+		"manisch": "digge",
+		"germanIds": [
+			544
+		]
+	},
+	{
+		"id": 1481,
+		"manisch": "diggern",
+		"germanIds": [
+			1361
+		]
+	},
+	{
+		"id": 1482,
+		"manisch": "dillen",
+		"germanIds": [
+			305
+		]
+	},
+	{
+		"id": 1483,
+		"manisch": "gadelen",
+		"germanIds": [
+			1209
+		]
+	},
+	{
+		"id": 1484,
+		"manisch": "Gui",
+		"germanIds": [
+			227,
+			1423
+		]
+	},
+	{
+		"id": 1485,
+		"manisch": "Impel",
+		"germanIds": [
+			1442
+		]
+	},
+	{
+		"id": 1486,
+		"manisch": "Klaimschers",
+		"germanIds": [
+			1480
+		]
+	},
+	{
+		"id": 1487,
+		"manisch": "Klitschu",
+		"germanIds": [
+			1114
+		]
+	},
+	{
+		"id": 1488,
+		"manisch": "kneisen",
+		"germanIds": [
+			1180,
+			1075
+		]
+	},
+	{
+		"id": 1489,
+		"manisch": "leich",
+		"germanIds": [
+			1481
+		]
+	},
+	{
+		"id": 1490,
+		"manisch": "meschugge",
+		"germanIds": [
+			1353
+		]
+	},
+	{
+		"id": 1491,
+		"manisch": "stegum",
+		"germanIds": [
+			1484
+		]	
+	},
+	{
+		"id": 1492,
+		"manisch": "Tschie Meder",
+		"germanIds": [
+			1487,
+			63
+		]	
+	},
+	{
+		"id": 1493,
+		"manisch": "Tschuklo",
+		"germanIds": [
+			637
+		]	
+	},
+	{
+		"id": 1494,
+		"manisch": "Tschukelo",
+		"germanIds": [
+			637
+		]	
+	},
+	{
+		"id": 1495,
+		"manisch": "Tschundepicker",
+		"germanIds": [
+			834
+		],
+		"relatedManischIds": [
+			246,
+			243
+		]
+	},
+	{
+		"id": 1496,
+		"manisch": "Tschundetschabo",
+		"gender":"m",
+		"germanIds": [
+			835
+		],
+		"relatedManischIds": [
+			246
+		]
+	},
+	{
+		"id": 1497,
+		"manisch": "Baatschebie",
+		"germanIds": [
+			883
+		]
+	},
+	{
+		"id": 1498,
+		"manisch": "Lalla",
+		"germanIds": [
+			883
+		]
+	},
+	{
+		"id": 1499,
+		"manisch": "Velo",
+		"germanIds": [
+			1488
 		]
 	}
 ]
