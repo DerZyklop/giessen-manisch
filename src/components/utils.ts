@@ -130,7 +130,7 @@ export function getTranslatedEntries(input: { german: string } | { manisch: stri
 		const translatedItems = translationWordIds
 			.map(twId => {
 				const manischEntry = manischToGerman.find(m2g => m2g.id === twId);
-				if (!manischEntry) throw new Error(`manischEntry ${manischEntry} not found`);
+				if (!manischEntry) throw new Error(`manischEntry with id »${twId}« not found`);
 				return manischEntry;
 			});
 		return translatedItems;

@@ -15,7 +15,7 @@ const props = defineProps<{
 				})" v-bind:key="relatedManischEntry.manisch"
 		>
 			<router-link
-				:to="`/translation/manisch/${relatedManischEntry.id}/`" 
+				:to="`/search/${relatedManischEntry.manisch}/`" 
 				:data-nav-to-id="relatedManischEntry.id" 
 				class=""
 			>{{ relatedManischEntry.manisch }}</router-link>{{ i !== (item.relatedManischIds.length - 1) ? ', ' : '' }}
@@ -25,14 +25,14 @@ const props = defineProps<{
 		Verwandte deutsche Worte:
 		<template 
 			v-for="(relatedGermanEntry, i) in item.relatedGermanIds.map((id) => {
-					return getTranslationEntry({manisch: id});
+					return getTranslationEntry({german: id});
 				})" v-bind:key="relatedGermanEntry.manisch"
 		>
 			<router-link
-				:to="`/translation/german/${relatedGermanEntry.id}/`" 
+				:to="`/search/${relatedGermanEntry.german}/`" 
 				:data-nav-to-id="relatedGermanEntry.id" 
 				class=""
-			>{{ relatedGermanEntry.manisch }}</router-link>{{ i !== (item.relatedGermanIds.length - 1) ? ', ' : '' }}
+			>{{ relatedGermanEntry.german }}</router-link>{{ i !== (item.relatedGermanIds.length - 1) ? ', ' : '' }}
 		</template>
 	</small>
 </template>

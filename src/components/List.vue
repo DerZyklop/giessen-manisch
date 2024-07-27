@@ -1,17 +1,14 @@
 <script setup lang="ts">
-import { keysPressed } from '@/key-press-utils';
-import { computed, ref, watch } from 'vue';
+import { computed } from 'vue';
 import Item from './Item.vue';
-import { getModalFns } from './modal-fns';
-import { GermanToManisch, ManischToGerman, germanToManisch, getRandomId, getTranslationEntry } from './utils';
+import { GermanToManisch, ManischToGerman, germanToManisch, getTranslationEntry } from './utils';
 
-const filterText = ref('')
-watch(filterText, (count, prevCount) => {
-  console.log(count);
-	
-})
+const props = defineProps<{
+	filterText: string,
+}>()
+
 const visibleTranslations = computed(() => {
-	let filter = filterText.value;
+	let filter = props.filterText;
 	let result : GermanToManisch[] | ManischToGerman[] = [];
 	if (!filter.length) result = germanToManisch;
 	
@@ -20,7 +17,7 @@ const visibleTranslations = computed(() => {
 			if (item.german.toLowerCase().includes(filter.toLowerCase())) return true;
 			const manischMatches = item.manischIds.some(manischId => {
 				const manischWord = getTranslationEntry({manisch: manischId}).manisch;
-				return manischWord.includes(filter);
+				return manischWord.toLowerCase().includes(filter.toLowerCase());
 			});
 			if (manischMatches) return true;
 			return false;
@@ -29,22 +26,9 @@ const visibleTranslations = computed(() => {
 	
 	return result;
 });
-
-watch(keysPressed, (src) => {
-	if (
-		(src['z']) && 
-		(Object.keys(src).length === 1 || Object.keys(src).length === 2 && src['Alt'] === true)
-	) {
-		const { open, close } = getModalFns(getRandomId());
-		open();
-	}
-})
 </script>
 
 <template>
-	<div class="input-wrap">
-		<input type="search" placeholder="Suche…" v-model="filterText" class="shadow appearance-none border rounded w-full p-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
-	</div>
   <dl>
 		<Item 
 			v-for="(translation) in visibleTranslations" 

@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { ModalsContainer } from 'vue-final-modal';
+import { ref } from 'vue';
+import { ModalsContainer, UseModalReturnType } from 'vue-final-modal';
 import { RouterView, useRouter } from 'vue-router';
 import HelloWorld from './components/HelloWorld.vue';
 import Sidebar from './components/Sidebar.vue';
@@ -9,6 +10,8 @@ import { initKeyPressEventListeners } from "./key-press-utils";
 
 initKeyPressEventListeners();
 
+const activeModal = ref<UseModalReturnType<any> | null>(null);
+
 // Watch for route changes
 useRouter().beforeResolve(async (to, from, next) => {
   let germanIdParam = to.params.germanId ?? null;
@@ -17,17 +20,21 @@ useRouter().beforeResolve(async (to, from, next) => {
   const germanId = germanIdParam?.length ? +germanIdParam : null;
   const manischId = manischIdParam?.length ? +manischIdParam : null;
 
-  if (germanId) {
-    // open modal with translation
-    const { open, close } = getModalFns(getTranslation(germanId));
-    await open();
-  } else if (manischId) {
-    const manischEntry = getTranslationEntry({manisch: manischId});
-    const { open, close } = getModalFns(manischEntry);
-    await open();
-  }
+  const searchText = to.params.searchText;
 
-  console.log(to.fullPath, from.fullPath);
+  activeModal.value?.close()
+  activeModal.value = null;
+  if (germanId !== null) {
+    // open modal with translation
+    activeModal.value = getModalFns(getTranslation(germanId));
+    await activeModal.value.open();
+  } else if (manischId !== null) {
+    const manischEntry = getTranslationEntry({manisch: manischId});
+    activeModal.value = getModalFns(manischEntry);
+    await activeModal.value.open();
+  } else if (searchText !== undefined) {
+    console.log('searchText', searchText);
+  }
   next();
 })
 </script>

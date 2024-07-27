@@ -7593,5 +7593,19 @@
 		"manischIds": [
 			1499
 		]
+	},
+	{
+		"id": 1489,
+		"german": "Wow",
+		"manischIds": [
+			1500
+		]
+	},
+	{
+		"id": 1490,
+		"german": "[Ein ausdruck des Erstaunens]",
+		"manischIds": [
+			1500
+		]
 	}
 ]

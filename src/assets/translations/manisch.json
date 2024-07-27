@@ -1351,7 +1351,7 @@
 	},
 	{
 		"id": 194,
-		"manisch": "buijen",
+		"manisch": "Buijen/Buijen",
 		"germanIds": [
 			194,
 			345,
@@ -7536,6 +7536,15 @@
 		"manisch": "Velo",
 		"germanIds": [
 			1488
+		]
+	},
+	{
+		"id": 1500,
+		"manisch": "ulai!",
+		"germanIds": [
+			1489,
+			1481,
+			1490
 		]
 	}
 ]

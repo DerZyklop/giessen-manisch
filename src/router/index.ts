@@ -32,6 +32,12 @@ const router = createRouter({
       // component: () => import('../views/ItemView.vue')
       component: HomeView
     },
+    {
+      path: '/search/:searchText/',
+      name: 'Gießen Manisch Wörterbuch – Suche',
+      props: true,
+      component: HomeView
+    },
     { path: '/:pathMatch(.*)*', name: 'NotFound', component: NotFoundView },
   ]
 })

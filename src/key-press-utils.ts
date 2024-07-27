@@ -1,11 +1,11 @@
 import { Ref, ref } from "vue";
 
-export let keysPressed : Ref<{
+export const keysPressed : Ref<{
 	[key: KeyboardEvent['key']]: boolean;
 }> = ref({});
 
 // Blocks more events. Each key can have its own blocker.
-let blocker : {
+const blocker : {
 	[key: KeyboardEvent['key']]: boolean;
 } = {};
 export const initKeyPressEventListeners = () => {
