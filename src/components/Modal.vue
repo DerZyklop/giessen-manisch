@@ -35,8 +35,9 @@ const showCopyToClipboardSuccessToast = (valueOfInput ?: string) => {
 	});
 }
 const copyToClipboard = (e: Event) => {
-	const btn = (e.target as HTMLInputElement).closest('button')!;
-	const inputEl = btn.parentElement?.querySelector('input') as HTMLInputElement;
+	const target = e.target as HTMLInputElement;
+	const parentElement = target.closest('button')?.parentElement ?? target;
+	const inputEl = parentElement.querySelector('input') as HTMLInputElement;
 	if (!inputEl) throw new Error('No input element found');
 	selectAll(inputEl);
 
@@ -63,9 +64,11 @@ watch(keysPressed, (src) => {
 			props.onOpenNextTranslation();
 		} else if (src['ArrowLeft']) {
 			props.onOpenPrevTranslation();
-		// } else if (src['Meta'] && src['c']) {
-		// 	showCopyToClipboardSuccessToast();
+		} else if (src['z']) {
+			props.onOpenRandomModal();
 		}
+	} else if (src['Meta'] && src['c']) {
+		copyToClipboard(src['c']);
 	}
 });
 

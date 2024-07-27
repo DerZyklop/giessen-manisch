@@ -1,3 +1,4 @@
+import router from "@/router";
 import { Ref, ref } from "vue";
 import { useModal } from "vue-final-modal";
 import Modal from './Modal.vue';
@@ -32,55 +33,48 @@ export const getModalFns = (
 			item: translation,
 			async onOpenRandomModal() {
 				modalContentTransition.value = 'vfm-slide-up';
-				this._onCloseSlowly().then(async () => {
-					modalContentTransition.value = 'vfm-slide-up';
-					await getModalFns(getRandomId()).open();
-					modalContentTransition.value = 'vfm-fade';
-				});
-			},
-			onOpenNewModal(input: number | Translation) {
-				modalContentTransition.value = 'vfm-fade';
-				this._onCloseSlowly().then(() => {
-					getModalFns(input).open();
-				});
-			},
-			onOpenNextTranslation() {
-				modalContentTransition.value = 'vfm-slide-left';
-				this._onCloseSlowly().then(async () => {
-					modalContentTransition.value = 'vfm-slide-right';
-
-					// nav to next translation
-					const nextTranslation = getNextTranslation(this.item);
-					await getModalFns(nextTranslation).open();
-					modalContentTransition.value = 'vfm-slide-up';
-				});
-			},
-			onOpenPrevTranslation() {
-				modalContentTransition.value = 'vfm-slide-right';
-				this._onCloseSlowly().then(async () => {
-					modalContentTransition.value = 'vfm-slide-left';
-
-					// nav to next translation
-					const nextTranslation = getPrevTranslation(this.item);
-					await getModalFns(nextTranslation).open();
-					modalContentTransition.value = 'vfm-slide-up';
-				});
-			},
-			onClose() {
+				await this._onCloseSlowly();
 				modalContentTransition.value = 'vfm-slide-up';
-				this._onCloseSlowly();
+				await getModalFns(getRandomId()).open();
+				modalContentTransition.value = 'vfm-fade';
+			},
+			async onOpenNewModal(input: number | Translation) {
+				modalContentTransition.value = 'vfm-fade';
+				await this._onCloseSlowly();
+				getModalFns(input).open();
+			},
+			async onOpenNextTranslation() {
+				modalContentTransition.value = 'vfm-slide-left';
+				await this._onCloseSlowly();
+				modalContentTransition.value = 'vfm-slide-right';
+
+				// nav to next translation
+				const nextTranslation = getNextTranslation(this.item);
+				await getModalFns(nextTranslation).open();
+				modalContentTransition.value = 'vfm-slide-up';
+			},
+			async onOpenPrevTranslation() {
+				modalContentTransition.value = 'vfm-slide-right';
+				await this._onCloseSlowly();
+				modalContentTransition.value = 'vfm-slide-left';
+
+				// nav to next translation
+				const nextTranslation = getPrevTranslation(this.item);
+				await getModalFns(nextTranslation).open();
+				modalContentTransition.value = 'vfm-slide-up';
+			},
+			async onClose() {
+				modalContentTransition.value = 'vfm-slide-up';
+				await this._onCloseSlowly();
 			},
 			async _onCloseSlowly() : Promise<string> {
-				return new Promise(async (resolve) => {
-					const promiseResult = await result.close();
-					resolve(promiseResult);
-			});
+				return await result.close();
 			},
 			onOpened() {
 				console.log('opened')
 			},
 			onClosed() {
-				// router.push(`/`);
+				router.push(`/`);
 			}
 		},
 		slots: {
