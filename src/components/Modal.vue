@@ -114,7 +114,7 @@ const appMode = process.env.NODE_ENV;
 		></RelatedWords>
 		<!-- Modal Content -->
 		<div class="modal-content mb-5">
-			<label v-if="multipleTranslations">Mögliche {{ 'manisch' in item ? 'meutsche' : 'manische' }} Übersetzungen</label>
+			<label v-if="multipleTranslations">Mögliche {{ 'manisch' in item ? 'deutsche' : 'manische' }} Übersetzungen</label>
 			<label v-else>{{ 'manisch' in item ? 'Deutsche' : 'Manische' }} Übersetzung</label>
 
 			<template
