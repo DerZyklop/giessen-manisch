@@ -122,10 +122,10 @@ const appMode = process.env.NODE_ENV;
 				:key="'german' in translationEntry ? translationEntry.german : translationEntry.manisch"
 			>
 				<div
-					class="grow flex items-stretch justify-center"
+					class="grow flex items-stretch justify-end flex-wrap"
 				>
 					<input
-						class="pl-0 focus:pl-1 p-1 focus:bg-light-cold m-1 ml-0 rounded grow font-bold"
+						class="pl-0 focus:pl-1 p-1 focus:bg-light-cold m-1 ml-0 rounded grow font-bold max-w-full"
 						:class="{
 							'manisch': 'german' in item,
 							'german': 'manisch' in item
@@ -135,8 +135,10 @@ const appMode = process.env.NODE_ENV;
 						:value="'german' in translationEntry ? translationEntry.german : translationEntry.manisch" 
 						@focus="selectAll($event.target!)" 
 					/>
-					<button class="border p-3 m-1 btn btn-white" @click="copyToClipboard"><font-awesome-icon :fixed-width="true" icon="fa-solid fa-clipboard" /></button>
-					<button class="border p-3 m-1 mr-0 btn btn-dark" @click="navTo('german' in translationEntry ? translationEntry.german : translationEntry.manisch, 'manisch' in item ? 'german' : 'manisch')"><font-awesome-icon :fixed-width="true" icon="fa-solid fa-repeat" /></button>
+					<div class="flex justify-center">
+						<button class="border p-3 m-1 btn btn-white" @click="copyToClipboard"><font-awesome-icon :fixed-width="true" icon="fa-solid fa-clipboard" /></button>
+						<button class="border p-3 m-1 mr-0 btn btn-dark" @click="navTo('german' in translationEntry ? translationEntry.german : translationEntry.manisch, 'manisch' in item ? 'german' : 'manisch')"><font-awesome-icon :fixed-width="true" icon="fa-solid fa-repeat" /></button>
+					</div>
 				</div>
 				<RelatedWords
 					:item="translationEntry"
@@ -145,16 +147,16 @@ const appMode = process.env.NODE_ENV;
 		</div>
 
 		<!-- Modal footer -->
-		<div class="flex justify-between items-center">
+		<div class="flex justify-between items-center gap-2">
 			<!-- button for prev translation -->
-			<button @click="onOpenPrevTranslation()" class="p-3 btn btn-light border mr-2">
-				<font-awesome-icon :fixed-width="true" v-if="!keysPressed['Alt']" icon="fa-solid fa-arrow-left" class="mr-2" /><kbd class="mr-2" v-if="keysPressed['Alt']">←</kbd>Vorherige
+			<button @click="onOpenPrevTranslation()" class="p-3 btn btn-light border gap-2">
+				<font-awesome-icon :fixed-width="true" v-if="!keysPressed['Alt']" icon="fa-solid fa-arrow-left" /><kbd v-if="keysPressed['Alt']">←</kbd><span class="hide-on-small-screen">Vorherige</span>
 			</button>
-			<button @click="onOpenRandomModal()" class="grow p-3 btn btn-light border ml-auto">
-				<font-awesome-icon :fixed-width="true" v-if="!keysPressed['Alt']" icon="fa-solid fa-random" class="mr-2" /><kbd class="mr-2" v-if="keysPressed['Alt']">z</kbd>Zufall
+			<button @click="onOpenRandomModal()" class="grow p-3 btn btn-light border gap-2 ml-auto">
+				<font-awesome-icon :fixed-width="true" v-if="!keysPressed['Alt']" icon="fa-solid fa-random" /><kbd v-if="keysPressed['Alt']">z</kbd><span class="hide-on-small-screen">Zufall</span>
 			</button>
-			<button @click="onOpenNextTranslation()" class="p-3 btn btn-light border ml-2">
-				Nächste<font-awesome-icon :fixed-width="true" v-if="!keysPressed['Alt']" icon="fa-solid fa-arrow-right" class="ml-2" /><kbd class="ml-2" v-if="keysPressed['Alt']">→</kbd>
+			<button @click="onOpenNextTranslation()" class="p-3 btn btn-light border gap-2">
+				<span class="hide-on-small-screen">Nächste</span><font-awesome-icon :fixed-width="true" v-if="!keysPressed['Alt']" icon="fa-solid fa-arrow-right" /><kbd v-if="keysPressed['Alt']">→</kbd>
 			</button>
 		</div>
 
@@ -165,6 +167,15 @@ const appMode = process.env.NODE_ENV;
 <style>
 .vfm-wrapper {
 	max-width: 550px;
+
+	max-height: 90vh;
+	max-height: 90dvh;
+	overflow: scroll;
+}
+.hide-on-small-screen {
+	@media (max-width: 500px) {
+		display: none;
+	}
 }
 
 input {

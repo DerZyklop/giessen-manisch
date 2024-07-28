@@ -13,7 +13,7 @@ const manischWords = getTranslatedEntries({german: props.item.german}).map((item
   <router-link 
     :to="`/translation/german/${item.id}/`" 
     :data-nav-to-id="item.id" 
-    class="flex justify-between p-3 gap-5"
+    class="flex flex-wrap justify-between p-3 gap-5"
   >
     <dt class="german">{{ item.german }}</dt>
     <dd class="manisch">{{ manischWords.join(', ') }}</dd>
@@ -23,7 +23,6 @@ const manischWords = getTranslatedEntries({german: props.item.german}).map((item
 
 <style scoped>
 dt {
-  font-weight: bold;
   color: #222;
 }
 
@@ -32,7 +31,12 @@ dd {
   text-align: right;
 }
 
-a:hover {
+dt, dd {
+  flex: 1;
+}
+
+a:hover,
+a:hover dt {
   font-weight: bold;
 }
 
