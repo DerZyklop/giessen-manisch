@@ -1237,10 +1237,24 @@
 	},
 	{
 		"id": 177,
-		"manisch": "Nagewelo/Nakevelo",
+		"manisch": "Nagewelo",
 		"germanIds": [
 			177,
 			908
+		],
+		"relatedManischIds": [
+			1499
+		]
+	},
+	{
+		"id": 178,
+		"manisch": "Nakevelo",
+		"germanIds": [
+			177,
+			908
+		],
+		"relatedManischIds": [
+			1499
 		]
 	},
 	{
