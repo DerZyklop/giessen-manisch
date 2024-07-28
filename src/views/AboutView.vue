@@ -8,7 +8,7 @@
 
     <h3>»<span class="manisch">Manisch</span>« in Gießen</h3>
     <section class="mb-10">
-      <blockquote>Innerhalb der traditionellen Quartierbevölkerung sowohl der Gummiinsel als auch der Margaretenhütte war mindestens bis in die 1980er Jahre ein stark vom Romanes geprägter, als Manisch bezeichneter Soziolekt verbreitet.[4] Heute dürfte das Manische nur mehr in Relikten vorhanden sein und seinen ursprünglichen Charakter als Geheimsprache weitgehend eingebüßt haben.</blockquote>
+      <blockquote><p>Innerhalb der traditionellen Quartierbevölkerung sowohl der Gummiinsel als auch der Margaretenhütte war mindestens bis in die 1980er Jahre ein stark vom Romanes geprägter, als Manisch bezeichneter Soziolekt verbreitet.</p><p>Heute dürfte das Manische nur mehr in Relikten vorhanden sein und seinen ursprünglichen Charakter als Geheimsprache weitgehend eingebüßt haben.</p></blockquote>
       <small>– Text <a href="/translation/manisch/727">getschurt</a> bei <a href="https://de.wikipedia.org/wiki/Gummiinsel">Wikipedia: Gummiinsel</a></small>
       <br>
     </section>

@@ -172,11 +172,6 @@ const appMode = process.env.NODE_ENV;
 	max-height: 90dvh;
 	overflow: scroll;
 }
-.hide-on-small-screen {
-	@media (max-width: 500px) {
-		display: none;
-	}
-}
 
 input {
 	font-size: 1.5em !important;

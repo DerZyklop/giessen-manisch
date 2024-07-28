@@ -2,10 +2,14 @@
 </script>
 
 <template>
-  <nav>
-    <RouterLink to="/" class="btn-light" active-class="btn-dark">Home</RouterLink>
-    <RouterLink to="/about" class="btn-light" active-class="btn-dark">About</RouterLink>
+  <nav class="flex justify-stretch">
+    <RouterLink to="/" class="btn-light grow" active-class="btn-dark">Wörterbuch</RouterLink>
+    <RouterLink to="/about" class="btn-light grow" active-class="btn-dark">Was ist das?</RouterLink>
   </nav>
+
+  <p class="hide-on-small-screen"><small><strong>Manisch</strong> ist eine in Gießen, Marburg, Wetzlar und Bad Berleburg als Soziolekt gesellschaftlicher Randgruppen entstandene regionale Variante des Rotwelschen. Es handelt sich um einen auf der Grundlage des örtlichen mittelhessischen bzw. Wittgensteiner Dialekts gebrauchten geheimsprachlichen Sonderwortschatz.</small></p>
+
+
 </template>
 
 <style>

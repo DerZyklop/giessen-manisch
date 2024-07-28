@@ -126,3 +126,9 @@ h3.manisch,
 h3.german {
 	font-size: 2.3rem;
 }
+
+.hide-on-small-screen {
+	@media (max-width: 500px) {
+		display: none;
+	}
+}
