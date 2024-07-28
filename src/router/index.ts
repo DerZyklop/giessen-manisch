@@ -8,7 +8,29 @@ const router = createRouter({
     {
       path: '/',
       name: 'Gießen Manisch Wörterbuch',
-      component: HomeView
+      component: HomeView,
+      children: [
+        {
+          path: '/translation/manisch/:manischId/',
+          name: 'manisch to german',
+          props: true,
+          // component: () => import('../views/ItemView.vue')
+          component: HomeView
+        },
+        {
+          path: '/translation/german/:germanId/',
+          name: 'german to manisch',
+          props: true,
+          // component: () => import('../views/ItemView.vue')
+          component: HomeView
+        },
+        {
+          path: '/search/:searchText/',
+          name: 'Gießen Manisch Wörterbuch – Suche',
+          props: true,
+          component: HomeView
+        },    
+      ]
     },
     {
       path: '/about',
@@ -17,26 +39,6 @@ const router = createRouter({
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/AboutView.vue')
-    },
-    {
-      path: '/translation/manisch/:manischId/',
-      name: 'manisch to german',
-      props: true,
-      // component: () => import('../views/ItemView.vue')
-      component: HomeView
-    },
-    {
-      path: '/translation/german/:germanId/',
-      name: 'german to manisch',
-      props: true,
-      // component: () => import('../views/ItemView.vue')
-      component: HomeView
-    },
-    {
-      path: '/search/:searchText/',
-      name: 'Gießen Manisch Wörterbuch – Suche',
-      props: true,
-      component: HomeView
     },
     { path: '/:pathMatch(.*)*', name: 'NotFound', component: NotFoundView },
   ]
