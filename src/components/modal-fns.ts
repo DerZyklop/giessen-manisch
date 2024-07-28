@@ -15,17 +15,6 @@ export const getModalFns = (
 	input : number | GermanToManisch | ManischToGerman
 ) => {
 	let translation = typeof input === 'number' ? getTranslation(input) : input;
-	if ('manisch' in translation) {
-		// Silent write new url without triggering router
-		window.history.replaceState({}, '', `/translation/manisch/${translation.id}/`);
-
-	} else {
-		window.history.replaceState({}, '', `/translation/german/${translation.id}/`);
-		// router.push({
-		// 	replace: true,
-		// 	path: `/translation/german/${translation.id}`
-		// });
-	}			
 
 	const result = useModal({
 		component: Modal,
@@ -71,7 +60,13 @@ export const getModalFns = (
 				return await result.close();
 			},
 			onOpened() {
-				console.log('opened')
+				console.log('opened');
+				if ('manisch' in translation) {
+					// Silent write new url without triggering router
+					window.history.replaceState({}, '', `/translation/manisch/${translation.id}/`);
+				} else {
+					window.history.replaceState({}, '', `/translation/german/${translation.id}/`);
+				}
 			},
 			onClosed() {
 				router.push(`/`);
